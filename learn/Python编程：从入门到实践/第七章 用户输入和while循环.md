@@ -6,5 +6,497 @@
 
 ## 概览
 
+​	大多数程序旨在解决最终用户的问题,为此通常需要从用户哪里获取一些信息。
+
+
+
+## 7.1 函数input()的工作原理
+
+​	函数input()让程序暂停运行，等待用户输入一些文本。
+
+```
+message = input("Tell me something,and I wish repeat it back to you:")
+print(message)
+```
+
+​	函数input()接受一个参数:既要向用户显示的提示或说明，让用户知道如何做。
+
+```
+Tell me something,and I wish repeat it back to you:Hello World
+Hello World
+```
+
+### 7.1.1 编写清晰的程序
+
+```
+name = input("Please enter your name:")
+print("Hello, "+name.title() + "!")
+
+```
+
+```
+Please enter your name:Guohui
+Hello, Guohui!
+```
+
+```
+prompt = "If you tell us who you are,we can personaliza the messages you see."
+prompt +="\nWhat is your first name?"
+
+name = input(prompt)
+print("\nHello, "+name +"!")
+
+```
+
+
+
+```
+If you tell us who you are,we can personaliza the messages you see.
+What is your first name?Guo
+
+Hello, Guo!
+
+```
+
+
+
+### 7.1.2 使用int()来获取数值输入
+
+
+
+```
+>>> age = input("How old are you?")
+How old are you?21
+>>> age
+'21'
+```
+
+
+
+```
+>>> age = input("How old are you?")
+How old are you?21
+>>> age
+'21'
+>>> age >= 18
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '>=' not supported between instances of 'str' and 'int'
+```
+
+​	Python无法将字符串和整数进行比较
+
+
+
+```
+>>> age = input("How old are you?")
+How old are you?21
+>>> age
+'21'
+>>> age >= 18
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '>=' not supported between instances of 'str' and 'int'
+>>> age = int(age)
+>>> age >= 18
+True
+```
+
+
+
+```
+height = input("How tall are you,in inches?")
+height = int(height)
+
+if height >=36:
+	print("\nYou're tall enough to ride!")
+else:
+	print("\nYou'll be able to ride when you're a little older.")
+
+```
+
+
+
+
+
+```
+How tall are you,in inches?111
+
+You're tall enough to ride!
+
+```
+
+
+
+### 7.1.3 求模运算符
+
+
+
+```
+>>> 4%3
+1
+>>> 5%3
+2
+>>> 6%3
+0
+>>> 7%3
+1
+```
+
+
+
+```
+number = input("Enter a number,and I'll tell you if it's even or odd:")
+number = int(number)
+
+if number % 2 == 0:
+	print("\nThe number " +str(number)+" is even.")
+else:
+	print("\nThe number " +str(number)+" is odd.")
+
+```
+
+
+
+```
+Enter a number,and I'll tell you if it's even or odd:123
+
+The number 123 is odd.
+```
+
+
+
+### 7.1.4 在Python2.7中获取输入
+
+
+
+
+
+## 7.2 while循环简介
+
+​	for循环用于针对集合中的每个元素都一个代码块，而while循环不断地运行，直到指定的条件不满足为之。
+
+
+
+### 7.2.1 使用while循环
+
+```
+current_number = 1
+while current_number <= 5:
+	print(current_number)
+	current_number += 1
+
+```
+
+```
+1
+2
+3
+4
+5
+
+```
+
+
+
+### 7.2.2 让用户选择何时退出
+
+```
+prompt = "\nTell me something,and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program."
+message = ""
+while message != 'quit':
+	message = input(prompt)
+	print(message)
+
+```
+
+
+
+```
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.dddd
+dddd
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.dddd
+dddd
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.quit
+quit
+
+```
+
+
+
+```
+prompt = "\nTell me something,and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program."
+message = ""
+while message != 'quit':
+	message = input(prompt)
+	if message != 'quit':
+		print(message)
+
+```
+
+
+
+
+
+```
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.多带点
+多带点
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.again
+again
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.quit
+```
+
+
+
+### 7.2.3 使用标志
+
+
+
+​	在要求很多条件都慢走才继续运行的程序中，可定义一个变量，用于判断整个程序是否处于活动状态，这个变量被称为标志。
+
+```
+prompt = "\nTell me something,and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program."
+
+
+active = True
+
+while active:
+	message = input(prompt)
+	if message == 'quit':
+		active = False
+	else:
+		print(message)
+
+```
+
+
+
+```
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.111
+111
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.222
+222
+
+Tell me something,and I will repeat it back to you:
+Enter 'quit' to end the program.quit
+
+```
+
+
+
+### 7.2.4 使用break 退出循环
+
+​	要立即退出while循环，不在运行循环中余下的代码，也不管条件测试的结果如何，可使用break语句。
+
+```
+prompt = "\nPlease enter the name of a city you have visited:"
+prompt +="\n(Enter 'quit' when you are finished.)"
+while True:
+	city = input(prompt)
+	if city == 'quit':
+		break
+	else:
+		print("I'd love to go to "+city.title()+"!")
+
+```
+
+
+
+```
+
+Please enter the name of a city you have visited:
+(Enter 'quit' when you are finished.)Hello
+I'd love to go to Hello!
+
+Please enter the name of a city you have visited:
+(Enter 'quit' when you are finished.)quit
+
+```
+
+### 7.2.5 在循环中使用continue
+
+​	要返回循环开头，并根据条件测试结果决定是否继续执行循环，可使用continue语句，它不像break语句那样不再执行余下的代码并推出整个循环。
+
+```
+current_number = 0 
+while current_number < 10:
+	current_number +=1
+	if current_number % 2 ==0:
+		continue
+	print(current_number)
+
+```
+
+```
+1
+3
+5
+7
+9
+```
+
+
+
+### 7.2.6 避免无限循环
+
+```
+x = 1
+while x <= 5:
+	print(x)
+
+```
+
+```
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+```
+
+CTRL + C 退出窗口
+
+
+
+## 7.3 使用while循环来处理列表和字典
+
+​	
+
+### 7.3.1 在列表之间移动元素
+
+```
+unconfinned_users = ['alice','brain','candace']
+confinned_users = []
+
+while unconfinned_users:
+	current_user = unconfinned_users.pop()
+	print("Verfifying user:"+current_user.title())
+	confinned_users.append(current_user)
+	
+print("\nThe following users have been confirmed:")
+for confinned_user in confinned_users:
+		print(confinned_user.title())
+
+```
+
+
+
+```
+Verfifying user:Candace
+Verfifying user:Brain
+Verfifying user:Alice
+
+The following users have been confirmed:
+Candace
+Brain
+Alice
+```
+
+### 7.3.2 删除包含特定值的所有列表元素
+
+
+
+```
+pets = ['dog','cat','dog','goldfish','cat','rabbit','cat']
+print(pets)
+
+while 'cat' in pets:
+	pets.remove('cat')
+	
+print(pets)
+
+```
+
+
+
+
+
+```
+['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+['dog', 'dog', 'goldfish', 'rabbit']
+```
+
+
+
+### 7.3.3 使用用户输入来填充字典
+
+```
+responses = {}
+
+polling_active =True
+
+while polling_active:
+	name=input("\nWhat is your name?")
+	response = input("Which mountain would you like to climb someday?")
+	
+	responses[name]=response
+	
+	repeat= input("Would you like to let another person respond?(yes/no)")
+	if repeat == 'no':
+		polling_active = False
+	print("\n=== Poll Results ===")
+for name,response in responses.items():
+	print(name+" would you like climb "+response+".")
+
+```
+
+
+
+```
+
+What is your name?gh
+Which mountain would you like to climb someday?Taishan
+Would you like to let another person respond?(yes/no)yes
+
+=== Poll Results ===
+
+What is your name?guok
+Which mountain would you like to climb someday?HuaShan
+Would you like to let another person respond?(yes/no)no
+
+=== Poll Results ===
+gh would you like climb Taishan.
+guok would you like climb HuaShan.
+
+
+```
+
+
+
+## 7.4 小结
+
 
 

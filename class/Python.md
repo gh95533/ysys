@@ -10,11 +10,11 @@ To find out more, start with [The Python Tutorial](https://docs.python.org/3/tut
 
 ## summary 
 
-[python从入门到实战](../learn/Python编程：从入门到实践/python从入门到实战.xmind)
+
 
 ## system study
 
- 
+ [python从入门到实战](../learn/Python编程：从入门到实践/python从入门到实战.xmind)
 
 ## everyday study
 

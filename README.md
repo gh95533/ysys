@@ -14,6 +14,24 @@
 
 ​	请不要假装努力,因为结果不会陪着你演戏.
 
+​	苦难迈过去就是资本，迈不过去就是屈辱.
+
+
+
+## everyday
+
+
+
+[Python mkdir dirctory  file](everyday/2003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
+
+
+
+1qaz0okm!QAZ)OKMZXCVBNM
+
+
+
+
+
 
 
 
