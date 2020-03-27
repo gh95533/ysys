@@ -22,13 +22,9 @@
 
 
 
-[Python mkdir dirctory  file](everyday/2003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
+[Python mkdir dirctory  file](everyday/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
 
 
-
-1qaz0okm!QAZ)OKMZXCVBNM
-
-1qaz2wsx!QAZ@WSX
 
 
 
