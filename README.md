@@ -26,7 +26,13 @@
 
 ## everyday
 
-[Python mkdir dirctory  file](everyday/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
+- 202003
+
+  	- [Python mkdir dirctory  file](everyday/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
+
+  
+
+
 
 
 
