@@ -1,0 +1,795 @@
+Message-ID: <1069849335.16851.1586327035415.JavaMail.confluence-wiki@ip-10-80-7-106.corp.hds.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16850_101631847.1586327035308"
+
+------=_Part_16850_101631847.1586327035308
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JSON output</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JSON output</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"JSONoutput-Description">Description</h1>=20
+<p>Json output step allows to generate json blocks based on input step valu=
+es. Output json will be available as java script array or java script objec=
+t depends on step settings.</p>=20
+<p><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluenc=
+e-embedded-image confluence-content-image-border" src=3D"40d677df15f9ca6138=
+40274dfbbfa518" data-image-src=3D"/download/attachments/25043814/jsonOUt.pn=
+g?version=3D1&amp;modificationDate=3D1389172351000&amp;api=3Dv2" data-unres=
+olved-comment-count=3D"0" data-linked-resource-id=3D"25166028" data-linked-=
+resource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked=
+-resource-default-alias=3D"jsonOUt.png" data-base-url=3D"https://wiki.penta=
+ho.com" data-linked-resource-content-type=3D"image/png" data-linked-resourc=
+e-container-id=3D"25043814" data-linked-resource-container-version=3D"21" w=
+idth=3D"468" height=3D"120"></span></p>=20
+<p><a href=3D"/download/attachments/25043814/json_output.ktr?version=3D1&am=
+p;modificationDate=3D1389259055000&amp;api=3Dv2" data-linked-resource-id=3D=
+"25166029" data-linked-resource-version=3D"1" data-linked-resource-type=3D"=
+attachment" data-linked-resource-default-alias=3D"json_output.ktr" data-lin=
+ked-resource-content-type=3D"application/octet-stream" data-linked-resource=
+-container-id=3D"25043814" data-linked-resource-container-version=3D"21">Tr=
+ansformation with json output usage example</a></p>=20
+<h1 id=3D"JSONoutput-Options">Options</h1>=20
+<h2 id=3D"JSONoutput-GeneralTab">General Tab</h2>=20
+<p>General tab allows to specify type of step operation, output json struct=
+ure, step output file. This file will be used to dump all generated json.</=
+p>=20
+<h3 id=3D"JSONoutput-Settings">Settings</h3>=20
+<p>See detailed settings description below.</p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<th class=3D"confluenceTh"><p> Option </p></th>=20
+<th class=3D"confluenceTh"><p> Description </p></th>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Step name </p></td>=20
+<td class=3D"confluenceTd"><p> Step name should be unique in context of tra=
+nsformation <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Operation </p></td>=20
+<td class=3D"confluenceTd"><p> Specify step operation type. Currently avail=
+able 3 types of operation: <br class=3D"atl-forced-newline"></p>=20
+<ol>=20
+<li>Output value - only pass output json as a step output field, do not dum=
+p to output file</li>=20
+<li>Write to file - only write to fie, do not pass to output field</li>=20
+<li>Output value and write to file - dump to file and pass generated json a=
+s a step output file <br class=3D"atl-forced-newline"></li>=20
+</ol> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Json block name <br class=3D"atl-forced-newl=
+ine"> </p></td>=20
+<td class=3D"confluenceTd"><p> This value will be used as a name for json b=
+lock. Can be empty string that will affect output json structure, see detai=
+led description below. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Nr. rows in a block </p></td>=20
+<td class=3D"confluenceTd"><p> Number of json block key - value pairs. <br =
+class=3D"atl-forced-newline"> NOTE, 1 is a special values, in case of 1 eve=
+ry output will be generated as one object. See description below. <br class=
+=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Output value <br class=3D"atl-forced-newline=
+"> </p></td>=20
+<td class=3D"confluenceTd"><p> This value will be used as a step output fie=
+ld. Will contain generated json output block depending on step settings. <b=
+r class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Compatibility mode <br class=3D"atl-forced-n=
+ewline"> </p></td>=20
+<td class=3D"confluenceTd"><p> This check box handles compatibility configu=
+ration with previous Kettle versions (before PDI 4.3.0 if checked, after PD=
+I 4.3.0 otherwise) <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p>Compatibility mode was introduced since PDI 4.3.0 version. This was desi=
+gned to handle fix with changes to json structure generation. By default ne=
+w fixed mode is used. To enable compatibility mode check 'Compatibility mod=
+e' check box.</p>=20
+<p>For example step has a row input data with 2 fields: field "name" with s=
+tring value "item" and field "value" with numeric value 25. We have 4 rows =
+of data with "name" and "value".&nbsp;</p>=20
+<p>Consider Json output step has settings combination:</p>=20
+<ul>=20
+<li>'Json block name' =3D "data"</li>=20
+<li>'Nr rows in block' =3D 3</li>=20
+<li>'Compatibility mode' NOT checked (and this is the default option)</li>=
+=20
+</ul>=20
+<p>step will generate output:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>{
+&nbsp; "data" : [ {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }, {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }, {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; } ]
+}{
+&nbsp; "data" : [ {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; } ]
+}</pre>=20
+</div>
+</div>=20
+<p>So We have 2 objects, first object has a 'data' (Json block name) array =
+contains 3 json objects (because of number rows in a block is 3) and second=
+ object with array contains only one object. 3+1 is actually 4 rows process=
+ed.</p>=20
+<p>If compatibility mode is enabled and step has settings combination like:=
+</p>=20
+<ul>=20
+<li>Json block name =3D "data"</li>=20
+<li>Nr rows in block =3D 3</li>=20
+<li>'Compatibility mode' <span style=3D"text-decoration: underline;">is che=
+cked</span></li>=20
+</ul>=20
+<p>step will generate output:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>{"data":[{"name":"item"},{"value":25},{"name":"item"},{"value":25},{"n=
+ame":"item"},{"value":25}]}
+{"data":[{"name":"item"},{"value":25}]}</pre>=20
+</div>
+</div>=20
+<p>Pretty formatting does not affect compatibility mode. We have 2 output j=
+son objects. First object harvest first 3 input rows and second object harv=
+ests only one row. This happens because of number of rows in a block is 3. =
+Anyway it can be considered as incorrect result, as the real object count f=
+or array is 6 for the first output object. By default compatibility mode is=
+ disabled.</p>=20
+<p>If <span style=3D"text-decoration: underline;">'Json block name' is an e=
+mpty string</span> (by default it has 'data' value) - compatibility mode wi=
+ll use empty string for block name. Normally - if compatibility mode was no=
+t checked, step output will be:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>[ {
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}, {
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}, {
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+} ][ {
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+} ]</pre>=20
+</div>
+</div>=20
+<p>So we have 2 json arrays, first array contains 3 items, second array con=
+tains one item.</p>=20
+<p>Another special case is when 'Nr. rows in a block' =3D 1.<br> If used wi=
+th empty json block name output will looks like:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>{
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}{
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}{
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}{
+&nbsp; "name" : "item",
+&nbsp; "value" : 25
+}</pre>=20
+</div>
+</div>=20
+<p>We will have just 4 simple json objects that will be outputted as a 4 st=
+ep output rows.</p>=20
+<p>In case of json block name is defined - output structure will looks like=
+:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>{
+&nbsp; "data" : {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }
+}{
+&nbsp; "data" : {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }
+}{
+&nbsp; "data" : {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }
+}{
+&nbsp; "data" : {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }
+}</pre>=20
+</div>
+</div>=20
+<p>So this is will be same 4 output objects with json block name defined.</=
+p>=20
+<p>If 'Nr. rows in a block' will be less that 1 output will be as a one obj=
+ect:</p>=20
+<div class=3D"preformatted panel" style=3D"border-width: 1px;">
+<div class=3D"preformattedContent panelContent">=20
+<pre>{
+&nbsp; "data" : [ {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }, {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }, {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; }, {
+&nbsp;&nbsp;&nbsp; "name" : "item",
+&nbsp;&nbsp;&nbsp; "value" : 25
+&nbsp; } ]
+}</pre>=20
+</div>
+</div>=20
+<p>This will be one object (one output row) with data block containing json=
+ array with 4 objects (as we had 4 input data rows). Please note - when usi=
+ng 0 'Nr. rows in a block' step will build output object until input data i=
+s available. When input is done - one big output object will be passed to o=
+utput row. For big input data it can impact memory usage.</p>=20
+<h3 id=3D"JSONoutput-OutputFile">Output File</h3>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<th class=3D"confluenceTh"><p> Option </p></th>=20
+<th class=3D"confluenceTh"><p> Description </p></th>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Filename </p></td>=20
+<td class=3D"confluenceTd"><p> full path to output file <br class=3D"atl-fo=
+rced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Append <br class=3D"atl-forced-newline"> </p=
+></td>=20
+<td class=3D"confluenceTd"><p> If not checked new file will be created ever=
+y time step is running. If file with specified name already existed - it wi=
+ll be replaced by a new one. If checked - new json output will be appended =
+at the end of existing file. Or if existing file is not exists - it will be=
+ created as in previous case. <br class=3D"atl-forced-newline"> </p></td>=
+=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Create Parent folder <br class=3D"atl-forced=
+-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> Usually file name contains some path folder =
+as a parent folder. If parent folder does not exists and this option is che=
+cked - parent folder will be created as a new folder. Otherwise - file not =
+be found and step will fail. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Do not open create at start <br class=3D"atl=
+-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> If not checked - file (and in some cases par=
+ent folder) will be created/opened to write during transformation initializ=
+ation. If checked - file and parent folder will be created only after step =
+will get any first input data. <br class=3D"atl-forced-newline"> </p></td>=
+=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Extension <br class=3D"atl-forced-newline"> =
+</p></td>=20
+<td class=3D"confluenceTd"><p> Output file extension. Default value is 'js'=
+ <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Encoding <br class=3D"atl-forced-newline"> <=
+/p></td>=20
+<td class=3D"confluenceTd"><p> Output file encoding <br class=3D"atl-forced=
+-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Pass output to servlet <br class=3D"atl-forc=
+ed-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> Enable this option to return the data via a =
+web service instead writing into a file (see <a href=3D"/display/EAI/PDI+da=
+ta+over+web+services">PDI data over web service</a>) <br class=3D"atl-force=
+d-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Include date in filename? <br class=3D"atl-f=
+orced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> If checked - output file name will contains =
+File name value + current date. This may help to generate unique output fil=
+es. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Include time in filename <br class=3D"atl-fo=
+rced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> If checked - output file name will contains =
+file creation time. Same as for 'Include date in filename' option <br class=
+=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Show filename(s) button <br class=3D"atl-for=
+ced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> Can be useful to test full output file path =
+<br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Add file to result filenames? <br class=3D"a=
+tl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> If checked - created output file path will b=
+e accessible form step result <br class=3D"atl-forced-newline"> </p></td>=
+=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<h2 id=3D"JSONoutput-FieldsTab">Fields Tab</h2>=20
+<p>This tab is used to map input step fields to output json values</p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<th class=3D"confluenceTh"><p> Option </p></th>=20
+<th class=3D"confluenceTh"><p> Description </p></th>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Fieldname </p></td>=20
+<td class=3D"confluenceTd"><p> Input step field name. Use 'Get Fields' butt=
+on to discover available input fields <br class=3D"atl-forced-newline"> </p=
+></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> Element name <br class=3D"atl-forced-newline=
+"> </p></td>=20
+<td class=3D"confluenceTd"><p> Json element name as a key. For example "A":=
+"B" - A is a element name, B is actual input value mapped for this Element =
+name. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<h1 id=3D"JSONoutput-MetadataInjectionSupport">Metadata Injection Support</=
+h1>=20
+<p>All fields of this step support metadata injection. You can use this ste=
+p with <a href=3D"https://help.pentaho.com/Documentation/8.0/Products/Data_=
+Integration/Transformation_Step_Reference/ETL_Metadata_Injection" class=3D"=
+external-link" rel=3D"nofollow">ETL Metadata Injection</a> to pass metadata=
+ to your transformation at runtime.</p>
+    </div>
+</body>
+</html>
+------=_Part_16850_101631847.1586327035308
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/40d677df15f9ca613840274dfbbfa518
+
+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
+------=_Part_16850_101631847.1586327035308--
