@@ -1,0 +1,155 @@
+-- Create table
+create table T_DEL_CONFI
+(
+  id           NUMBER,
+  name         VARCHAR2(100),
+  type_value   VARCHAR2(100),
+  operate_type VARCHAR2(100),
+  rksj         DATE default sysdate
+ 
+);
+
+create table T_DEL_CONFI_CLOB
+(
+  nr   CLOB,
+  rksj DATE default SYSDATE
+)
+
+CREATE OR REPLACE PROCEDURE SP_TEST_T_DEL_CONFI_CLOB AS
+  V_NR         CLOB;
+  V_NR2        CLOB;
+  V_ID         NUMBER;
+  V_NAME       VARCHAR2(100);
+  V_TYPEVALUE  VARCHAR2(100);
+  V_EXPRESSION VARCHAR2(1000);
+  V_COUNT      NUMBER;
+BEGIN
+  V_NR := '';
+  V_NR2 :='';
+  
+  --检查是否有merge 
+  
+  
+  select count(1) INTO V_COUNT from T_DEL_CONFI T WHERE T.OPERATE_TYPE='merge';
+  
+  if v_count = 0 then
+    
+  V_NR2 :='';
+  
+  else
+    
+  V_NR2 :='     MODE: MERGE'||CHR(10);
+  V_NR2 :=V_NR2||'     MATCH_COLUMNS:'||CHR(10);
+  V_EXPRESSION :='';
+    FOR S IN (SELECT T.ID, T.NAME, T.TYPE_VALUE
+              FROM T_DEL_CONFI T WHERE T.OPERATE_TYPE='merge'
+             ORDER BY T.ID) LOOP
+   V_EXPRESSION :='        - '||S.NAME||CHR(10);
+   V_NR2 :=V_NR2 || V_EXPRESSION;
+  
+    END LOOP;
+  
+  V_NR2 :=V_NR2||'     UPDATE_COLUMNS:'||CHR(10);
+  V_EXPRESSION :='';
+   FOR S2 IN (SELECT T.ID, T.NAME, T.TYPE_VALUE
+              FROM T_DEL_CONFI T WHERE T.OPERATE_TYPE='update'
+             ORDER BY T.ID) LOOP
+   V_EXPRESSION :='        - '||S2.NAME||CHR(10);
+   V_NR2 :=V_NR2 || V_EXPRESSION;
+  
+    END LOOP;
+  
+  
+  end if;
+  
+  V_EXPRESSION :='';
+  
+  FOR L IN (SELECT T.ID, T.NAME, T.TYPE_VALUE
+              FROM T_DEL_CONFI T
+             ORDER BY T.ID) LOOP
+  
+    --
+  
+    V_ID        := L.ID;
+    V_NAME      := L.NAME;
+    V_TYPEVALUE := L.TYPE_VALUE;
+  
+    IF V_TYPEVALUE = 'DATABASE' THEN
+      V_EXPRESSION := 'DATABASE: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'USER' THEN
+      V_EXPRESSION := 'USER: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'HOST' THEN
+      V_EXPRESSION := 'HOST: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'PORT' THEN
+      V_EXPRESSION := 'PORT: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'BROKERS' THEN
+      V_EXPRESSION := '        BROKERS: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'TOPIC' THEN
+      V_EXPRESSION := '        TOPIC: ' || V_NAME;
+    END IF;
+    
+    
+    IF V_TYPEVALUE = 'SCHEMA' AND V_COUNT =0 THEN
+      V_EXPRESSION := '     SCHEMA: ' || V_NAME;
+    
+    ELSIF  V_TYPEVALUE = 'SCHEMA' AND V_COUNT >0 THEN
+
+      V_EXPRESSION := V_NR2||'     SCHEMA: ' || V_NAME;
+    END IF;
+  
+  
+    IF V_TYPEVALUE = 'TABLE' THEN
+      V_EXPRESSION := '     TABLE: ' || V_NAME;
+    END IF;
+  
+    IF V_TYPEVALUE = 'COLUMNS' THEN
+      V_EXPRESSION := '        - NAME: ' || V_NAME || CHR(10);
+      V_EXPRESSION := V_EXPRESSION ||
+                      '          EXPRESSION: (jdata->''data''->>''' ||
+                      UPPER(V_NAME) || ''')::text';
+    END IF;
+  
+    V_NR := V_NR || V_EXPRESSION || CHR(10);
+  
+    IF V_TYPEVALUE = 'PORT' THEN
+      V_NR := V_NR ||
+ 'KAFKA:
+   INPUT:
+     SOURCE:' || CHR(10);
+    END IF;
+  
+    IF V_TYPEVALUE = 'TOPIC'  THEN
+      V_NR := V_NR || 
+'     COLUMNS:
+        - NAME: jdata
+          TYPE: json
+     FORMAT: json
+     ERROR_LIMIT: 10
+   OUTPUT:' || CHR(10);
+   
+    END IF;
+  
+    IF V_TYPEVALUE = 'TABLE' THEN
+      V_NR := V_NR || 
+'     MAPPING:' || CHR(10);
+    END IF;
+  
+  END LOOP;
+
+  V_NR := V_NR || 
+'   COMMIT:
+     MAX_ROW: 1000';
+
+  INSERT INTO T_DEL_CONFI_CLOB (NR, RKSJ) VALUES (V_NR, SYSDATE);
+
+END;
