@@ -35,5 +35,3 @@ R is available as Free Software under the terms of the [Free Software Foundation
 - [第十三章 图形](../learn/R_in_a_Nutshell_Second_Edition/第十三章 图形.md)
 - 
 
-## everyday study
-
