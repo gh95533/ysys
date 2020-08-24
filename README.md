@@ -26,7 +26,7 @@
 |                           |                                   |           |
 |                           |                                   |           |
 
-## everyday
+## every
 
 
 
