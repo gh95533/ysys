@@ -1,0 +1,31 @@
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201201_01.md', 'label': '数学,数学分析,多元函数微分学,数学分析下第38节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201202_01.md', 'label': '数学,数学分析,多元函数微分学,数学分析下第39节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201203_01.md', 'label': '数学,数学分析,多元函数微分,二元函数泰勒展开式,数学分析下第40节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201204_01.md', 'label': '数学,数学分析,二元函数,泰勒展开式,数学分析下第41节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201205_01.md', 'label': '数学,数学分析,二元函数,泰勒展开式,数学分析下第41节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201206_01.md', 'label': '数学,数学分析,二元函数,极值,数学分析下第42节视频\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201207_01.md', 'label': 'greenplum,truncate,vacuum,vacuum full\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201208_01.md', 'label': 'greenplum,code\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201209_01.md', 'label': 'greenplum,data skew\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201210_01.md', 'label': 'greenplumgprecvoerseg\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201211_01.md', 'label': 'linux,centos,centos 7.3,ping,udf\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201212_01.md', 'label': 'greenplum,gprecoverseg,not free disk space\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201213_01.md', 'label': 'greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201214_01.md', 'label': 'greenplum\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201215_01.md', 'label': 'virutalbox,automatic start\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201216_01.md', 'label': 'postgresql,centos7.3,auto,startup\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201217_01.md', 'label': "kettle,error,kitchen,windows,the job couldn't be loaded\n"}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201218_01.md', 'label': 'linux,centos 7.2,clamav,install\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201219_01.md', 'label': 'centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201220_01.md', 'label': 'greenplum,data skew\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201221_01.md', 'label': 'linux,kettle,crontab,skip\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201222_01.md', 'label': 'yum,epel\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201223_01.md', 'label': 'linux,\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201224_01.md', 'label': 'resolve,github.com\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201225_01.md', 'label': 'basic,linux,firewall,selinux,chkconfig,systemctl,centos,redhat\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201226_01.md', 'label': 'kettle,cluster,9.0,centos,7.3,install\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201227_01.md', 'label': 'kettle,cluster,8.2,centos,7.3,install\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201228_01.md', 'label': 'kettle,graphical,centos\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201229_01.md', 'label': 'greenplum,gp_toolkit,greenplum数据库文档\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201230_01.md', 'label': 'greenplum,full,size,expend,gp 4.x,gp 6.x\n'}
+{'filename': 'D:\\github\\ysys\\every\\202012\\20201231_01.md', 'label': 'kettle,kafka,etl\n'}
