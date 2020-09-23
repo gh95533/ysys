@@ -1,402 +1,206 @@
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
-
 [greenplum database disk not free](every/202012/20201230_01.md):greenplum,full,size,expend,gp 4.x,gp 6.x
-
-[greenplum schema gp_toolkit](every/202012/20201229_01.md):greenplum,gp_toolkit,greenplumæ•°æ®åº“æ–‡æ¡£
-
+[greenplum schema gp_toolkit](every/202012/20201229_01.md):greenplum,gp_toolkit,greenplumÊı¾İ¿âÎÄµµ
 [kettle 8.2 Graphical anomaly on centos 7](every/202012/20201228_01.md):kettle,graphical,centos
-
 [kettle cluster 8.2 install on centos 7](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
-
 [kettle cluster 9.0 install on centos 7](every/202012/20201226_01.md):kettle,cluster,9.0,centos,7.3,install
-
 [Basic Linux:Firewall and Selinux](every/202012/20201225_01.md):basic,linux,firewall,selinux,chkconfig,systemctl,centos,redhat
-
 [Question:Could not resolve host: github.com](every/202012/20201224_01.md):resolve,github.com
-
 [linux nano](every/202012/20201223_01.md):linux,
-
 [Yum:No package epel-release available](every/202012/20201222_01.md):yum,epel
-
 [kettle linux crontab every minute](every/202012/20201221_01.md):linux,kettle,crontab,skip
-
-[å…³äºæŸåœ°GPæ•°æ®å€¾æ–œä¸¥é‡çš„åç»­å¤„ç†](every/202012/20201220_01.md):greenplum,data skew
-
+[¹ØÓÚÄ³µØGPÊı¾İÇãĞ±ÑÏÖØµÄºóĞø´¦Àí](every/202012/20201220_01.md):greenplum,data skew
 [centos install kafka cluster](every/202012/20201219_01.md):centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk
-
 [linux centos 7.2 install clamav](every/202012/20201218_01.md):linux,centos 7.2,clamav,install
-
-[ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded
-
+("[ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded",)
 [postgresql automatic startup](every/202012/20201216_01.md):postgresql,centos7.3,auto,startup
-
 [virtualbox automatic start virtual machine xxx](every/202012/20201215_01.md):virutalbox,automatic start
-
 [greenplum table segment table relation](every/202012/20201214_01.md):greenplum
-
 [greenplum distibution and skew(not final)](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients
-
 [greenplum not free disk space and gprecoverseg](every/202012/20201212_01.md):greenplum,gprecoverseg,not free disk space
-
 [centos error:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
-
 [greenplum gprecoverseg exercise](every/202012/20201210_01.md):greenplumgprecvoerseg
-
 [greenplum data skew](every/202012/20201209_01.md):greenplum,data skew
-
 [greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
-
 [greenplum truncate vacuum vacuum full](every/202012/20201207_01.md):greenplum,truncate,vacuum,vacuum full
-
-[äºŒå…ƒå‡½æ•°æå€¼](every/202012/20201206_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,äºŒå…ƒå‡½æ•°,æå€¼,æ•°å­¦åˆ†æä¸‹ç¬¬42èŠ‚è§†é¢‘
-
-[äºŒå…ƒå‡½æ•°æ³°å‹’å±•å¼€å¼](every/202012/20201205_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,äºŒå…ƒå‡½æ•°,æ³°å‹’å±•å¼€å¼,æ•°å­¦åˆ†æä¸‹ç¬¬41èŠ‚è§†é¢‘
-
-[äºŒå…ƒå‡½æ•°æ³°å‹’å±•å¼€å¼](every/202012/20201204_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,äºŒå…ƒå‡½æ•°,æ³°å‹’å±•å¼€å¼,æ•°å­¦åˆ†æä¸‹ç¬¬41èŠ‚è§†é¢‘
-
-[äºŒå…ƒå‡½æ•°æ³°å‹’å±•å¼€å¼](every/202012/20201203_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†,äºŒå…ƒå‡½æ•°æ³°å‹’å±•å¼€å¼,æ•°å­¦åˆ†æä¸‹ç¬¬40èŠ‚è§†é¢‘
-
-[å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦](every/202012/20201202_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦,æ•°å­¦åˆ†æä¸‹ç¬¬39èŠ‚è§†é¢‘
-
-[å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦](every/202012/20201201_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦,æ•°å­¦åˆ†æä¸‹ç¬¬38èŠ‚è§†é¢‘
-
-[every md word title link label](every/202011/20201130_01.md):md,title,link,label
-
-[å¤šä¸ªå€¼æ•°æ®å¦‚ä½•æ›´åŠ å‡†ç¡®](every/202010/20201003_01.md):æ•°æ®,å‡†ç¡®
-
-[ç›‘æ§å¤ä¹ è½¯ä»¶](every/202010/20201002_01.md):å¤ä¹ 
-
-[Rè¯­è¨€ æ•°æ®æ¥å£](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°å¯å¾®](every/202009/20200921_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¯å¾®,æ•°æ®åˆ†æä¸‹ç¬¬37è§†é¢‘
-
-[ä¸­æ–‡åˆ†è¯(æ‘˜æŠ„)](every/202009/20200918_01.md):ä¸­æ–‡åˆ†è¯,not final
-
-[æœºå™¨ç®—æ³• Aprioriç®—æ³•](every/202009/20200917_01.md):apriori,æ‘˜æŠ„
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°è¿ç»­](every/202009/20200901_16.md):æ•°å­¦,æ•°æ®åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦,æ•°å­¦åˆ†æä¸‹ç¬¬34èŠ‚è§†é¢‘
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå¾®ç§¯åˆ†](every/202009/20200901_15.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†å­¦,æ•°å­¦åˆ†æä¸‹31èŠ‚è§†é¢‘
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°å¾®åˆ†](every/202009/20200901_14.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†,æ•°å­¦åˆ†æä¸‹ç¬¬33èŠ‚è§†é¢‘
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°å¾®ç§¯åˆ†](every/202009/20200901_13.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®ç§¯åˆ†,æ•°å­¦åˆ†æä¸‹ç¬¬32èŠ‚è§†é¢‘
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°å¾®ç§¯åˆ†](every/202009/20200901_12.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†,æ•°å­¦åˆ†æä¸‹ç¬¬35èŠ‚è§†é¢‘
-
-[æ•°å­¦åˆ†æ å’Œå‡½æ•°åˆ†ææ€§è´¨ å’Œå‡½æ•°å¯ç§¯](every/202009/20200901_10.md):æ•°å­¦åˆ†æ,å’Œå‡½æ•°å¯ç§¯
-
-[æ•°å­¦åˆ†æ å’Œå‡½æ•°åˆ†ææ€§è´¨ å’Œå‡½æ•°è¿ç»­](every/202009/20200901_09.md):æ•°å­¦åˆ†æ,å’Œå‡½æ•°è¿ç»­
-
-[æ•°å­¦åˆ†æ å’Œå‡½æ•°åˆ†ææ€§è´¨ å’Œå‡½æ•°å¯å¯¼](every/202009/20200901_08.md):æ•°å­¦åˆ†æ,å’Œå‡½æ•°å¯å¯¼
-
-[æ•°å­¦åˆ†æ å’Œå‡½æ•° ä¾‹é¢˜](every/202009/20200901_07.md):æ•°å­¦åˆ†æ,å’Œå‡½æ•°
-
-[æ•°å­¦åˆ†æ å¤šå…ƒå‡½æ•°å¾®åˆ†](every/202009/20200901_01.md):æ•°å­¦,æ•°å­¦åˆ†æ,å¤šå…ƒå‡½æ•°å¾®åˆ†,æ•°å­¦åˆ†æä¸‹ç¬¬36èŠ‚è§†é¢‘
-
-[linux æ— æ³•ä½¿ç”¨rootç”¨æˆ·ç™»å½•](every/202008/20200831_01.md):linux,root,centos7.2
-
-[everything search](every/202008/20200829_01.md):everything,search
-
-[question:package â€˜XMLâ€™ is not available (for R version 3.6.3)](every/202008/20200821_01.md):question,think,R,xml,package
-
-[question:xmlRoot()æ²¡æœ‰å‡ºç°èŠ‚ç‚¹ä¸ªæ•°,è€Œæ˜¯å‡ºç°äº†xmlæ ·æœ¬](every/202008/20200820_01.md):xmlRoot,R
-
-[question:could not find function 
-getHTMLLinks
-](every/202008/20200819_01.md):R,getHTMLLinks
-
+[¶şÔªº¯Êı¼«Öµ](every/202012/20201206_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶şÔªº¯Êı,¼«Öµ,ÊıÑ§·ÖÎöÏÂµÚ42½ÚÊÓÆµ
+[¶şÔªº¯ÊıÌ©ÀÕÕ¹¿ªÊ½](every/202012/20201205_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶şÔªº¯Êı,Ì©ÀÕÕ¹¿ªÊ½,ÊıÑ§·ÖÎöÏÂµÚ41½ÚÊÓÆµ
+[¶şÔªº¯ÊıÌ©ÀÕÕ¹¿ªÊ½](every/202012/20201204_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶şÔªº¯Êı,Ì©ÀÕÕ¹¿ªÊ½,ÊıÑ§·ÖÎöÏÂµÚ41½ÚÊÓÆµ
+[¶şÔªº¯ÊıÌ©ÀÕÕ¹¿ªÊ½](every/202012/20201203_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·Ö,¶şÔªº¯ÊıÌ©ÀÕÕ¹¿ªÊ½,ÊıÑ§·ÖÎöÏÂµÚ40½ÚÊÓÆµ
+[¶àÔªº¯ÊıÎ¢·ÖÑ§](every/202012/20201202_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·ÖÑ§,ÊıÑ§·ÖÎöÏÂµÚ39½ÚÊÓÆµ
+[¶àÔªº¯ÊıÎ¢·ÖÑ§](every/202012/20201201_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·ÖÑ§,ÊıÑ§·ÖÎöÏÂµÚ38½ÚÊÓÆµ
+[Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label
+[ODPS:](every/202011/20201129_01.md):odps,python
+[Python ODPS Maxcomputer](every/202011/20201128_01.md):python,odps,pyodps,maxcomputer
+[¶à¸öÖµÊı¾İÈçºÎ¸ü¼Ó×¼È·](every/202010/20201003_01.md):Êı¾İ,×¼È·
+[Ñ§Ï° ¸´Ï° ÕûÀí ÎÄµµ](every/202010/20201002_01.md):¸´Ï°,Ñ§Ï°,ÎÄµµÕûÀí,ÎÄµµ¼ìË÷
+[RÓïÑÔ Êı¾İ½Ó¿Ú](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
+[ÊıÑ§·ÖÎö ¶àÔªº¯Êı¿ÉÎ¢](every/202009/20200921_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯Êı¿ÉÎ¢,Êı¾İ·ÖÎöÏÂµÚ37ÊÓÆµ
+[ÖĞÎÄ·Ö´Ê(Õª³­)](every/202009/20200918_01.md):ÖĞÎÄ·Ö´Ê,not final
+[»úÆ÷Ëã·¨ AprioriËã·¨](every/202009/20200917_01.md):apriori,Õª³­
+[ÊıÑ§·ÖÎö ¶àÔªº¯ÊıÁ¬Ğø](every/202009/20200901_16.md):ÊıÑ§,Êı¾İ·ÖÎö,¶àÔªº¯ÊıÎ¢·ÖÑ§,ÊıÑ§·ÖÎöÏÂµÚ34½ÚÊÓÆµ
+[ÊıÑ§·ÖÎö ¶àÔªÎ¢»ı·Ö](every/202009/20200901_15.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·ÖÑ§,ÊıÑ§·ÖÎöÏÂ31½ÚÊÓÆµ
+[ÊıÑ§·ÖÎö ¶àÔªº¯ÊıÎ¢·Ö](every/202009/20200901_14.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·Ö,ÊıÑ§·ÖÎöÏÂµÚ33½ÚÊÓÆµ
+[ÊıÑ§·ÖÎö ¶àÔªº¯ÊıÎ¢»ı·Ö](every/202009/20200901_13.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢»ı·Ö,ÊıÑ§·ÖÎöÏÂµÚ32½ÚÊÓÆµ
+[ÊıÑ§·ÖÎö ¶àÔªº¯ÊıÎ¢»ı·Ö](every/202009/20200901_12.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·Ö,ÊıÑ§·ÖÎöÏÂµÚ35½ÚÊÓÆµ
+[ÊıÑ§·ÖÎö ºÍº¯Êı·ÖÎöĞÔÖÊ ºÍº¯Êı¿É»ı](every/202009/20200901_10.md):ÊıÑ§·ÖÎö,ºÍº¯Êı¿É»ı
+[ÊıÑ§·ÖÎö ºÍº¯Êı·ÖÎöĞÔÖÊ ºÍº¯ÊıÁ¬Ğø](every/202009/20200901_09.md):ÊıÑ§·ÖÎö,ºÍº¯ÊıÁ¬Ğø
+[ÊıÑ§·ÖÎö ºÍº¯Êı·ÖÎöĞÔÖÊ ºÍº¯Êı¿Éµ¼](every/202009/20200901_08.md):ÊıÑ§·ÖÎö,ºÍº¯Êı¿Éµ¼
+[ÊıÑ§·ÖÎö ºÍº¯Êı ÀıÌâ](every/202009/20200901_07.md):ÊıÑ§·ÖÎö,ºÍº¯Êı
+[ÊıÑ§·ÖÎö ¶àÔªº¯ÊıÎ¢·Ö](every/202009/20200901_01.md):ÊıÑ§,ÊıÑ§·ÖÎö,¶àÔªº¯ÊıÎ¢·Ö,ÊıÑ§·ÖÎöÏÂµÚ36½ÚÊÓÆµ
+[linux ÎŞ·¨Ê¹ÓÃrootÓÃ»§µÇÂ¼](every/202008/20200831_01.md):linux,root,centos7.2
+[question:package ¡®XML¡¯ is not available (for R version 3.6.3)](every/202008/20200821_01.md):question,think,R,xml,package
+[question:xmlRoot()Ã»ÓĞ³öÏÖ½Úµã¸öÊı,¶øÊÇ³öÏÖÁËxmlÑù±¾](every/202008/20200820_01.md):xmlRoot,R
+[question:could not find function "getHTMLLinks"](every/202008/20200819_01.md):R,getHTMLLinks
 [virtual machine add shared storage vdi](every/202007/20200701_19.md):virtualbox,storage
-
 [oracle rac install with virtualbox](every/202007/20200701_10.md):oracle,oracle rac,11.2,11.2.0.4,install,virtualbox,centos6.5
-
 [oracle rac drop database](every/202007/20200701_08.md):oracle,oracle rac,database,drop database,11.2
-
 [greenplum error:Unexpected response from gpfdist server:408 -Response Code=408](every/202007/20200701_07.md):greenplum,error,gpfdist,408
-
 [oracle rac revise private ipaddress](every/202007/20200701_06.md):oracle rac,11.2,revise,private ipaddress
-
 [greenplum data load using kettle](every/202006/20200619_01.md):greenplum,data load,greenplum 6.x,greenplum 5.x,kettle,kettle 8.x,kafka,gpkafka
-
 [windows modify the drive](every/202006/20200616_01.md):windows,drive,win10
-
 [greenplum gpkafka usage](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
-
 [greenplum uuid function create](every/202006/20200601_01.md):greenplum,uuid,6.4.0
-
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
-
 [Redhat install kafka](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
-
 [Redhat/Centos  install Greenplum database with rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
-
 [kettle kafka greenplum](every/202004/20200430_01.md):kettle,kafka,greenplum
-
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
-
 [Question:Ali ADS [Err] 30007 real time table is not ready](every/202004/20200427_01.md):question,ads,error,real time table is not ready
-
 [kettle plug-in file compare](every/202004/20200426_01.md):kettle,file compare
-
 [kettle for loop small data big data](every/202004/20200423_01.md):kettle,sql scripts
-
 [postgresql execute sql](every/202004/20200422_01.md):postgresql,execute sql
-
 [postgresql function two system](every/202004/20200421_01.md):postgresql,function,two systems
-
 [centos 7.x forget root password](every/202004/20200417_01.md):centos,centos 7.x,password
-
 [elasticsearch  kibana multiple install](every/202004/20200414_01.md):elasticsearch,kibana,multiple install
-
 [kettle json output one row not all](every/202004/20200408_01.md):kettle,json output,not all
-
 [linux ftpclient get windows ftp server chinese errorcode](every/202004/20200407_01.md):linux,windows,ftpclient,ftp server,chinese errorcode
-
 [Python 6 random txt](every/202004/20200403_01.md):python,random
-
 [Github support latex with plug-in](every/202004/20200402_01.md):question,github,typora,latex,plug-in
-
 [windows plan invoke bat script not pop](every/202004/20200401_01.md):question,windows,plan,invoke bat script,pop
-
 [Python clean up typora md label](every/202003/20200331_01.md):python,python 3.x,keyword,file,not final
-
 [linux centos 7  network not configure](every/202003/20200330_01.md):linux,centos,centos 7.x,install,min,network configure
-
 [linux graphics install failed and then text command install why](every/202003/20200329_01.md):linux,centos,centos 7.x,install,graphics install,text command,install,why
-
-[Python error UnicodeEncodeError: 'gbk' codec can't encode character '\u200b' in position 28: illegal multibyte sequence](every/202003/20200328_01.md):python,error,UnicodeEncodeError,'gbk' codec can't encode character
-
+("[Python error UnicodeEncodeError: 'gbk' codec can't encode character 'u200b' in position 28: illegal multibyte sequence](every/202003/20200328_01.md):python,error,UnicodeEncodeError,'gbk' codec can't encode character",)
 [Python:Dog() takes no arguments](every/202003/20200327_01.md):question,python,python 3.x,init
-
 [Python test:Ran 0 tests in 0.000s OK](every/202003/20200326_01.md):2020-3-31python,test,ran 0 tests,ok
-
 [python copy file to other path](every/202003/20200325_01.md):python,copy,file,path,python 3.x,not final
-
 [python read file text  keywords](every/202003/20200324_01.md):python,read,file,text,keywords,python 3.x
-
 [Python mkdir dirctory  file](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
-
 [pip not found in window](every/202003/20200321_01.md):python,python 3.x,pip,not found,windows,win10
-
 [Python connect PostgreSQL](every/202003/20200320_01.md):postgresql,python,python 3.x,connection,ddl,dml
-
 [postgresql create python funtion](every/202003/20200318_01.md):postgresql,postgres,create function,python,python 2.x
-
 [R language DBI connect PostgreSQL](every/202003/20200317_01.md):R,R Language,R project,DBI,PostgreSQL,connect
-
 [Question:VirtualBox  Cannot register the hard disk](every/202003/20200316_01.md):Question,VirtualBox,virtual,register
-
 [virtual install win7](every/202003/20200315_01.md):virtual,virtualbox,windows,win7,install
-
 [Python pip pygame not support](every/202003/20200313_01.md):python,pip,pygame,not support
-
 [oracle rac expdp impdp](every/202003/20200310_01.md):oracle,oracle rac,expdp,impdp
-
 [R language command save png](every/202003/20200306_01.md):R,Rstudio,save,png,picture
-
 [MathType latex text](every/202003/20200305_01.md):mathType,latex,typora
-
 [typora latex math](every/202003/20200304_01.md):typora,latex,math
-
 [linux text command install](every/202003/20200303_01.md):linux,text command,install,centos 7.3
-
 [R language chinese text handing](every/202003/20200302_01.md):R,R language,chinese,text handing,text
-
 [360 browser plug-in visit google](every/202003/20200301_01.md):google
-
-[postgresql event trigger](every/202002/20200226_01.md):postgres,postgresql,trigger,event trigger,ä»å°å·¥åˆ°ä¸“å®¶
-
+[postgresql event trigger](every/202002/20200226_01.md):postgres,postgresql,trigger,event trigger,´ÓĞ¡¹¤µ½×¨¼Ò
 [postgresql monitor table change](every/202002/20200225_01.md):postgres,monitor,table,change
-
 [oracle windows  modify listen port](every/202002/20200219_01.md):oracle,windows,listen port,modify
-
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
-
-[20 PostgreSQL ç›‘æ§1 ç»Ÿè®¡è¿›ç¨‹å’Œç»Ÿè®¡ä¿¡æ¯çš„è§£è¯»](every/202001/20200108_01.md):postgres,diago,learn,monitor
-
+[20 PostgreSQL ¼à¿Ø1 Í³¼Æ½ø³ÌºÍÍ³¼ÆĞÅÏ¢µÄ½â¶Á](every/202001/20200108_01.md):postgres,diago,learn,monitor
 [postgresql   nosuperuser superuser question](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
-
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
-
 [postgres synchronous standby database](every/201912/20191207_01.md):postgres,synchronous standby database
-
 [postgres asynchronous standby database](every/201912/20191205_01.md):postgres,asynchronous standby database,create
-
 [postgresql physical restore with  using pg_basebackup and archive log](every/201912/20191204_01.md):postgres,physical restore,pg_basebackup,archive log
-
 [postgresql dba 8](every/201912/20191203_01.md):postgres,dba
-
 [Question:git commit error](every/201912/20191202_02.md):question,git commit,error
-
-[ADS ODPS ORACLE ETL](every/201912/20191202_01.md):å·¥ä½œç¬”è®°,ADS,ODPS,ORACLE,ETL
-
+[ADS ODPS ORACLE ETL](every/201912/20191202_01.md):¹¤×÷±Ê¼Ç,ADS,ODPS,ORACLE,ETL
 [kettle run without the GUI](every/201911/20191121_01.md):kettle,run,without the gui
-
 [linux centos6 install desktop](every/201911/20191120_01.md):linux,centos,centos6,centos6.5,desktop,yum,install
-
 [linux find command from rpm](every/201911/20191119_01.md):linux,centos,redhat,yum,rpm,whereis,rpm -qf
-
 [A province oracle awr learn](every/201911/20191118_01.md):oracle,awr
-
 [oracle rac not open crs-1714:unable to discover any voting files](every/201911/20191112_01.md):oracle,oracle rac,oracle 11g rac,error,not open,crs-1714:unable to discover any voting files
-
 [oracle 11g rac revise ip address](every/201911/20191111_01.md):oracle,oracle 11g rac,revise,ip address,redhat 6.5
-
-[åŸºäºæ•°æ®ç»„æˆ,æ•°æ®é•¿åº¦åˆ†ææ•°æ®çš„å¯èƒ½æ€§](every/201911/20191110_01.md):data,data govern
-
+[»ùÓÚÊı¾İ×é³É,Êı¾İ³¤¶È·ÖÎöÊı¾İµÄ¿ÉÄÜĞÔ](every/201911/20191110_01.md):data,data govern
 [Question: linux oracle 11g not installed: {pwd}/install/.oui: cannot execute binary file](every/201909/20190924_01.md):oracle not installed
-
 [kettle connect ODPS(maxcomputer)](every/201908/20190826_01.md):kettle,odps,maxcomputer,connection
-
-[R è¯­è¨€åˆçº§è¯¾ç¨‹ ä¸‰](every/201908/20190807_01.md):data govern,R
-
-[æ•°æ®å¯¹æ ‡æ¢³ç†](every/201908/20190805_01.md):data govern
-
-[æ•°æ®æ²»ç†æ•´ä½“æµç¨‹](every/201905/20190513_01.md):data govern
-
-[mysql å…¥é—¨ äº†è§£](every/201905/20190508_01.md):mysql
-
-[æ•°æ®åˆ†æä¹‹æ•°æ®æ³¨é‡Šæ˜ å°„æ ‡å‡†æ•°æ®å…ƒ](every/201905/20190507_01.md):æ•°æ®åˆ†æ,æ³¨é‡Š,æ ‡å‡†æ•°æ®å…ƒ
-
+[R ÓïÑÔ³õ¼¶¿Î³Ì Èı](every/201908/20190807_01.md):data govern,R
+[Êı¾İ¶Ô±êÊáÀí](every/201908/20190805_01.md):data govern
+[Êı¾İÖÎÀíÕûÌåÁ÷³Ì](every/201905/20190513_01.md):data govern
+[mysql ÈëÃÅ ÁË½â](every/201905/20190508_01.md):mysql
+[Êı¾İ·ÖÎöÖ®Êı¾İ×¢ÊÍÓ³Éä±ê×¼Êı¾İÔª](every/201905/20190507_01.md):Êı¾İ·ÖÎö,×¢ÊÍ,±ê×¼Êı¾İÔª
 [chinese character note using postgresql with chinese particle](every/201905/20190506_01.md):db,chinese particle,postgresql,zhparser
-
 [postgresql chinese participle](every/201905/20190505_01.md):postgresql,chinese participle
-
 [postgresql zhparser add dicts](every/201905/20190504_01.md):postgres,zhparser,add dicts
-
 [postgresql create extension zhparse](every/201905/20190503_01.md):postgresql,extension,zhparse
-
-[zhparser install in linux 6.5](every/201905/20190502_01.md):zhparser install,linux 6.5*çŸ¥è¯†ä»å°åˆ°å¤§*
-
-[scws install in linux 6.5](every/201905/20190501_01.md):scws install,linux 6.5*çŸ¥è¯†ä»å°åˆ°å¤§*
-
-[å…³äºGAç³»ç»Ÿä¸­æ–‡åŒ¹é…çš„ä¸€äº›æƒ³æ³•](every/201904/20190414_01.md):ä¸­æ–‡å‡†ç¡®,ä¸­æ–‡æ¨¡ç³Š
-
-[æ•°æ®å¯¹æ ‡ä¸æ€è€ƒ](every/201903/20190331_14.md):data govern
-
+[zhparser install in linux 6.5](every/201905/20190502_01.md):zhparser install,linux 6.5*ÖªÊ¶´ÓĞ¡µ½´ó*
+[scws install in linux 6.5](every/201905/20190501_01.md):scws install,linux 6.5*ÖªÊ¶´ÓĞ¡µ½´ó*
+[¹ØÓÚGAÏµÍ³ÖĞÎÄÆ¥ÅäµÄÒ»Ğ©Ïë·¨](every/201904/20190414_01.md):ÖĞÎÄ×¼È·,ÖĞÎÄÄ£ºı
+[Êı¾İ¶Ô±êÓëË¼¿¼](every/201903/20190331_14.md):data govern
+[Êı¾İµ÷ÑĞ](every/201903/20190303_01.md):Êı¾İµ÷ÑĞ
 [data govern think](every/201902/20190228_01.md):think
-
 [Postgresql zhparser Chinese Word Segmentation](every/201902/20190223_01.md):postgresql,zhparser,chinese word segmentation
-
 [Yum Not Use Because Of Repomd.xml Missing Data](every/201902/20190222_01.md):yum,repomd.xml,not use
-
 [Analysis Odps Desc Table Result](every/201902/20190221_01.md):anlysis,odps,desc table,result
-
-[Java å…³é”®å­—](every/201902/20190217_01.md):java,keyword
-
+[Java ¹Ø¼ü×Ö](every/201902/20190217_01.md):java,keyword
 [R language learn](every/201902/20190216_01.md):knowledge,r,base,download,vector,data frame,array,list
-
 [Common Regular Expression](every/201902/20190215_01.md):knowledge,cainiao,regular expression
-
 [regluar expression](every/201902/20190212_05.md):knowledge,cainiao,Regluar Expression,operator precedence
-
 [Regular Expression](every/201902/20190212_04.md):knowledge,cainiao,Regular Expression,meta-character
-
 [Regular Expression](every/201902/20190212_03.md):knowledge,cainiao,Regular Expression
-
 [Regular Expression](every/201902/20190212_02.md):knowledge,cainiao,Regular Expression,synopsis
-
 [Regular Expression](every/201902/20190212_01.md):knowledge,cainiao,Regular Expression,course
-
 [linux shell teach](every/201901/20190130_01.md):knowledge,linux,shell
-
 [kettle optimize some way](every/201901/20190125_01.md):kettle
-
 [greenplum common usage](every/201901/20190116_01.md):greenplum,common usage
-
 [greenplum source  install in linux without network](every/201901/20190106_01.md):greenplum source,5.7.0,linux install,centos 7.3 ,without network
-
 [linux xfs xfsdump xfsrestore](every/201901/20190103_01.md):knowledge,linux,centos7,xfs,xfsdump,xfsrestore
-
-[java æ•™ç¨‹](every/201901/20190101_01.md):knowledge,newbie,java
-
+[java ½Ì³Ì](every/201901/20190101_01.md):knowledge,newbie,java
 [linux centos 7.3 install greenplum 4.3 not ssh port 22](every/201812/20181230_02.md):linux,centos7.3,greenplum 4.3 install
-
 [linux dns](every/201812/20181230_01.md):linux,centos7,dns,knowledge
-
 [linux nfs](every/201812/20181229_02.md):linux,centos6,nfs,knowledge
-
 [postgresql asynchronization standby database](every/201812/20181229_01.md):postgresql,asynchronization standby database
-
 [greenplum install ssh port 22 then modify other](every/201812/20181228_02.md):greenplum install,ssh port 22,other port
-
 [linux centos 7 nfs install](every/201812/20181228_01.md):linux,centos7.3,nfs install
-
-[äºŒè¿›åˆ¶ åˆ†æ SFZ æ‰€æœ‰è¡¨](every/201812/20181227_01.md):äºŒè¿›åˆ¶
-
-[æ•°æ® å­—æ®µç±»å‹ åˆ†æ](every/201812/20181225_01.md):æ•°æ®,å­—æ®µç±»å‹,åˆ†æ
-
-[odps æ•°æ®æ ¡éªŒ](every/201812/20181224_01.md):odps,æ•°æ®æ ¡éªŒ
-
+[¶ş½øÖÆ ·ÖÎö SFZ ËùÓĞ±í](every/201812/20181227_01.md):¶ş½øÖÆ
+[Êı¾İ ×Ö¶ÎÀàĞÍ ·ÖÎö](every/201812/20181225_01.md):Êı¾İ,×Ö¶ÎÀàĞÍ,·ÖÎö
+[odps Êı¾İĞ£Ñé](every/201812/20181224_01.md):odps,Êı¾İĞ£Ñé
 [centos min install and then question](every/201812/20181222_02.md):centos min install,centos 7.3
-
-[æŒ‘æˆ˜è‡ªæˆ‘ oracle é™é»˜å®‰è£…](every/201812/20181222_01.md):oracle silent install
-
+[ÌôÕ½×ÔÎÒ oracle ¾²Ä¬°²×°](every/201812/20181222_01.md):oracle silent install
 [centos 7.3 install mysql5.6](every/201812/20181220_05.md):centos7.3,mysql.5.6 install
-
 [linux install was and was update](every/201812/20181217_01.md):linux,was install,was update
-
 [linux udev tutorial](every/201812/20181215_01.md):linux,centos 5,centos 6,udev tutorial
-
 [linux centos 6.5 install docker](every/201812/20181211_02.md):linux,centos 6.5,docker install
-
 [linux nmap port](every/201812/20181211_01.md):linux,nmap,port
-
 [kettle linux error when crontabkettle linux crontab not run and !kitchen.error.NoRepDefinied!](every/201812/20181210_02.md):linux,kettle,crontab not run,!kitchen.error.NoRepDefinied!
-
 [redhat 7.4 install single oracle 11.2.0.4](every/201812/20181210_01.md):redhat 7.4,single oracle,install
-
 [oracle asm copy datafile to local path](every/201812/20181204_01.md):oracle asm,copy datafile to local path
-
-[yum ä¸‹è½½ rpm](every/201812/20181202_01.md):yum,download,centos7
-
+[yum ÏÂÔØ rpm](every/201812/20181202_01.md):yum,download,centos7
 [postgresql source install in centos7.3](every/201812/20181201_02.md):centos 7.3 ,install postgresql,source
-
 [kettle ftp rar zip excel database](every/201811/20181129_02.md):kettle,ftp,download,rar,zip,excel
-
-[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design
-
-[æˆ‘å’Œvirtualboxæ­»ç£•ä¸Šç½‘é—®é¢˜å¼•å‘çš„æ·±æ€](every/201809/20180923_01.md):virtualbox,network
-
+("[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design",)
+[ÎÒºÍvirtualboxËÀ¿ÄÉÏÍøÎÊÌâÒı·¢µÄÉîË¼](every/201809/20180923_01.md):virtualbox,network
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
-
-[æ•°å­¦åˆ†æ_å‡½æ•°](every/201807/20180707_02.md):æ•°å­¦,æ•°å­¦åˆ†æ,å‡½æ•°
-
+[linux crontab every secord](every/201808/20180811_01.md):linux,crontab
+[postgres gprof](every/201808/20180810_03.md):postgres,gprof
+[ÊıÑ§·ÖÎö_º¯Êı](every/201807/20180707_02.md):ÊıÑ§,ÊıÑ§·ÖÎö,º¯Êı
+[Postgres ¼¼ÊõÄÚÄ»](every/201807/20180701_03.md):postgres
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
-
 [Linux Uninstall Openjdk](every/201806/20180626_03.md):linux,uninstall,openjdk
-
 [kettle cluster 5.4 install on centos 6](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
-
 [Kettle Database Repository](every/201806/20180615_03.md):kettle,database,database repository,kettle 5.4
-
 [postgres truncate course](every/201802/20180204_01.md):postgres,truncate
-
 [postgres really grant select any table to user](every/201801/20180118_01.md):postgres,postgresql,grant,select
-
 [linux  raid](every/201706/20170627_01.md):linux,raid
-
-[linux å‘½ä»¤è¡Œæ–‡æœ¬å¤„ç†å·¥å…·](every/201706/20170601_21.md):linux
-
-[linux ç£ç›˜åŸºæœ¬æ¦‚å¿µ](every/201706/20170601_18.md):linux,ç£ç›˜
-
-[linux viæ–‡æœ¬ç¼–è¾‘å™¨](every/201706/20170601_15.md):linux,vi
-
+[linux ÃüÁîĞĞÎÄ±¾´¦Àí¹¤¾ß](every/201706/20170601_21.md):linux
+[linux ´ÅÅÌ»ù±¾¸ÅÄî](every/201706/20170601_18.md):linux,´ÅÅÌ
+[linux viÎÄ±¾±à¼­Æ÷](every/201706/20170601_15.md):linux,vi
+[LINUX NETWORK](every/201706/20170601_09.md):linux,network
 [linux authorization](every/201706/20170601_06.md):linux,authorization
-
 [kettle errors](every/201705/20170504_17.md):kettle,error
-
 [kettle job judge null](every/201705/20170504_05.md):kettle,job,jurge,skip
-
-[postgresql ä¿®ç‚¼ä¹‹é“ ç¬¬ä¸€ç«  æ€»ä½“æ¦‚å†µ](every/201502/20150201_01.md):postgresql
-
+[postgresql ĞŞÁ¶Ö®µÀ µÚÒ»ÕÂ ×ÜÌå¸Å¿ö](every/201502/20150201_01.md):postgresql
 [redhat 7.4 install docker](every/201501/20150103_02.md):redhat 7.4,docker install
-
-[èœé¸Ÿæ•™ç¨‹_Dockeræ•™ç¨‹å­¦ä¹ 4](every/201501/20150102_02.md):èœé¸Ÿæ•™ç¨‹,Docker,Nginx
-
-[èœé¸Ÿæ•™ç¨‹_Dockeræ•™ç¨‹å­¦ä¹ 3](every/201501/20150102_01.md):èœé¸Ÿæ•™ç¨‹,Docker
-
-[èœé¸Ÿæ•™ç¨‹_Dockeræ•™ç¨‹å­¦ä¹ 2](every/201501/20150101_02.md):èœé¸Ÿæ•™ç¨‹,Docker
-
-[èœé¸Ÿæ•™ç¨‹_Dockeræ•™ç¨‹å­¦ä¹ 1](every/201501/20150101_01.md):èœé¸Ÿæ•™ç¨‹,Docker
-
+[²ËÄñ½Ì³Ì_Docker½Ì³ÌÑ§Ï°4](every/201501/20150102_02.md):²ËÄñ½Ì³Ì,Docker,Nginx
+[²ËÄñ½Ì³Ì_Docker½Ì³ÌÑ§Ï°3](every/201501/20150102_01.md):²ËÄñ½Ì³Ì,Docker
+[²ËÄñ½Ì³Ì_Docker½Ì³ÌÑ§Ï°2](every/201501/20150101_02.md):²ËÄñ½Ì³Ì,Docker
+[²ËÄñ½Ì³Ì_Docker½Ì³ÌÑ§Ï°1](every/201501/20150101_01.md):²ËÄñ½Ì³Ì,Docker
