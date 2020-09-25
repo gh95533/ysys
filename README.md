@@ -59,9 +59,17 @@
 [二元函数泰勒展开式](every/202012/20201203_01.md):数学,数学分析,多元函数微分,二元函数泰勒展开式,数学分析下第40节视频
 [多元函数微分学](every/202012/20201202_01.md):数学,数学分析,多元函数微分学,数学分析下第39节视频
 [多元函数微分学](every/202012/20201201_01.md):数学,数学分析,多元函数微分学,数学分析下第38节视频
-[every md word title link label](every/202011/20201130_01.md):md,title,link,label
+[Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label
+[ODPS:](every/202011/20201129_01.md):odps,python
+[Python ODPS Maxcomputer](every/202011/20201128_01.md):python,odps,pyodps,maxcomputer
+[linux ssh remote case](every/202011/20201127_01.md):ssh
+[某人多点行程 时间链表](every/202011/20201126_01.md):point,time
+[人员关系 简单TH](every/202011/20201125_01.md):relation,recursion,postgresql
+[Python Connect MaxComputer(ODPS)](every/202011/20201122_01.md):python,maxcomputer,connect
+[Python Maxcomputer(ODPS) Table Creat](every/202011/20201121_01.md):python,maxcomputer,odbs
+[Python Maxcomputer(ODPS) Table Date Read](every/202011/20201120_01.md):python,maxcomputer,odps,table,sql
 [多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
-[监控复习软件](every/202010/20201002_01.md):复习
+[学习 复习 整理 文档](every/202010/20201002_01.md):复习,学习,文档整理,文档检索
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 [数学分析 多元函数可微](every/202009/20200921_01.md):数学,数学分析,多元函数可微,数据分析下第37视频
 [中文分词(摘抄)](every/202009/20200918_01.md):中文分词,not final
@@ -77,7 +85,6 @@
 [数学分析 和函数 例题](every/202009/20200901_07.md):数学分析,和函数
 [数学分析 多元函数微分](every/202009/20200901_01.md):数学,数学分析,多元函数微分,数学分析下第36节视频
 [linux 无法使用root用户登录](every/202008/20200831_01.md):linux,root,centos7.2
-[everything search](every/202008/20200829_01.md):everything,search
 [question:package ‘XML’ is not available (for R version 3.6.3)](every/202008/20200821_01.md):question,think,R,xml,package
 [question:xmlRoot()没有出现节点个数,而是出现了xml样本](every/202008/20200820_01.md):xmlRoot,R
 [question:could not find function "getHTMLLinks"](every/202008/20200819_01.md):R,getHTMLLinks
@@ -165,6 +172,7 @@
 [scws install in linux 6.5](every/201905/20190501_01.md):scws install,linux 6.5*知识从小到大*
 [关于GA系统中文匹配的一些想法](every/201904/20190414_01.md):中文准确,中文模糊
 [数据对标与思考](every/201903/20190331_14.md):data govern
+[数据调研](every/201903/20190303_01.md):数据调研
 [data govern think](every/201902/20190228_01.md):think
 [Postgresql zhparser Chinese Word Segmentation](every/201902/20190223_01.md):postgresql,zhparser,chinese word segmentation
 [Yum Not Use Because Of Repomd.xml Missing Data](every/201902/20190222_01.md):yum,repomd.xml,not use
@@ -208,7 +216,11 @@
 ("[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design",)
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
+[linux crontab every secord](every/201808/20180811_01.md):linux,crontab
+[postgres gprof](every/201808/20180810_03.md):postgres,gprof
+[linux ssh login no password](every/201808/20180803_05.md):linux,ssh
 [数学分析_函数](every/201807/20180707_02.md):数学,数学分析,函数
+[Postgres 技术内幕](every/201807/20180701_03.md):postgres
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 [Linux Uninstall Openjdk](every/201806/20180626_03.md):linux,uninstall,openjdk
 [kettle cluster 5.4 install on centos 6](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
@@ -219,6 +231,7 @@
 [linux 命令行文本处理工具](every/201706/20170601_21.md):linux
 [linux 磁盘基本概念](every/201706/20170601_18.md):linux,磁盘
 [linux vi文本编辑器](every/201706/20170601_15.md):linux,vi
+[LINUX NETWORK](every/201706/20170601_09.md):linux,network
 [linux authorization](every/201706/20170601_06.md):linux,authorization
 [kettle errors](every/201705/20170504_17.md):kettle,error
 [kettle job judge null](every/201705/20170504_05.md):kettle,job,jurge,skip
@@ -228,10 +241,3 @@
 [菜鸟教程_Docker教程学习3](every/201501/20150102_01.md):菜鸟教程,Docker
 [菜鸟教程_Docker教程学习2](every/201501/20150101_02.md):菜鸟教程,Docker
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
-
-
-
-
-
-
-

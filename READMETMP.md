@@ -32,6 +32,13 @@
 [Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label
 [ODPS:](every/202011/20201129_01.md):odps,python
 [Python ODPS Maxcomputer](every/202011/20201128_01.md):python,odps,pyodps,maxcomputer
+[linux ssh remote case](every/202011/20201127_01.md):ssh
+[某人多点行程 时间链表](every/202011/20201126_01.md):point,time
+[人员关系 简单TH(not final)](every/202011/20201125_01.md):relation,recursion,postgresql
+[Python Connect MaxComputer(ODPS)](every/202011/20201122_01.md):python,maxcomputer,connect
+[Python Maxcomputer(ODPS) Table Creat](every/202011/20201121_01.md):python,maxcomputer,odbs
+[Python Maxcomputer(ODPS) Table Date Read(not final)](every/202011/20201120_01.md):python,maxcomputer,odps,table,sql
+[python group by statistics](every/202011/20201102_01.md):python,group by,statistics
 [多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 [学习 复习 整理 文档](every/202010/20201002_01.md):复习,学习,文档整理,文档检索
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
@@ -182,6 +189,8 @@
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
 [linux crontab every secord](every/201808/20180811_01.md):linux,crontab
 [postgres gprof](every/201808/20180810_03.md):postgres,gprof
+[linux ssh login no password](every/201808/20180803_05.md):linux,ssh
+[Linux Centos shutdown all machine](every/201808/20180803_04.md):centos,redhat,ssh,ssh-keygen
 [数学分析_函数](every/201807/20180707_02.md):数学,数学分析,函数
 [Postgres 技术内幕](every/201807/20180701_03.md):postgres
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
@@ -191,11 +200,11 @@
 [postgres truncate course](every/201802/20180204_01.md):postgres,truncate
 [postgres really grant select any table to user](every/201801/20180118_01.md):postgres,postgresql,grant,select
 [linux  raid](every/201706/20170627_01.md):linux,raid
+[LINUX NETWORK](every/201706/20170608_01.md):linux,network
+[linux authorization](every/201706/20170606_01.md):linux,authorization
 [linux 命令行文本处理工具](every/201706/20170601_21.md):linux
 [linux 磁盘基本概念](every/201706/20170601_18.md):linux,磁盘
 [linux vi文本编辑器](every/201706/20170601_15.md):linux,vi
-[LINUX NETWORK](every/201706/20170601_09.md):linux,network
-[linux authorization](every/201706/20170601_06.md):linux,authorization
 [kettle errors](every/201705/20170504_17.md):kettle,error
 [kettle job judge null](every/201705/20170504_05.md):kettle,job,jurge,skip
 [postgresql 修炼之道 第一章 总体概况](every/201502/20150201_01.md):postgresql
