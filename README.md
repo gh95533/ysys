@@ -40,6 +40,9 @@
 
 
 
+
+
+
 ## every
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
 
@@ -107,7 +110,7 @@
 
 [ODPS:](every/202011/20201129_01.md):odps,python
 
-[Python ODPS Maxcompute Demo](every/202011/20201128_01.md):python,odps,pyodps,maxcompute
+[Python ODPS Maxcompute Operation](every/202011/20201128_01.md):python,odps,pyodps,maxcompute
 
 [linux ssh remote case](every/202011/20201127_01.md):ssh
 
@@ -380,6 +383,8 @@
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
+
+[Python Maxcompute function check date](every/202001/20200101_01.md):python,maxcomputer,function,date,function,check,日期格式校验
 
 [postgresql  nosuperuser user question](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
 
