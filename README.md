@@ -37,6 +37,9 @@
 
 
 
+
+
+
 ## every
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
 
@@ -130,6 +133,8 @@
 
 [数学分析 多元函数微积分](every/202011/20201116_01.md):数学,数学分析,多元函数微分,数学分析下第35节视频
 
+[数据描述](every/202011/20201115_01.md):think
+
 [数学分析 和函数分析性质 和函数可积](every/202011/20201114_01.md):数学分析,和函数可积
 
 [数学分析 和函数分析性质 和函数连续](every/202011/20201113_01.md):数学分析,和函数连续
@@ -138,13 +143,37 @@
 
 [数学分析 和函数 例题](every/202011/20201111_01.md):数学分析,和函数
 
-[MD Docment move rename other path](every/202011/20201105_01.md):md,move,rename
+[第13章 外星人](every/202011/20201109_01.md):python,《Python编程：从入门到实践》
 
-[MaxComputer  Upload Python Function](every/202011/20201104_01.md):maxcomputer,upload,python,function
+[第12章 武装飞船](every/202011/20201108_01.md):python,《Python编程：从入门到实践》
+
+[第十一章 测试代码](every/202011/20201107_01.md):python,《Python编程：从入门到实践》
+
+[第10章 文件和异常](every/202011/20201106_01.md):python,《Python编程：从入门到实践》
+
+[MD Docment move file](every/202011/20201105_01.md):md,move,rename
+
+[MaxCompute  Upload Python Function](every/202011/20201104_01.md):maxcompute,upload,python,function
+
+[第9章 类](every/202011/20201103_01.md):python,《Python编程：从入门到实践》
 
 [python group by statistics demo](every/202011/20201102_01.md):python,group by,statistics
 
 [python pip install local package](every/202011/20201101_01.md):python,pip,install,local package,windows
+
+[第8章 函数](every/202010/20201031_01.md):python,《Python编程：从入门到实践》
+
+[第7章 用户输入和while循环](every/202010/20201030_01.md):python,《Python编程：从入门到实践》
+
+[第6章 字典](every/202010/20201029_01.md):python,《Python编程：从入门到实践》
+
+[第5章 if语句](every/202010/20201028_01.md):python,《Python编程：从入门到实践》
+
+[第4章 操作列表](every/202010/20201027_01.md):python,《Python编程：从入门到实践》
+
+[第3章 列表简介](every/202010/20201026_01.md):python,《Python编程：从入门到实践》
+
+[第2章 变量和简单数据类型](every/202010/20201025_01.md):python,《Python编程：从入门到实践》
 
 [virtual machine add shared storage vdi](every/202010/20201024_01.md):virtualbox,storage
 
@@ -174,13 +203,11 @@
 
 [greenplum install ssh port 22 then modify other](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
 
-[centos min install and then question](every/202010/20201010_01.md):centos min install,centos 7.3
+[centos min install (not final)](every/202010/20201010_01.md):centos min install,centos 7.3
 
 [centos 7.3 install mysql5.6](every/202010/20201009_01.md):centos7.3,mysql.5.6 install
 
 [linux centos 6.5 install docker](every/202010/20201008_01.md):linux,centos 6.5,docker install
-
-[kettle linux error when crontabkettle linux crontab not run and !kitchen.error.NoRepDefinied!](every/202010/20201007_01.md):linux,kettle,crontab not run,!kitchen.error.NoRepDefinied!
 
 [postgresql source install in centos7.3](every/202010/20201006_01.md):centos 7.3 ,install postgresql,source
 
@@ -192,11 +219,27 @@
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
+[studio 3T 重装](every/202009/20200923_01.md):studio
+
 [数学分析 多元函数可微](every/202009/20200921_01.md):数学,数学分析,多元函数可微,数据分析下第37视频
+
+[wps excel 超多行数据导入](every/202009/20200920_01.md):wps,excel,kettle,more data
 
 [中文分词(摘抄)](every/202009/20200918_01.md):中文分词,not final
 
 [机器算法 Apriori算法](every/202009/20200917_01.md):apriori,摘抄
+
+[postgresql json jsonb](every/202009/20200916_01.md):postgresql,postgres,json,jsonb
+
+[postgresql row column](every/202009/20200915_01.md):postgres,行转列,row,column
+
+[linux boot then fsck](every/202009/20200914_01.md):linux,boot,fsck
+
+[pgbouncer local install without postgresql](every/202009/20200912_01.md):postgres,pgbouncer,local,without postgresql 
+
+[pgbouncer install with postgresql](every/202009/20200911_01.md):pgbouncer,postgresql
+
+[postgresql pgbench](every/202009/20200910_01.md):postgresql,pgbench
 
 [postgres gprof](every/202009/20200909_01.md):postgres,gprof
 
