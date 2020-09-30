@@ -35,23 +35,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## every
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
 
