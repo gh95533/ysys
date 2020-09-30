@@ -43,6 +43,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 ## every
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
 
@@ -126,7 +135,7 @@
 
 [Python Maxcomputer(ODPS) Table Creat](every/202011/20201121_01.md):python,maxcomputer,odbs
 
-[Python Maxcompute(ODPS) Table Date Read](every/202011/20201120_01.md):python,maxcompute,odps,table,sql
+[Python Maxcompute(ODPS) Table Date Read(not final)](every/202011/20201120_01.md):python,maxcompute,odps,table,sql
 
 [数学分析 多元微积分](every/202011/20201119_01.md):数学,数学分析,多元函数微分学,数学分析下31节视频
 
@@ -221,6 +230,8 @@
 [学习 复习 整理 文档](every/202010/20201002_01.md):复习,学习,文档整理,文档检索
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
+
+[postgresql function check idnum gmsfhm](every/202009/20200925_01.md):postgresql,function,idnum,gmsfhm
 
 [studio 3T 重装](every/202009/20200923_01.md):studio
 
@@ -383,6 +394,10 @@
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
+
+[Oracle single accidentally delete redo.log](every/202001/20200103_01.md):oracle,redo.log,误删,single
+
+[Eclipse Python Pydev Configuration(not final)](every/202001/20200102_01.md):eclipse,python,pydev,configuration
 
 [Python Maxcompute function check date](every/202001/20200101_01.md):python,maxcomputer,function,date,function,check,日期格式校验
 
