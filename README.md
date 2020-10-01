@@ -253,6 +253,8 @@
 
 [Linux Uninstall Openjdk](every/202008/20200807_01.md):linux,uninstall,openjdk
 
+[第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
+
 [Kettle Database Repository](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
 [linux 命令行文本处理工具](every/202007/20200721_01.md):linux
@@ -370,6 +372,8 @@
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
+
+[Python Excel Input  Output](every/202001/20200105_01.md):python,excel
 
 [Python Maxcompute function check mobile phone sjhm](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
 
