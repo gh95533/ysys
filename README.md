@@ -28,13 +28,6 @@
 
 
 
-
-
-
-
-
-
-
 ## every
 [Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
 
@@ -210,7 +203,7 @@
 
 [多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 
-[学习 复习 整理 文档](every/202010/20201002_01.md):复习,学习,文档整理,文档检索
+[documents learn review search primary version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
@@ -377,6 +370,8 @@
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
+
+[Python Maxcompute function check mobile phone sjhm](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
 
 [Oracle single accidentally delete redo.log](every/202001/20200103_01.md):oracle,redo.log,误删,single
 
