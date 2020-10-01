@@ -373,6 +373,8 @@
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
 
+[第15章 生成数据](every/202001/20200106_01.md):python,《Python编程：从入门到实践》
+
 [Python Excel Input  Output](every/202001/20200105_01.md):python,excel
 
 [Python Maxcompute function check mobile phone sjhm](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
