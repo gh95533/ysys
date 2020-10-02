@@ -20,11 +20,11 @@
 
 ## class
 
-| [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](R.md) |
-| ------------------------- | --------------------------------- | --------- |
-|                           |                                   |           |
-|                           |                                   |           |
-|                           |                                   |           |
+| [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](class/R.md) |
+| ------------------------- | --------------------------------- | --------------- |
+|                           |                                   |                 |
+|                           |                                   |                 |
+|                           |                                   |                 |
 
 
 
@@ -135,7 +135,7 @@
 
 [第12章 武装飞船](every/202011/20201108_01.md):python,《Python编程：从入门到实践》
 
-[第十一章 测试代码](every/202011/20201107_01.md):python,《Python编程：从入门到实践》
+[第11章 测试代码](every/202011/20201107_01.md):python,《Python编程：从入门到实践》
 
 [第10章 文件和异常](every/202011/20201106_01.md):python,《Python编程：从入门到实践》
 
@@ -203,7 +203,7 @@
 
 [多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 
-[documents learn review search primary version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
+[documents learn review search first version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
@@ -372,6 +372,8 @@
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
+
+[documents learn review search second version](every/202001/20200107_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
 [第15章 生成数据](every/202001/20200106_01.md):python,《Python编程：从入门到实践》
 
