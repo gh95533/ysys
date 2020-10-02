@@ -175,7 +175,7 @@
 
 [Question:git commit error](every/202010/20201019_01.md):question,git commit,error
 
-[数据对标与思考](every/202010/20201018_01.md):data govern
+[数据对标 v1_20190730](every/202010/20201018_01.md):data govern
 
 [regluar expression](every/202010/20201017_01.md):knowledge,cainiao,Regluar Expression,operator precedence
 
@@ -369,7 +369,13 @@
 
 [oracle windows  modify listen port](every/202002/20200219_01.md):oracle,windows,listen port,modify
 
+[R05 R语言概览](every/202002/20200214_01.md):R,learn
+
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
+
+[第6章 R语法](every/202002/20200204_01.md):R
+
+[Python Jieba](every/202001/20200109_01.md):python,jieba,中文分词
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
 
@@ -421,9 +427,9 @@
 
 [R 语言初级课程 三](every/201908/20190807_01.md):data govern,R
 
-[数据对标梳理](every/201908/20190805_01.md):data govern
+[数据对标 v1_20190815](every/201908/20190805_01.md):data govern
 
-[数据治理整体流程](every/201905/20190513_01.md):data govern
+[数据对标 v1_20190513](every/201905/20190513_01.md):data govern
 
 [mysql 入门 了解](every/201905/20190508_01.md):mysql
 

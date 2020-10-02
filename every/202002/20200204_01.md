@@ -1,0 +1,942 @@
+[TOC]
+
+# 第6章 R语法
+
+**document support**
+
+ysys
+
+**date**
+
+2019-11-01
+
+**label**
+
+R
+
+
+
+
+
+
+
+## 概况
+
+​	R中的所有表达式都可以重写为一个函数调用。然而,R有一些特有的语法,可以用它们更自然的实现赋值，查找和数值表达式等常用操作。
+
+
+
+
+
+
+
+## 常量
+
+​	数值，字符串，符号
+
+
+
+### 数值常量
+
+​	R中的数值常量就是表示数值的向量对象。
+
+```
+> 1.1
+[1] 1.1
+> 2
+[1] 2
+> 2^1023
+[1] 8.988466e+307
+```
+
+​	可以用前缀0x将对象指定为用十六进制表计数法表示
+
+```
+> 0x1
+[1] 1
+> 0xFFFF
+[1] 65535
+```
+
+​	默认情况下，即便输入极为简单的整数，也会被解析为双精度浮点数
+
+```
+> typeof(1)
+[1] "double"
+```
+
+​	想要一个整数，可以通过如下方式来获取
+
+```
+> typeof(1:1)
+[1] "integer"
+> typeof(as(1,"integer"))
+[1] "integer"
+```
+
+​	c函数可以将任意一组数字合并为一个向量
+
+```
+v <- c(173,12,1.12312,-93)
+```
+
+​	R的精度和大小是有限制的
+
+```
+> (2^1023+1)==2^1023
+[1] TRUE
+> 2^1024
+[1] Inf
+```
+
+​	
+
+### 字符向量
+
+​	单引号，双引号都是可以的
+
+```
+> "hello"
+[1] "hello"
+> 'hello'
+[1] "hello"
+```
+
+​	如果字符串中本身有单引号，那么使用双引号标识这个字符串会很方便，反之亦然。
+
+```
+> '"hello world"'
+[1] "\"hello world\""
+> "'hello world'"
+[1] "'hello world'"
+```
+
+​	在每个引号前面添加一个反斜杠进行转义
+
+```
+> identical("\"hello\"",'"hello"')
+[1] TRUE
+```
+
+
+
+### 符号
+
+​	以字符开头，含有其他字符，数字，英文句点和下划线可以直接在语句中使用
+
+
+
+
+
+## 运算符
+
+
+
+
+
+## 赋值操作
+
+
+
+## 表达式
+
+
+
+### 分离表达式
+
+
+
+### 括号
+
+
+
+### 花括号
+
+
+
+
+
+## 控制结构
+
+### 条件语句
+
+`if (condition) true_expression else false_expression`
+
+`if (condition) expression`
+
+
+
+​	在R中，条件语句不是向量型运算。如果条件语句是由一个以上的逻辑值组成的向量，那么执行语句时只会用到向量的第一个元素。
+
+```
+> x <- 10
+> y <- c(8,10,12,3,17)
+> if (x < y) x else y
+[1]  8 10 12  3 17
+Warning message:
+In if (x < y) x else y :
+  the condition has length > 1 and only the first element will be used
+```
+
+​	如果想要进行向量化操作，可以使用ifelse函数
+
+```
+a <- c("a","b","c","d","e")
+b <- c("b","b","b","b","b")
+ifelse(c(TRUE,FALSE,TRUE,FALSE,TRUE),a,b)
+```
+
+​	有时候需要根据不同的单个输入返回不同的值
+
+```
+> switcherooo.if.then <- function (x){
++   if (x=="a")
++     "camel"
++   else if (x=="b")
++     "bear"
++   else if (x=="c")
++     "camel"
++   else
++      "moose"
++ }
+> switcherooo.if.then("b")
+[1] "bear"
+> switcherooo.if.then("f")
+[1] "moose"
+> switcheroo.switch <- function(x){
++   switch(x,
++          a="alligator",
++          b="bear",
++          c="camel",
++          "moose")
++ }
+> switcheroo.switch("b")
+[1] "bear"
+> switcheroo.switch("a")
+[1] "alligator"
+```
+
+### 循环
+
+​	R中有三种不同的循环结构，最简单的是repeat结构,该结构只是重复同一个表达式
+
+```
+repeat expression
+```
+
+​	跳出 break命令,跳到下一个迭代式,使用next命令
+
+```
+> i <- 5
+> repeat{ if (i > 25) break else {print(i);i <- i + 5;}}
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+```
+
+​	如果循环中不包括break命令，R代码将会是一个无限循环
+
+​	while命令
+
+```
+while(condition) expression
+```
+
+​	下面用while结构重写一遍上述例子
+
+```
+> i <- 5
+> while(i <= 25) {print(i);i <- i+5}
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+```
+
+​	可以在while循环中跳出 break命令,跳到下一个迭代式,使用next命令
+
+​	for循环
+
+```
+for (var in list) expression
+```
+
+```
+> for (i in seq(from=5,to=25,by=5)) print(i)
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+```
+
+​	可以在for循环中跳出 break命令,跳到下一个迭代式,使用next命令
+
+​	迭代
+
+```
+> library(iterators)
+Error in library(iterators) : 不存在叫‘iterators’这个名字的程辑包
+> install.packages("iterators")
+Installing package into ‘C:/Users/gh_95/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+
+  There is a binary version available but the source version is later:
+          binary source needs_compilation
+iterators 1.0.10 1.0.12             FALSE
+
+installing the source package ‘iterators’
+
+trying URL 'https://cran.rstudio.com/src/contrib/iterators_1.0.12.tar.gz'
+Content type 'application/x-gzip' length 289201 bytes (282 KB)
+downloaded 282 KB
+
+* installing *source* package 'iterators' ...
+** 成功将'iterators'程序包解包并MD5和检查
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (iterators)
+
+The downloaded source packages are in
+	‘C:\Users\gh_95\AppData\Local\Temp\Rtmp8MiAlI\downloaded_packages’
+> (.packages(all.available = TRUE))
+ [1] "iterators"    "maptree"      "base"         "boot"         "class"        "cluster"      "codetools"    "compiler"     "datasets"    
+[10] "foreign"      "graphics"     "grDevices"    "grid"         "KernSmooth"   "lattice"      "MASS"         "Matrix"       "methods"     
+[19] "mgcv"         "nlme"         "nnet"         "parallel"     "rpart"        "spatial"      "splines"      "stats"        "stats4"      
+[28] "survival"     "tcltk"        "tools"        "translations" "utils"       
+> library(iterators)
+> onetofive <- iter(1:5)
+> nextElem(onetofive)
+[1] 1
+> nextElem(onetofive)
+[1] 2
+> nextElem(onetofive)
+[1] 3
+> nextElem(onetofive)
+[1] 4
+> nextElem(onetofive)
+[1] 5
+> nextElem(onetofive)
+Error: StopIteration
+```
+
+
+
+## 访问数据结构
+
+​	通过索引你可以从一个数据结构或者多个项目中取出某个特定的项目,或者通过数据结构的位置或者名字来获取相应的项目
+
+### 数据结构操作符
+
+| 语法   | 对象     | 描述                     |
+| ------ | -------- | ------------------------ |
+| x[i]   | 向量列表 |                          |
+| x[[i]] | 向量列表 |                          |
+| x$n    | 列表     | 返回对象x的名字为n的元素 |
+| x@n    | S4对象   | 返回对象x中名字为n的序列 |
+
+### 通过整数向量引用
+
+```
+> v <- 100:119
+> v[5]
+[1] 104
+> v[1:5]
+[1] 100 101 102 103 104
+> v[c(1,5,3,2)]
+[1] 100 104 102 101
+> v[[5]]
+[1] 104
+```
+
+​	在这个例子中发现，单括号符号和双括号符号的使用效果一致。
+
+​	通过负整数返回一个删除了特定元素的向量
+
+```
+# 将序数指定为-1~-15,删除向量的第1~15个元素，并不代表原始数据被删除了
+> v[-15:-1]
+[1] 115 116 117 118 119
+> v
+ [1] 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119
+```
+
+​	
+
+```
+> l <- list(a=1,b=2,c=3,d=4,e=5,f=6,g=7,h=8,i=9,j=10)
+> l[1:3]
+$a
+[1] 1
+
+$b
+[1] 2
+
+$c
+[1] 3
+
+> l[-7:-1]
+$h
+[1] 8
+
+$i
+[1] 9
+
+$j
+[1] 10
+
+> l[[1]]
+[1] 1
+> 
+```
+
+
+
+```
+> m <- matrix(data=c(101:112),nrow=3,ncol=4)
+> m
+     [,1] [,2] [,3] [,4]
+[1,]  101  104  107  110
+[2,]  102  105  108  111
+[3,]  103  106  109  112
+> m[3]
+[1] 103
+> m[3,4]
+[1] 112
+> m[3,]
+[1] 103 106 109 112
+> m[1:2,1:2]
+     [,1] [,2]
+[1,]  101  104
+[2,]  102  105
+```
+
+​	如果省略向量某一个维度的下标,则返回该维度的所有值
+
+```
+> m[1:2,]
+     [,1] [,2] [,3] [,4]
+[1,]  101  104  107  110
+[2,]  102  105  108  111
+> m[,3:4]
+     [,1] [,2]
+[1,]  107  110
+[2,]  108  111
+[3,]  109  112
+```
+
+​	截取子集时，R会自动将结果强制转换位最适当的维数。如果你不想这么做，可以设定drop=FALSE
+
+```
+> a <- array(data=c(101:124),dim=c(2,3,4))
+> class(a[1,1,])
+[1] "integer"
+> class(a[1, ,])
+[1] "matrix"
+> class(a[1:2,1:2,1:2])
+[1] "array"
+> class(a[1,1,1,drop=FALSE])
+[1] "array"
+```
+
+​	可以替换变量
+
+```
+> m[1] <- 100
+> m
+     [,1] [,2] [,3] [,4]
+[1,]  100  104  107  110
+[2,]  102  105  108  111
+[3,]  103  106  109  112
+> m[1:2,1:2] <- matrix(c(10001,10004),nrow=2,ncol=2)
+> m
+      [,1]  [,2] [,3] [,4]
+[1,] 10001 10001  107  110
+[2,] 10004 10004  108  111
+[3,]   103   106  109  112
+```
+
+### 通过逻辑向量引用
+
+```
+
+R version 3.4.2 (2017-09-28) -- "Short Summer"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> typeof('if')
+[1] "character"
+> typeof(`if`)
+[1] "special"
+> x <- 10
+> y <- c(8,10,12,3,17)
+> if (x > y) x else y
+[1] 10
+Warning message:
+In if (x > y) x else y :
+  the condition has length > 1 and only the first element will be used
+> x <- 10
+> y <- c(8,10,12,3,17)
+> if (x < y) x else y
+[1]  8 10 12  3 17
+Warning message:
+In if (x < y) x else y :
+  the condition has length > 1 and only the first element will be used
+> a <- c("a","b","c","d","e")
+> a <- c("a","b","c","d","e")
+> b <- c("b","b","b","b","b")
+> ifelse(c(TRUE,FALSE,TRUE,FALSE,TRUE),a,b)
+[1] "a" "b" "c" "b" "e"
+> switcherooo.if.then <- function (x){
++   if (x=="a")
++     "camel"
++   else if (x=="b")
++     "bear"
++   else if (x=="c")
++     "camel"
++   else
++      "moose"
++ }
+> switcherooo.if.then("b")
+[1] "bear"
+> switcherooo.if.then("f")
+[1] "moose"
+> switcheroo.switch <- function(x){
++   switch(x,
++          a="alligator",
++          b="bear",
++          c="camel",
++          "moose")
++ }
+> switcheroo.switch("b")
+[1] "bear"
+> switcheroo.switch("a")
+[1] "alligator"
+> i <- 25
+> repeat{ if (i > 25) break else {print(i);i <- i + 5;}}
+[1] 25
+> i <- 25
+> repeat{ if (i > 25) break else {print(i);i <- i + 5;}}
+[1] 25
+> i <- 5
+> repeat{ if (i > 25) break else {print(i);i <- i + 5;}}
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+> i <- 5
+> while(i <= 25 {print(i);i <- i+5})
+Error: unexpected '{' in "while(i <= 25 {"
+> while(i <= 25 {print(i);i <- i+5;})
+Error: unexpected '{' in "while(i <= 25 {"
+> i <- 5
+> while(i <= 25) {print(i);i <- i+5}
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+> for (i in seq(from=5,to=25,by=5)) print(i)
+[1] 5
+[1] 10
+[1] 15
+[1] 20
+[1] 25
+> (.packages(all.available = TRUE))
+ [1] "maptree"      "base"         "boot"         "class"        "cluster"      "codetools"    "compiler"     "datasets"     "foreign"     
+[10] "graphics"     "grDevices"    "grid"         "KernSmooth"   "lattice"      "MASS"         "Matrix"       "methods"      "mgcv"        
+[19] "nlme"         "nnet"         "parallel"     "rpart"        "spatial"      "splines"      "stats"        "stats4"       "survival"    
+[28] "tcltk"        "tools"        "translations" "utils"       
+> library(itertors)
+Error in library(itertors) : 不存在叫‘itertors’这个名字的程辑包
+> library(iterators)
+Error in library(iterators) : 不存在叫‘iterators’这个名字的程辑包
+> install.packages("iterators")
+Installing package into ‘C:/Users/gh_95/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+
+  There is a binary version available but the source version is later:
+          binary source needs_compilation
+iterators 1.0.10 1.0.12             FALSE
+
+installing the source package ‘iterators’
+
+trying URL 'https://cran.rstudio.com/src/contrib/iterators_1.0.12.tar.gz'
+Content type 'application/x-gzip' length 289201 bytes (282 KB)
+downloaded 282 KB
+
+* installing *source* package 'iterators' ...
+** 成功将'iterators'程序包解包并MD5和检查
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (iterators)
+
+The downloaded source packages are in
+	‘C:\Users\gh_95\AppData\Local\Temp\Rtmp8MiAlI\downloaded_packages’
+> (.packages(all.available = TRUE))
+ [1] "iterators"    "maptree"      "base"         "boot"         "class"        "cluster"      "codetools"    "compiler"     "datasets"    
+[10] "foreign"      "graphics"     "grDevices"    "grid"         "KernSmooth"   "lattice"      "MASS"         "Matrix"       "methods"     
+[19] "mgcv"         "nlme"         "nnet"         "parallel"     "rpart"        "spatial"      "splines"      "stats"        "stats4"      
+[28] "survival"     "tcltk"        "tools"        "translations" "utils"       
+> library(iterators)
+> onetofive <- iter(1:5)
+> nextElem(onetofive)
+[1] 1
+> nextElem(onetofive)
+[1] 2
+> nextElem(onetofive)
+[1] 3
+> nextElem(onetofive)
+[1] 4
+> nextElem(onetofive)
+[1] 5
+> nextElem(onetofive)
+Error: StopIteration
+> v <- 100:119
+> v <- 100:119
+> v[5]
+[1] 104
+> v[1:5]
+[1] 100 101 102 103 104
+> v[c(1,5,3,2)]
+[1] 100 104 102 101
+> v[[5]]
+[1] 104
+> v[-15:-1]
+[1] 115 116 117 118 119
+> v
+ [1] 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119
+> l <- list(a=1,b=2,c=3,d=4,e=5,f=6,g=7,h=8,i=9,j=10)
+> l[1:3]
+$a
+[1] 1
+
+$b
+[1] 2
+
+$c
+[1] 3
+
+> l[-7:-1]
+$h
+[1] 8
+
+$i
+[1] 9
+
+$j
+[1] 10
+
+> l[[1]]
+[1] 1
+> m <- matrix(data=c(101:112),nrow=3,ncol=4)
+> m
+     [,1] [,2] [,3] [,4]
+[1,]  101  104  107  110
+[2,]  102  105  108  111
+[3,]  103  106  109  112
+> m[3]
+[1] 103
+> m[3,4]
+[1] 112
+> m[3,]
+[1] 103 106 109 112
+> m[1:2,1:2]
+     [,1] [,2]
+[1,]  101  104
+[2,]  102  105
+> m[1:2,]
+     [,1] [,2] [,3] [,4]
+[1,]  101  104  107  110
+[2,]  102  105  108  111
+> m[,3:4]
+     [,1] [,2]
+[1,]  107  110
+[2,]  108  111
+[3,]  109  112
+> a <- array(data=c(101:124),dim=c(2,3,4))
+> class(a[1,1,])
+[1] "integer"
+> class(a[1, ,])
+[1] "matrix"
+> class(a[1:2,1:2,1:2])
+[1] "array"
+> class(a[1,1,1,drop=FALSE])
+[1] "array"
+> m[1:2,]
+     [,1] [,2] [,3] [,4]
+[1,]  101  104  107  110
+[2,]  102  105  108  111
+> m[,3:4]
+     [,1] [,2]
+[1,]  107  110
+[2,]  108  111
+[3,]  109  112
+> a <- array(data=c(101:124),dim=c(2,3,4))
+> class(a[1,1,])
+[1] "integer"
+> class(a[1, ,])
+[1] "matrix"
+> class(a[1:2,1:2,1:2])
+[1] "array"
+> class(a[1,1,1,drop=FALSE])
+[1] "array"
+> m[1] <- 100
+> m
+     [,1] [,2] [,3] [,4]
+[1,]  100  104  107  110
+[2,]  102  105  108  111
+[3,]  103  106  109  112
+> m[1:2,1:2] <- matrix(c(10001,10004),nrow=2,ncol=2)
+> m
+      [,1]  [,2] [,3] [,4]
+[1,] 10001 10001  107  110
+[2,] 10004 10004  108  111
+[3,]   103   106  109  112
+> rep(c(TRUE,FALSE),10)
+ [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+> v[rep(c(TRUE,FALSE),10)]
+ [1] 100 102 104 106 108 110 112 114 116 118
+> v[(v==103)]
+[1] 103
+> v[v%%3==0]
+[1] 102 105 108 111 114 117
+> v[c(TRUE,FALSE,FALSE)]
+[1] 100 103 106 109 112 115 118
+```
+
+
+
+```
+> l [(l >7)]
+$h
+[1] 8
+
+$i
+[1] 9
+
+$j
+[1] 10
+
+```
+
+
+
+### 通过名字进行引用
+
+
+
+```
+> dairy[["mil",exact=FALSE]]
+[1] "1 gallon"
+> dairy <- list(milk = "1 gallon",butter = "1 pound",eggs =12)
+> dairy$milk
+[1] "1 gallon"
+> dairy[["milk"]]
+[1] "1 gallon"
+
+```
+
+​	将参数设置为exact=FALSE,你甚至可以用不完整的对象名称来引用对象
+
+```
+> dairy[["mil"]]
+NULL
+> dairy[["mil",exact=FALSE]]
+[1] "1 gallon"
+```
+
+
+
+## R编程标准
+
+
+
+
+
+## 全量脚本
+
+```
+1.1
+2
+2^1023
+
+0x1
+0xFFFF
+
+typeof(1)
+typeof(1:1)
+typeof(as(1,"integer"))
+v <- c(173,12,1.12312,-93)
+
+(2^1023+1)==2^1023
+2^1024
+0+1i^2
+sqrt(-1+0i)
+exp(0+1i*pi)
+sqrt(-1)
+
+
+
+"hello"
+'hello'
+
+'"hello world"'
+"'hello world'"
+
+identical("\"hello\"",'"hello"')
+
+
+typeof('if')
+typeof(`if`)
+x <- 10
+y <- c(8,10,12,3,17)
+if (x < y) x else y
+
+
+a <- c("a","b","c","d","e")
+b <- c("b","b","b","b","b")
+ifelse(c(TRUE,FALSE,TRUE,FALSE,TRUE),a,b)
+
+
+switcherooo.if.then <- function (x){
+  if (x=="a")
+    "camel"
+  else if (x=="b")
+    "bear"
+  else if (x=="c")
+    "camel"
+  else
+     "moose"
+}
+
+switcherooo.if.then("b")
+switcherooo.if.then("f")
+
+switcheroo.switch <- function(x){
+  switch(x,
+         a="alligator",
+         b="bear",
+         c="camel",
+         "moose")
+}
+
+switcheroo.switch("b")
+switcheroo.switch("a")
+
+
+
+
+
+i <- 5
+repeat{ if (i > 25) break else {print(i);i <- i + 5;}}
+
+
+i <- 5
+while(i <= 25) {print(i);i <- i+5}
+
+for (i in seq(from=5,to=25,by=5)) print(i)
+
+
+(.packages(all.available = TRUE))
+library(iterators)
+install.packages("iterators")
+(.packages(all.available = TRUE))
+library(iterators)
+onetofive <- iter(1:5)
+nextElem(onetofive)
+nextElem(onetofive)
+nextElem(onetofive)
+nextElem(onetofive)
+nextElem(onetofive)
+nextElem(onetofive)
+
+v <- 100:119
+v[5]
+v[1:5]
+v[c(1,5,3,2)]
+v[[5]]
+
+v[-15:-1]
+v
+
+l <- list(a=1,b=2,c=3,d=4,e=5,f=6,g=7,h=8,i=9,j=10)
+l[1:3]
+l[-7:-1]
+l[[1]]
+
+m <- matrix(data=c(101:112),nrow=3,ncol=4)
+m
+m[3]
+m[3,4]
+m[3,]
+m[1:2,1:2]
+
+
+m[1:2,]
+m[,3:4]
+
+
+a <- array(data=c(101:124),dim=c(2,3,4))
+class(a[1,1,])
+class(a[1, ,])
+class(a[1:2,1:2,1:2])
+class(a[1,1,1,drop=FALSE])
+
+
+
+m[1] <- 100
+m
+
+m[1:2,1:2] <- matrix(c(10001,10004),nrow=2,ncol=2)
+m
+
+
+rep(c(TRUE,FALSE),10)
+v[rep(c(TRUE,FALSE),10)]
+v[(v==103)]
+v[v%%3==0]
+v[c(TRUE,FALSE,FALSE)]
+l [(l >7)]
+
+l$j
+
+l[c("a","b","c")]
+
+
+dairy <- list(milk = "1 gallon",butter = "1 pound",eggs =12)
+dairy$milk
+dairy[["milk"]]
+dairy[["mil"]]
+dairy[["mil",exact=FALSE]]
+
+```
+
