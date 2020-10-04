@@ -93,8 +93,6 @@
 
 [Python Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label,python,postgresql,postgres
 
-[ODPS:](every/202011/20201129_01.md):odps,python
-
 [Python ODPS Maxcompute Operation](every/202011/20201128_01.md):python,odps,pyodps,maxcompute
 
 [linux ssh remote case](every/202011/20201127_01.md):ssh
@@ -247,6 +245,8 @@
 
 [question:could not find function "getHTMLLinks"](every/202008/20200819_01.md):R,getHTMLLinks
 
+[LINUX 逻辑卷 CREATE EXTEND](every/202008/20200818_01.md):linux,vgs,pvs,lvs,extent
+
 [数学分析_函数](every/202008/20200814_01.md):数学,数学分析,函数
 
 [Postgres 技术内幕](every/202008/20200813_01.md):postgres
@@ -375,6 +375,28 @@
 
 [第6章 R语法](every/202002/20200204_01.md):R
 
+[官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
+
+[官网文档:编写你的第一个Django应用,第1部分](every/202001/20200123_01.md):python,django,官网文档,编写你的第一个Django应用
+
+[Python Excel Write](every/202001/20200121_01.md):python,excel
+
+[Python Excel Modify](every/202001/20200119_01.md):python,excel
+
+("[Question:TypeError: __init__() missing 1 required positional argument: 'on_delete'](every/202001/20200117_01.md):python,question,models,on_delete",)
+
+[Question:django-admin.py startproject learning_log . not response](every/202001/20200116_01.md):question,python,diango-admin.py,windows,pip
+
+("[Error:AttributeError: 'NoneType' object has no attribute 'decode'](every/202001/20200115_01.md):python",)
+
+[第18章 Django 入门](every/202001/20200114_01.md):python,《Python编程：从入门到实践》
+
+[Question:ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。](every/202001/20200113_01.md):python,question,connectionreseterror
+
+[第17章 使用API](every/202001/20200112_01.md):python,《Python编程：从入门到实践》
+
+[第16章 下载数据](every/202001/20200111_01.md):python,《Python编程：从入门到实践》
+
 [Python Jieba](every/202001/20200109_01.md):python,jieba,中文分词
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
@@ -383,9 +405,9 @@
 
 [第15章 生成数据](every/202001/20200106_01.md):python,《Python编程：从入门到实践》
 
-[Python Excel Input  Output](every/202001/20200105_01.md):python,excel
+[Python Excel Read](every/202001/20200105_01.md):python,excel
 
-[Python Maxcompute function check mobile phone sjhm](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
+[Python Maxcompute function check mobile phone sjhm(not final)](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
 
 [Oracle single accidentally delete redo.log](every/202001/20200103_01.md):oracle,redo.log,误删,single
 
@@ -512,6 +534,8 @@
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
 
 [linux crontab every secord](every/201808/20180811_01.md):linux,crontab
+
+[pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
 
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 
