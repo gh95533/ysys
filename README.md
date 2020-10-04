@@ -371,9 +371,13 @@
 
 [R05 R语言概览](every/202002/20200214_01.md):R,learn
 
+[第13章 图形](every/202002/20200209_01.md):R,graphics,《R语言核心技术手册》
+
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
 [第6章 R语法](every/202002/20200204_01.md):R
+
+[不同路径相同照片名移动到相同目录并起名不同的名字](every/202001/20200125_01.md):python,not final
 
 [官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
 
@@ -550,6 +554,8 @@
 [LINUX NETWORK](every/201706/20170608_01.md):linux,network
 
 [linux authorization](every/201706/20170606_01.md):linux,authorization
+
+[install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
 
 [postgresql 修炼之道 第一章 总体概况](every/201502/20150201_01.md):postgresql
 
