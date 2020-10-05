@@ -37,6 +37,3 @@ And because of the liberal license, PostgreSQL can be used, modified, and distri
 ## system study
 
  
-
-## everyday study
-
