@@ -195,7 +195,7 @@
 
 [linux centos 6.5 install docker](every/202010/20201008_01.md):linux,centos 6.5,docker install
 
-[postgresql source install in centos7.3](every/202010/20201006_01.md):centos 7.3 ,install postgresql,source
+[postgresql source install](every/202010/20201006_01.md):postgresql,source,version,9.6.x,centos,7.x
 
 [kettle ftp rar zip excel database](every/202010/20201005_01.md):kettle,ftp,download,rar,zip,excel
 
@@ -262,6 +262,8 @@
 [linux 磁盘基本概念](every/202007/20200718_01.md):linux,磁盘
 
 [linux vi文本编辑器](every/202007/20200715_01.md):linux,vi
+
+[linux virtualbox copy](every/202007/20200714_01.md):linux,virtual,virtualbox machine,copy,modify
 
 [kettle errors](every/202007/20200709_01.md):kettle,error
 
@@ -371,11 +373,19 @@
 
 [R05 R语言概览](every/202002/20200214_01.md):R,learn
 
+[第4章 R包](every/202002/20200213_01.md):R,《R语言核心技术手册》
+
 [第13章 图形](every/202002/20200209_01.md):R,graphics,《R语言核心技术手册》
 
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
 
-[第6章 R语法](every/202002/20200204_01.md):R
+[第3章  简短的示例](every/202002/20200206_01.md):R,《R语言核心技术手册》
+
+[第7章 R对象](every/202002/20200205_01.md):R,《R语言核心技术手册》
+
+[第6章 R语法](every/202002/20200204_01.md):R,《R语言核心技术手册》
+
+[符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
 
 [不同路径相同照片名移动到相同目录并起名不同的名字](every/202001/20200125_01.md):python,not final
 
@@ -535,9 +545,15 @@
 
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 
+[linux 网卡绑定 子接口](every/201808/20180830_01.md):linux,network
+
+[gbase 8a single install](every/201808/20180825_01.md):gbase
+
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
 
 [linux crontab every secord](every/201808/20180811_01.md):linux,crontab
+
+[postgresql source install](every/201808/20180810_01.md):postgresq,source,install,version,9.4.x
 
 [pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
 
@@ -554,6 +570,8 @@
 [LINUX NETWORK](every/201706/20170608_01.md):linux,network
 
 [linux authorization](every/201706/20170606_01.md):linux,authorization
+
+[linux 管道 重定向 基础了解](every/201706/20170602_01.md):linux,|,grep,>
 
 [install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
 
