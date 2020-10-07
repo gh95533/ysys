@@ -205,6 +205,8 @@
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
+[mongo 学习](every/202009/20200926_01.md):mongo,learn\u200b\t
+
 [postgresql function check idnum gmsfhm](every/202009/20200925_01.md):postgresql,function,idnum,gmsfhm
 
 [studio 3T 重装](every/202009/20200923_01.md):studio
@@ -235,9 +237,13 @@
 
 [linux 无法使用root用户登录](every/202008/20200831_01.md):linux,root,centos7.2
 
+[linux remote manage](every/202008/20200827_01.md):linux,remote
+
 [linux ssh login no password](every/202008/20200826_01.md):linux,ssh
 
 [Linux Centos shutdown all machine](every/202008/20200825_01.md):centos,redhat,ssh,ssh-keygen
+
+[LINUX XMANAGER VNC](every/202008/20200823_01.md):linux,xmanager,vnc
 
 [question:package ‘XML’ is not available (for R version 3.6.3)](every/202008/20200821_01.md):question,think,R,xml,package
 
@@ -247,6 +253,8 @@
 
 [LINUX 逻辑卷 CREATE EXTEND](every/202008/20200818_01.md):linux,vgs,pvs,lvs,extent
 
+[linux 分区 文件系统 挂载 逻辑卷](every/202008/20200816_01.md):linux
+
 [数学分析_函数](every/202008/20200814_01.md):数学,数学分析,函数
 
 [Postgres 技术内幕](every/202008/20200813_01.md):postgres
@@ -255,11 +263,15 @@
 
 [第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
 
+[Postgresql fdw file](every/202007/20200727_01.md):postgresq,fdw
+
 [Kettle Database Repository](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
 [linux 命令行文本处理工具](every/202007/20200721_01.md):linux
 
 [linux 磁盘基本概念](every/202007/20200718_01.md):linux,磁盘
+
+[linux  vnc install](every/202007/20200716_01.md):linux,vnc
 
 [linux vi文本编辑器](every/202007/20200715_01.md):linux,vi
 
@@ -267,7 +279,13 @@
 
 [kettle errors](every/202007/20200709_01.md):kettle,error
 
+[kettle cdc](every/202007/20200707_01.md):kettle
+
+[kettle 17M json](every/202007/20200706_01.md):kettle,json
+
 [python function check gmsfhm idnum](every/202007/20200701_01.md):python,function,maxcompute,idnum,gmsfhm,身份证
+
+[kettle move other machine](every/202006/20200630_01.md):kettle
 
 [kettle job judge null](every/202006/20200626_01.md):kettle,job,jurge,skip
 
@@ -387,13 +405,21 @@
 
 [符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
 
+[重积分性质](every/202001/20200128_01.md):数学,数学分析,重积分,数学分析下第56节视频
+
+[第十三张 重积分](every/202001/20200127_01.md):数学,数学分析,重积分,数学分析下第55节视频
+
 [不同路径相同照片名移动到相同目录并起名不同的名字](every/202001/20200125_01.md):python,not final
 
 [官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
 
 [官网文档:编写你的第一个Django应用,第1部分](every/202001/20200123_01.md):python,django,官网文档,编写你的第一个Django应用
 
+("[Question:in include'provide the namespace argument to include() instead](every/202001/20200122_01.md):python,django,error",)
+
 [Python Excel Write](every/202001/20200121_01.md):python,excel
+
+[Quesion:django.db.utils.OperationalError: no such column: learning_logs_topic.date_added](every/202001/20200120_01.md):python,django,no such column
 
 [Python Excel Modify](every/202001/20200119_01.md):python,excel
 
@@ -481,15 +507,15 @@
 
 [zhparser install in linux 6.5](every/201905/20190502_01.md):zhparser install,linux 6.5*知识从小到大*
 
-[scws install in linux 6.5](every/201905/20190501_01.md):scws install,linux 6.5*知识从小到大*
+[scws install in linux 6.5](every/201905/20190501_01.md):scws install,linux 6.5
 
 [关于GA系统中文匹配的一些想法](every/201904/20190414_01.md):中文准确,中文模糊
 
 [数据调研](every/201903/20190303_01.md):数据调研
 
-[data govern think](every/201902/20190228_01.md):think
+[data govern think](every/201902/20190228_01.md):think,not final
 
-[Postgresql zhparser Chinese Word Segmentation](every/201902/20190223_01.md):postgresql,zhparser,chinese word segmentation
+[Postgresql zhparser Chinese Word Segmentation](every/201902/20190223_01.md):postgresql,zhparser,chinese word segmentation,not final
 
 [Yum Not Use Because Of Repomd.xml Missing Data](every/201902/20190222_01.md):yum,repomd.xml,not use
 
@@ -543,11 +569,31 @@
 
 ("[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design",)
 
+[oracle 授权用户只能查询某表](every/201811/20181127_01.md):oracle,grant
+
+[dba的分工和工作内容](every/201811/20181120_01.md):oracle dba
+
+[oracle awr analyze](every/201811/20181119_01.md):oracle,awr,awr analyze
+
+[oracle_rac_bjjz_awr](every/201811/20181109_01.md):oracle rac,awr
+
+[pg 修改级联视图](every/201810/20181016_01.md):pg,view,replace view
+
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
+
+[gz mongo cluster install （二）](every/201809/20180919_01.md):mongo,cluster
+
+[libra 数据库 常规使用](every/201809/20180914_01.md):libra
+
+[GZ mongo cluster install](every/201809/20180913_01.md):mongo,cluster
+
+[selinux 基础](every/201809/20180907_01.md):linux,selinux
 
 [linux 网卡绑定 子接口](every/201808/20180830_01.md):linux,network
 
 [gbase 8a single install](every/201808/20180825_01.md):gbase
+
+[pg 判断 字符 各种类型](every/201808/20180821_01.md):postgresql
 
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
 
@@ -557,9 +603,17 @@
 
 [pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
 
+[Postgresql remove clog then failed](every/201807/20180726_01.md):postgresq,clog
+
+[postgresql dba 3](every/201807/20180723_01.md):postgresq,dba\u200b\t目标\u200b\t1、熟悉使用psql\u200b\t2、熟悉字段类型\u200b\t3、了解pgadmin
+
+[PG PAGEINSPECT 探索数据页信息](every/201807/20180722_01.md):postgresq,pageinspect
+
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 
 [kettle cluster 5.4 install on centos 6](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
+
+[kettle配置oracle集群](every/201806/20180615_01.md):kettle,oracle
 
 [postgres truncate course](every/201802/20180204_01.md):postgres,truncate
 
@@ -575,7 +629,11 @@
 
 [install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
 
+[oracle error Process xxxx died](every/201601/20160101_01.md):oracle,error,process xxx died
+
 [postgresql 修炼之道 第一章 总体概况](every/201502/20150201_01.md):postgresql
+
+[菜鸟教程_Docker教程学习5](every/201501/20150103_01.md):菜鸟教程,Docker,not final
 
 [菜鸟教程_Docker教程学习3](every/201501/20150102_01.md):菜鸟教程,Docker
 
