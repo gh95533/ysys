@@ -407,6 +407,8 @@
 
 [二重积分计算方法[转载]](every/202001/20200131_01.md):数学,数学分析,二重积分
 
+("[Question:ModuleNotFoundError: No module named 'pygal.i18n'](every/202001/20200130_01.md):python,question,pygal.i18n,pygal_maps_world.i18n",)
+
 [重积分性质](every/202001/20200128_01.md):数学,数学分析,重积分,数学分析下第56节视频
 
 [第十三张 重积分](every/202001/20200127_01.md):数学,数学分析,重积分,数学分析下第55节视频
@@ -416,8 +418,6 @@
 [官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
 
 [官网文档:编写你的第一个Django应用,第1部分](every/202001/20200123_01.md):python,django,官网文档,编写你的第一个Django应用
-
-("[Question:in include'provide the namespace argument to include() instead](every/202001/20200122_01.md):python,django,error",)
 
 [Python Excel Write](every/202001/20200121_01.md):python,excel
 
@@ -439,7 +439,7 @@
 
 [第16章 下载数据](every/202001/20200111_01.md):python,《Python编程：从入门到实践》
 
-[Python Jieba](every/202001/20200109_01.md):python,jieba,中文分词
+[Python Jieba](every/202001/20200109_01.md):python,jieba,中文分词,not fianl
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
 
@@ -448,8 +448,6 @@
 [第15章 生成数据](every/202001/20200106_01.md):python,《Python编程：从入门到实践》
 
 [Python Excel Read](every/202001/20200105_01.md):python,excel
-
-[Python Maxcompute function check mobile phone sjhm(not final)](every/202001/20200104_01.md):python,maxcompute,moblie,sjhm
 
 [Oracle single accidentally delete redo.log](every/202001/20200103_01.md):oracle,redo.log,误删,single
 
