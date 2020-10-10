@@ -29,9 +29,9 @@
 
 
 ## every
-[Integrative Case:Kettle Cluster vs Kettle Single synchronization Kafka Cluster](every/202012/20201231_01.md):kettle,kafka,etl
+[Kettle Case:kettle 单机和集群对于同步kafka效率之比](every/202012/20201231_01.md):kettle,kafka,etl,cluster,
 
-[greenplum database disk not free](every/202012/20201230_01.md):greenplum,full,size,expend,gp 4.x,gp 6.x
+[Greenplum Case:数据库一段时间后存储空间待耗尽](every/202012/20201230_01.md):greenplum,full,size,expend,gp 4.x,gp 6.x,disk not free
 
 [greenplum schema gp_toolkit](every/202012/20201229_01.md):greenplum,gp_toolkit,greenplum数据库文档
 
@@ -321,7 +321,7 @@
 
 [postgresql execute sql](every/202004/20200422_01.md):postgresql,execute sql
 
-[postgresql function two system](every/202004/20200421_01.md):postgresql,function,two systems
+[Postgresql:计算某个整数是2的幂次方函数](every/202004/20200421_01.md):postgresql,function,2
 
 [centos 7.x forget root password](every/202004/20200417_01.md):centos,centos 7.x,password
 
@@ -388,6 +388,8 @@
 [postgresql monitor table change](every/202002/20200225_01.md):postgres,monitor,table,change
 
 [oracle windows  modify listen port](every/202002/20200219_01.md):oracle,windows,listen port,modify
+
+[Python:Word 读取](every/202002/20200216_01.md):python,word,read
 
 [R05 R语言概览](every/202002/20200214_01.md):R,learn
 
@@ -461,7 +463,7 @@
 
 [Eclipse Python Pydev Configuration(not final)](every/202001/20200102_01.md):eclipse,python,pydev,configuration
 
-[Python Maxcompute function check date](every/202001/20200101_01.md):python,maxcomputer,function,date,function,check,日期格式校验
+[Python Maxcompute:function check date](every/202001/20200101_01.md):python,maxcomputer,function,date,function,check,日期格式校验
 
 [Postgresql:超级管理员被删除如何恢复](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
 
