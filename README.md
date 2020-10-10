@@ -93,7 +93,7 @@
 
 [Python Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label,python,postgresql,postgres
 
-[Python ODPS Maxcompute Operation](every/202011/20201128_01.md):python,odps,pyodps,maxcompute
+[Python Case:Maxcompute 读取表结构信息](every/202011/20201128_01.md):python,odps,pyodps,maxcompute,table,partition
 
 [linux ssh remote case](every/202011/20201127_01.md):ssh
 
@@ -139,7 +139,7 @@
 
 [MD Docment move file](every/202011/20201105_01.md):md,move,rename
 
-[MaxCompute  Upload Python Function](every/202011/20201104_01.md):maxcompute,upload,python,function
+[MaxCompute  Case:上传Python函数](every/202011/20201104_01.md):maxcompute,upload,python,function
 
 [第9章 类](every/202011/20201103_01.md):python,《Python编程：从入门到实践》
 
@@ -321,7 +321,7 @@
 
 [postgresql execute sql](every/202004/20200422_01.md):postgresql,execute sql
 
-[Postgresql:计算某个整数是2的幂次方函数](every/202004/20200421_01.md):postgresql,function,2
+[Postgresql:计算某个整数是2的幂次方函数](every/202004/20200421_01.md):postgresql,function,2,二进制,幂级数
 
 [centos 7.x forget root password](every/202004/20200417_01.md):centos,centos 7.x,password
 
@@ -419,7 +419,7 @@
 
 [Python:Word 写入](every/202001/20200126_01.md):python,word,docx,write
 
-[不同路径相同照片名移动到相同目录并起名不同的名字](every/202001/20200125_01.md):python,not final
+[Python Case:修改文件内容](every/202001/20200125_01.md):python,copy,move,file
 
 [官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
 

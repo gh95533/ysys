@@ -1,0 +1,362 @@
+[BEGIN] 2017/6/2 16:44:16
+[root@centos65 vsftpd]# ftp 
+ftp> open 192.168.1.201
+Connected to 192.168.1.201 (192.168.1.201).
+220 Welcome to blah FTP service.
+Name (192.168.1.201:root): shengting
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> !ls*.test
++bash: ls*.test: command not found
+ftp> !ls *.*
+virtusers.db  vsftpd.conf.backup      vuser_passwd.db
+vsftpd.conf   vsftpd_conf_migrate.sh  vuser_passwd.txt
+vsftpd.conf2  vsftpd.conf.rpmsave
+ftp> append vsftpd.conf.backup  
+local: vsftpd.conf.backup remote: vsftpd.conf.backup
+227 Entering Passive Mode (192,168,1,201,243,104).
+150 Ok to send data.
+226 Transfer complete.
+4599 bytes sent in 0.0255 secs (180.38 Kbytes/sec)
+ftp> pwd
+257 "/"
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,62,139).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+[root@centos65 vsftpd]# ftp shengting@192.168.1.201
+ftp: shengting@192.168.1.201: Name or service not known
+ftp> open 192.168.1.201
+Connected to 192.168.1.201 (192.168.1.201).
+220 Welcome to blah FTP service.
+Name (192.168.1.201:root): shengting
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> pwd
+257 "/"
+ftp> !ls *
+chroot_list  virtusers.db	 vsftpd_conf_migrate.sh
+ftpusers     vsftpd.conf	 vsftpd.conf.rpmsave
+user_list    vsftpd.conf2	 vuser_passwd.db
+virtusers    vsftpd.conf.backup  vuser_passwd.txt
+
+vconf:
+kanecruise  mello  shengting  vconf.tmp
+
+vuser_conf:
+kanecruise  vuser_conf.tmp
+ftp> append vconf/vconf.tmp  
+local: vconf/vconf.tmp remote: vconf/vconf.tmp
+227 Entering Passive Mode (192,168,1,201,184,252).
+553 Could not create file.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,245,20).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,204,151).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> bell
+Bell mode on.
+ftp> bell
+Bell mode off.
+ftp> bell
+Bell mode on.
+ftp> bell
+Bell mode off.
+ftp> cd /
+250 Directory successfully changed.
+ftp> cd vconf/
+550 Failed to change directory.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,125,239).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,149,247).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> pwd
+257 "/"
+ftp> exit
+221 Goodbye.
+[root@centos65 vsftpd]# ftp 192.168.1.201
+Connected to 192.168.1.201 (192.168.1.201).
+220 Welcome to blah FTP service.
+Name (192.168.1.201:root): shengting
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,49,42).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503          4599 Jun 02 08:46 vsftpd.conf.backup
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> cdup
+250 Directory successfully changed.
+ftp> pwd
+257 "/"
+ftp> chmod 777 sc.test
+550 SITE CHMOD command failed.
+ftp> del vsftpd.conf.backup 
+250 Delete operation successful.
+ftp> ls -ls
+227 Entering Passive Mode (192,168,1,201,172,123).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> debug
+Debugging on (debug=1).
+ftp> dir
+---> PASV
+227 Entering Passive Mode (192,168,1,201,251,254).
+---> LIST
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> deb up 0
+Debugging off (debug=0).
+ftp> dir / /home/good.txt
+output to local-file: /home/good.txt? 
+227 Entering Passive Mode (192,168,1,201,117,65).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,241,102).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> get st.test /home/
+local: /home/ remote: st.test
+227 Entering Passive Mode (192,168,1,201,45,241).
+150 Opening BINARY mode data connection for st.test (0 bytes).
+local: /home/: Is a directory
+226 Transfer complete.
+225 No transfer to ABOR.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,115,197).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> get st.test !/home
+local: !/home remote: st.test
+local: !/home: No such file or directory
+ftp> get st.test !/home/
+local: !/home/ remote: st.test
+local: !/home/: No such file or directory
+ftp> get st.test
+local: st.test remote: st.test
+227 Entering Passive Mode (192,168,1,201,210,209).
+150 Opening BINARY mode data connection for st.test (0 bytes).
+226 Transfer complete.
+ftp> pwd
+257 "/"
+ftp> lcd
+Local directory now /etc/vsftpd
+ftp> lcd
+Local directory now /etc/vsftpd
+ftp> lcd /opt/vsftp/shengting/
+Local directory now /opt/vsftp/shengting
+ftp> get st.test st.test2
+local: st.test2 remote: st.test
+227 Entering Passive Mode (192,168,1,201,246,247).
+150 Opening BINARY mode data connection for st.test (0 bytes).
+226 Transfer complete.
+ftp> !ls
+st.test  st.test2  太原铁路公安局光闸实施报告  - 副本.doc
+ftp> !ls
+st.test  st.test2  太原铁路公安局光闸实施报告  - 副本.doc
+ftp> ls / /home/good.txt
+output to local-file: /home/good.txt? 
+227 Entering Passive Mode (192,168,1,201,118,36).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> mdelete st.test2
+mdelete st.test2? 
+250 Delete operation successful.
+ftp> ls -ls
+227 Entering Passive Mode (192,168,1,201,139,120).
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> mkdir sh1
+257 "/sh1" created
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,175,138).
+150 Here comes the directory listing.
+drwxr-xr-x    2 503      503          4096 Jun 02 09:03 sh1
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> cd sh1
+250 Directory successfully changed.
+ftp> !cmd
++bash: cmd: command not found
+ftp> !ls
+sh1  st.test  太原铁路公安局光闸实施报告  - 副本.doc
+ftp> mdir 太原铁路公安局光闸实施报告  - 副本.doc 太原铁路公安局光闸实 施报告  - 副本.doc2
+output to local-file: 副本.doc2? 
+227 Entering Passive Mode (192,168,1,201,57,41).
+150 Here comes the directory listing.
+226 Directory send OK.
+227 Entering Passive Mode (192,168,1,201,199,139).
+150 Here comes the directory listing.
+226 Directory send OK.
+227 Entering Passive Mode (192,168,1,201,246,75).
+150 Here comes the directory listing.
+226 Directory send OK.
+227 Entering Passive Mode (192,168,1,201,120,233).
+150 Here comes the directory listing.
+226 Directory send OK.
+227 Entering Passive Mode (192,168,1,201,111,180).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,39,245).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,241,111).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+[root@centos65 vsftpd]# ftp
+ftp> open 192.168.1.201
+Connected to 192.168.1.201 (192.168.1.201).
+220 Welcome to blah FTP service.
+Name (192.168.1.201:root): shengting
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,109,95).
+150 Here comes the directory listing.
+drwxr-xr-x    2 503      503          4096 Jun 02 09:03 sh1
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 0        0               0 Jun 02 09:05 副本.doc2
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> lcd /etc/vsftpd/
+Local directory now /etc/vsftpd
+ftp> !ls
+chroot_list  virtusers	   vsftpd.conf.backup	   vuser_passwd.db
+ftpusers     virtusers.db  vsftpd_conf_migrate.sh  vuser_passwd.txt
+user_list    vsftpd.conf   vsftpd.conf.rpmsave
+vconf	     vsftpd.conf2  vuser_conf
+ftp> !ls -ls
+total 88
+ 4 -rw-r--r--  1 root root    16 Jun  2 04:01 chroot_list
+ 4 -rw-------  1 root root   125 Mar  1  2013 ftpusers
+ 4 -rw-------  1 root root   361 Mar  1  2013 user_list
+ 4 drwxr-xr-x  2 root root  4096 May 16 06:05 vconf
+ 4 -rw-r--r--  1 root root    72 May 16 06:00 virtusers
+12 -rw-r--r--  1 root root 12288 May 16 06:01 virtusers.db
+ 8 -rw-------  1 root root  4756 Jun  2 03:49 vsftpd.conf
+ 8 -rw-------. 1 root root  4729 May 15 05:21 vsftpd.conf2
+ 8 -rw-------  1 root root  4599 May 16 03:28 vsftpd.conf.backup
+ 4 -rwxr--r--  1 root root   338 Mar  1  2013 vsftpd_conf_migrate.sh
+ 8 -rw-------. 1 root root  4773 May 15 05:49 vsftpd.conf.rpmsave
+ 4 drwxr-xr-x. 2 root root  4096 May 15 05:47 vuser_conf
+12 -rw-r--r--. 1 root root 12288 May 15 04:12 vuser_passwd.db
+ 4 -rw-r--r--. 1 root root    12 May 15 04:11 vuser_passwd.txt
+ftp> put virtusers 
+local: virtusers remote: virtusers
+227 Entering Passive Mode (192,168,1,201,206,8).
+150 Ok to send data.
+226 Transfer complete.
+72 bytes sent in 3.1e-05 secs (2322.58 Kbytes/sec)
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,59,239).
+150 Here comes the directory listing.
+drwxr-xr-x    2 503      503          4096 Jun 02 09:03 sh1
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503            72 Jun 02 09:07 virtusers
+-rw-r--r--    1 0        0               0 Jun 02 09:05 副本.doc2
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> nlist / /home/good.txt
+output to local-file: /home/good.txt? 
+227 Entering Passive Mode (192,168,1,201,117,249).
+150 Here comes the directory listing.
+226 Directory send OK.
+ftp> ls
+227 Entering Passive Mode (192,168,1,201,226,237).
+150 Here comes the directory listing.
+drwxr-xr-x    2 503      503          4096 Jun 02 09:03 sh1
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503            72 Jun 02 09:07 virtusers
+-rw-r--r--    1 0        0               0 Jun 02 09:05 副本.doc2
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> lcd
+Local directory now /etc/vsftpd
+ftp> lcd /home
+Local directory now /home
+ftp> get virtusers virtusers2
+local: virtusers2 remote: virtusers
+227 Entering Passive Mode (192,168,1,201,136,146).
+150 Opening BINARY mode data connection for virtusers (72 bytes).
+226 Transfer complete.
+72 bytes received in 0.000128 secs (562.50 Kbytes/sec)
+ftp> !ls
+good.txt  linuxlearn  linux_test  overlord  virtusers2	vsftpd
+ftp> put good.txt 
+local: good.txt remote: good.txt
+227 Entering Passive Mode (192,168,1,201,176,156).
+150 Ok to send data.
+226 Transfer complete.
+2 bytes sent in 5.5e-05 secs (36.36 Kbytes/sec)
+ftp> ls 
+227 Entering Passive Mode (192,168,1,201,219,179).
+150 Here comes the directory listing.
+-rw-r--r--    1 503      503             2 Jun 02 09:15 good.txt
+drwxr-xr-x    2 503      503          4096 Jun 02 09:03 sh1
+-rw-r--r--    1 0        0               0 May 16 10:05 st.test
+-rw-r--r--    1 503      503            72 Jun 02 09:07 virtusers
+-rw-r--r--    1 0        0               0 Jun 02 09:05 副本.doc2
+-rw-r--r--    1 503      503         49664 May 16 10:07 太原铁路公安局光闸实施报告  - 副本.doc
+226 Directory send OK.
+ftp> 
+Connection closed.
+
+Disconnected from remote host(192.168.1.201) at 17:16:12.
+
+Type `help' to learn how to use Xshell prompt.
+
+[END] 2017/6/2 17:16:16
