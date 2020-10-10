@@ -1,0 +1,18 @@
+CREATE CONTROLFILE REUSE DATABASE "YSYSDB" RESETLOGS  NOARCHIVELOG
+        MAXLOGFILES 16
+        MAXLOGMEMBERS 3
+        MAXDATAFILES 100
+        MAXINSTANCES 8
+        MAXLOGHISTORY 292
+        LOGFILE
+     GROUP 1 '/u01/app/oracle/oradata/ysysdb/redo01.log'  SIZE 50M BLOCKSIZE 512,
+     GROUP 2 '/u01/app/oracle/oradata/ysysdb/redo02.log'  SIZE 50M BLOCKSIZE 512,
+     GROUP 3 '/u01/app/oracle/oradata/ysysdb/redo03.log'  SIZE 50M BLOCKSIZE 512
+  -- STANDBY LOGFILE
+  DATAFILE
+   '/u01/app/oracle/oradata/ysysdb/system01.dbf',
+  '/u01/app/oracle/oradata/ysysdb/sysaux01.dbf',
+  '/u01/app/oracle/oradata/ysysdb/undotbs01.dbf',
+  '/u01/app/oracle/oradata/ysysdb/users01.dbf'
+  CHARACTER SET ZHS16GBK
+  ;
