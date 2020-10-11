@@ -399,6 +399,8 @@
 
 ("[Question:AttributeError: 'DataFrame' object has no attribute 'ix'](every/202002/20200224_01.md):question,dataframe,python,ix,iloc,pandas,numpy",)
 
+[官网文档:编写你的第一个Django应用,第3部分(not final)](every/202002/20200223_01.md):python,django,官网文档,编写你的第一个Django应用
+
 [Question:No matching distribution found for urllib2](every/202002/20200221_01.md):python,version 3,version 3.7
 
 [Python Case:照片链接换行如何下载下来(not final)](every/202002/20200220_01.md):python,image,path,network,download,line feed
