@@ -99,17 +99,17 @@
 
 [某人多点行程 时间链表](every/202011/20201126_01.md):point,time
 
-[人员关系 简单TH(not final)](every/202011/20201125_01.md):relation,recursion,postgresql
+[人员关系 简单联系](every/202011/20201125_01.md):relation,recursion,postgresql
 
 [数学分析 多元函数连续](every/202011/20201124_01.md):数学,数据分析,多元函数微分学,数学分析下第34节视频
 
 [python print filepath unreadable code](every/202011/20201123_01.md):python,windows,filepath,unreadable code
 
-[Python Connect MaxComputer(ODPS)](every/202011/20201122_01.md):python,maxcomputer,connect
+[Python:Maxcompute 连接](every/202011/20201122_01.md):python,maxcompute,connection
 
-[Python Maxcomputer(ODPS) Table Creat](every/202011/20201121_01.md):python,maxcomputer,odbs
+[Python:Maxcompute 创建表](every/202011/20201121_01.md):python,maxcomputer,odbs
 
-[Python Maxcompute(ODPS) Table Date Read(not final)](every/202011/20201120_01.md):python,maxcompute,odps,table,sql
+[Python:Maxcompute 表数据操作](every/202011/20201120_01.md):python,maxcompute,odps,table,sql
 
 [数学分析 多元微积分](every/202011/20201119_01.md):数学,数学分析,多元函数微分学,数学分析下31节视频
 
@@ -143,7 +143,7 @@
 
 [第9章 类](every/202011/20201103_01.md):python,《Python编程：从入门到实践》
 
-[python group by statistics demo](every/202011/20201102_01.md):python,group by,statistics
+[Python:Pandas分组与聚合](every/202011/20201102_01.md):python,group by,statistics,pandas
 
 [python pip install local package](every/202011/20201101_01.md):python,pip,install,local package,windows
 
@@ -335,13 +335,13 @@
 
 [linux ftpclient get windows ftp server chinese errorcode](every/202004/20200407_01.md):linux,windows,ftpclient,ftp server,chinese errorcode
 
-[Python 6 random txt](every/202004/20200403_01.md):python,random
+[Python:random](every/202004/20200403_01.md):python,random
 
 [Github support latex with plug-in](every/202004/20200402_01.md):question,github,typora,latex,plug-in
 
 [windows plan invoke bat script not pop](every/202004/20200401_01.md):question,windows,plan,invoke bat script,pop
 
-[Python clean up typora md label](every/202003/20200331_01.md):python,python 3.x,keyword,file,not final
+[Python Case:同级目录生成文档标签链接](every/202003/20200331_01.md):python,python 3.x,keyword,file,label
 
 [linux centos 7  network not configure](every/202003/20200330_01.md):linux,centos,centos 7.x,install,min,network configure
 
@@ -387,11 +387,27 @@
 
 [360 browser plug-in visit google](every/202003/20200301_01.md):google
 
+[Python:下载网上文件](every/202002/20200229_01.md):python,download,file,network,requests
+
+[Python:下载网上文件](every/202002/20200228_01.md):python,download,file,network,urllib
+
+[Python:数据库数据转化为数据框](every/202002/20200227_01.md):python,database data,dataframe,convert,transform
+
 [postgresql event trigger](every/202002/20200226_01.md):postgres,postgresql,trigger,event trigger,从小工到专家
 
 [postgresql monitor table change](every/202002/20200225_01.md):postgres,monitor,table,change
 
+("[Question:AttributeError: 'DataFrame' object has no attribute 'ix'](every/202002/20200224_01.md):question,dataframe,python,ix,iloc,pandas,numpy",)
+
+[Question:No matching distribution found for urllib2](every/202002/20200221_01.md):python,version 3,version 3.7
+
+[Python Case:照片链接换行如何下载下来(not final)](every/202002/20200220_01.md):python,image,path,network,download,line feed
+
 [oracle windows  modify listen port](every/202002/20200219_01.md):oracle,windows,listen port,modify
+
+[Python Case:下载网页照片替换文档内容](every/202002/20200218_01.md):python,download,network,link,copy,replace,document
+
+[Postgresql:pgadmin 4 使用](every/202002/20200217_01.md):postgresql,pgadmin,4,usage,全抄
 
 [Python:Word 读取](every/202002/20200216_01.md):python,word,read
 
@@ -411,7 +427,7 @@
 
 [符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
 
-[二重积分计算方法[转载]](every/202001/20200131_01.md):数学,数学分析,二重积分
+[二重积分计算方法](every/202001/20200131_01.md):数学,数学分析,二重积分
 
 ("[Question:ModuleNotFoundError: No module named 'pygal.i18n'](every/202001/20200130_01.md):python,question,pygal.i18n,pygal_maps_world.i18n",)
 
@@ -569,7 +585,7 @@
 
 [挑战自我 oracle 静默安装](every/201812/20181222_01.md):oracle silent install
 
-[Was:was install and update](every/201812/20181217_01.md):linux,was install,was update,not final
+[Was:was install and update](every/201812/20181217_01.md):linux,was install
 
 [linux udev tutorial](every/201812/20181215_01.md):linux,centos 5,centos 6,udev tutorial
 
