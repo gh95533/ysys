@@ -309,7 +309,7 @@
 
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
-[Redhat install kafka](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
+[Kafka:kafka install](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
 
 [Redhat/Centos  install Greenplum database with rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
 
