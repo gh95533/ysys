@@ -145,7 +145,7 @@
 
 [Python:Pandas分组与聚合](every/202011/20201102_01.md):python,group by,statistics,pandas
 
-[python pip install local package](every/202011/20201101_01.md):python,pip,install,local package,windows
+[Python:pip迁移依赖包](every/202011/20201101_01.md):python,pip,install,local package,windows
 
 [第8章 函数](every/202010/20201031_01.md):python,《Python编程：从入门到实践》
 
@@ -260,6 +260,10 @@
 [Postgresql:技术内幕](every/202008/20200813_01.md):postgres
 
 [Linux:卸载Openjdk安装jdk](every/202008/20200807_01.md):linux,uninstall,openjdk
+
+[Kettle:集群vs单机](every/202008/20200806_01.md):kettle,single,cluster
+
+[Postgresql:物化视图](every/202008/20200804_01.md):postgresql,materialize view
 
 [第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
 
