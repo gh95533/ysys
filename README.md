@@ -37,7 +37,7 @@
 
 [kettle 8.2 Graphical anomaly on centos 7](every/202012/20201228_01.md):kettle,graphical,centos
 
-[kettle cluster 8.2 install on centos 7](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
+[Kettle Cluster:Kettle Cluster 8.2 安装](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
 
 [kettle cluster 9.0 install on centos 7](every/202012/20201226_01.md):kettle,cluster,9.0,centos,7.3,install
 
@@ -51,11 +51,11 @@
 
 [kettle linux crontab every minute](every/202012/20201221_01.md):linux,kettle,crontab,skip
 
-[关于某地GP数据倾斜严重的后续处理](every/202012/20201220_01.md):greenplum,data skew
+[Greenplum Case:关于某地GP数据倾斜严重的后续处理](every/202012/20201220_01.md):greenplum,data skew
 
-[centos install kafka cluster](every/202012/20201219_01.md):centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk
+[Kafka Cluster:Kafka Cluster install](every/202012/20201219_01.md):centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk
 
-[linux centos 7.2 install clamav](every/202012/20201218_01.md):linux,centos 7.2,clamav,install
+[Linux:Clamav 安装](every/202012/20201218_01.md):linux,centos 7.2,clamav,install
 
 ("[ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded",)
 
@@ -65,19 +65,19 @@
 
 [greenplum table segment table relation](every/202012/20201214_01.md):greenplum
 
-[greenplum distibution and skew(not final)](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients
+[Greenplum:Greenplum distibution and skew(not final)](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients
 
-[greenplum not free disk space and gprecoverseg](every/202012/20201212_01.md):greenplum,gprecoverseg,not free disk space
+[Greenplum Case:执行恢复gprecoverseg命令发现数据库节点没有剩余空间](every/202012/20201212_01.md):greenplum,gprecoverseg,not free disk space
 
 [centos error:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
 
 [greenplum gprecoverseg exercise](every/202012/20201210_01.md):greenplumgprecvoerseg
 
-[greenplum data skew](every/202012/20201209_01.md):greenplum,data skew
+[Greenplum Case:数据倾斜处理步骤](every/202012/20201209_01.md):greenplum,data skew
 
 [greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
 
-[greenplum truncate vacuum vacuum full](every/202012/20201207_01.md):greenplum,truncate,vacuum,vacuum full
+[Greenplum Case: 中间表更新后,Truncate是否释放空间](every/202012/20201207_01.md):greenplum,update,truncate,vacuum,vacuum full
 
 [二元函数极值](every/202012/20201206_01.md):数学,数学分析,二元函数,极值,数学分析下第42节视频
 
@@ -181,7 +181,7 @@
 
 [正则表达式](every/202010/20201015_01.md):knowledge,cainiao,Regular Expression
 
-[Regular Expression](every/202010/20201014_01.md):knowledge,cainiao,Regular Expression,synopsis
+[Regular Expression:正则表达式](every/202010/20201014_01.md):knowledge,cainiao,Regular Expression,synopsis
 
 [linux centos 7.3 install greenplum 4.3 not ssh port 22](every/202010/20201013_01.md):linux,centos7.3,greenplum 4.3 install
 
@@ -259,15 +259,17 @@
 
 [Postgresql:技术内幕](every/202008/20200813_01.md):postgres
 
-[Linux Uninstall Openjdk](every/202008/20200807_01.md):linux,uninstall,openjdk
+[Linux:卸载Openjdk安装jdk](every/202008/20200807_01.md):linux,uninstall,openjdk
 
 [第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
 
-[Postgresql fdw file](every/202007/20200727_01.md):postgresq,fdw
+[Postgresql:Fdw file](every/202007/20200727_01.md):postgresq,fdw
 
 [Kettle:数据库资源库](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
 [linux 命令行文本处理工具](every/202007/20200721_01.md):linux
+
+[Linux:树状文件系统结构](every/202007/20200719_01.md):linux,system,directory structure,树状文件系统结构
 
 [linux 磁盘基本概念](every/202007/20200718_01.md):linux,磁盘
 
@@ -277,15 +279,17 @@
 
 [linux virtualbox copy](every/202007/20200714_01.md):linux,virtual,virtualbox machine,copy,modify
 
+[LINUX:系统启动流程](every/202007/20200711_01.md):linux,startup,start,系统启动流程
+
 [kettle errors](every/202007/20200709_01.md):kettle,error
 
 [kettle cdc](every/202007/20200707_01.md):kettle
 
-[kettle 17M json](every/202007/20200706_01.md):kettle,json
+[Kettle Case:Json文件过大如何解析入库](every/202007/20200706_01.md):kettle,json,large json,large
 
 [python function check gmsfhm idnum](every/202007/20200701_01.md):python,function,maxcompute,idnum,gmsfhm,身份证
 
-[kettle move other machine](every/202006/20200630_01.md):kettle
+[Kettle Case:Kettle 环境从Windows迁移到Linux](every/202006/20200630_01.md):kettle,windows,linux
 
 [Kettle 判断程序执行](every/202006/20200626_01.md):kettle,job,jurge,skip
 
@@ -293,7 +297,7 @@
 
 [windows modify the drive](every/202006/20200616_01.md):windows,drive,win10
 
-[greenplum gpkafka usage](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
+[Greenplum Case:Gpkafka 使用](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
 
 [redhat 7.4 install docker](every/202006/20200613_01.md):redhat 7.4,docker install
 
@@ -583,9 +587,9 @@
 
 [dba的分工和工作内容](every/201811/20181120_01.md):oracle dba
 
-[oracle awr analyze](every/201811/20181119_01.md):oracle,awr,awr analyze
+[Oracle Case:分析awr某个日志](every/201811/20181119_01.md):oracle,awr,awr analyze
 
-[oracle_rac_bjjz_awr](every/201811/20181109_01.md):oracle rac,awr
+[Oracle Case:分析awr某个日志](every/201811/20181109_01.md):oracle rac,awr
 
 [Ftp:linux ftp 中文乱码](every/201810/20181026_01.md):linux ftp,ssh,scp,kettle,not final
 
@@ -597,9 +601,9 @@
 
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 
-[gz mongo cluster install （二）](every/201809/20180919_01.md):mongo,cluster
+[Mongo Case:mongo集群正确安装](every/201809/20180919_01.md):mongo,cluster
 
-[libra 数据库 常规使用](every/201809/20180914_01.md):libra
+[Libra Case:Libra 常规使用](every/201809/20180914_01.md):libra
 
 [GZ mongo cluster install](every/201809/20180913_01.md):mongo,cluster
 
@@ -619,7 +623,7 @@
 
 [pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
 
-[Postgresql remove clog then failed](every/201807/20180726_01.md):postgresq,clog
+[Postgresql Case:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
 
 [postgresql dba 3](every/201807/20180723_01.md):postgresq,dba
 
@@ -627,7 +631,7 @@
 
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 
-[kettle cluster 5.4 install on centos 6](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
+[Kettle Cluster:Kettle Cluster 5.4 安装](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
 
 [Kettle:全量迁移](every/201806/20180622_01.md):kettle,oracle
 
@@ -635,7 +639,7 @@
 
 [Kettle:全量抽取](every/201806/20180616_01.md):kettle
 
-[kettle配置oracle集群](every/201806/20180615_01.md):kettle,oracle
+[Kettle:配置oracle集群](every/201806/20180615_01.md):kettle,oracle,oracle rac,connection
 
 [postgres truncate course](every/201802/20180204_01.md):postgres,truncate
 
@@ -655,13 +659,11 @@
 
 [install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
 
-[oracle error Process xxxx died](every/201601/20160101_01.md):oracle,error,process xxx died
+[Question:Process J003 is dead](every/201601/20160101_01.md):oracle,error,process,died,question
 
 [postgresql 修炼之道 第一章 总体概况](every/201502/20150201_01.md):postgresql
 
-[菜鸟教程_Docker教程学习5](every/201501/20150103_01.md):菜鸟教程,Docker,not final
-
-[菜鸟教程_Docker教程学习3](every/201501/20150102_01.md):菜鸟教程,Docker
+[Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
 
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
 
