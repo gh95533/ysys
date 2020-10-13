@@ -295,6 +295,8 @@
 
 [Kettle Case:Kettle 环境从Windows迁移到Linux](every/202006/20200630_01.md):kettle,windows,linux
 
+[Kettle:Mysql数据库资源库](every/202006/20200628_01.md):kettle,mysql database repository
+
 [Kettle 判断程序执行](every/202006/20200626_01.md):kettle,job,jurge,skip
 
 [greenplum data load using kettle](every/202006/20200619_01.md):greenplum,data load,greenplum 6.x,greenplum 5.x,kettle,kettle 8.x,kafka,gpkafka
@@ -363,6 +365,8 @@
 
 [Python mkdir dirctory  file](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
 
+("[Question:Geany:SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xb1 in position 0: invalid start byte](every/202003/20200322_01.md):python,geany,utf-8",)
+
 [pip not found in window](every/202003/20200321_01.md):python,python 3.x,pip,not found,windows,win10
 
 [Python connect PostgreSQL](every/202003/20200320_01.md):postgresql,python,python 3.x,connection,ddl,dml
@@ -375,9 +379,21 @@
 
 [virtual install win7](every/202003/20200315_01.md):virtual,virtualbox,windows,win7,install
 
+[Maxcompute:CLUSTER_SAMPLE 分组抽样](every/202003/20200314_01.md):maxcompute,cluster_sample,分组抽样
+
 [Python pip pygame not support](every/202003/20200313_01.md):python,pip,pygame,not support
 
+[Maxcompute:CUME_DIST](every/202003/20200312_01.md):maxcompute,cume_dist,累次分布
+
+[Maxcompute:窗口函数](every/202003/20200311_01.md):maxcompute,窗口函数
+
 [oracle rac expdp impdp](every/202003/20200310_01.md):oracle,oracle rac,expdp,impdp
+
+[Oracle Case:Oracle 单机 重建控制文件 无法启动(not final)](every/202003/20200309_01.md):oracle,single,crontal file,not start
+
+[Maxcompute:NTILE 分组数据按照顺序切分成n片](every/202003/20200308_01.md):maxcompute,cluster_sample,分组数据按照顺序切分成n片
+
+[Python:初识Python多线程(not final)](every/202003/20200307_01.md):python,多线程,thread
 
 [R language command save png](every/202003/20200306_01.md):R,Rstudio,save,png,picture
 
@@ -473,7 +489,7 @@
 
 [第16章 下载数据](every/202001/20200111_01.md):python,《Python编程：从入门到实践》
 
-[Python Jieba](every/202001/20200109_01.md):python,jieba,中文分词,not fianl
+[Python Jieba(not final)](every/202001/20200109_01.md):python,jieba,中文分词
 
 [20 PostgreSQL 监控1 统计进程和统计信息的解读](every/202001/20200108_01.md):postgres,diago,learn,monitor
 
