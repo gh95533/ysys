@@ -339,9 +339,13 @@
 
 [elasticsearch  kibana multiple install](every/202004/20200414_01.md):elasticsearch,kibana,multiple install
 
+[MaxCompute:一次优化SQL效率](every/202004/20200409_01.md):maxcompute,sql,fast
+
 [kettle json output one row not all](every/202004/20200408_01.md):kettle,json output,not all
 
 [linux ftpclient get windows ftp server chinese errorcode](every/202004/20200407_01.md):linux,windows,ftpclient,ftp server,chinese errorcode
+
+[Python Case:Pandas 解析 不规则 Excel](every/202004/20200406_01.md):python,pandas,not regular,excel
 
 [Python:Python3 日期和时间](every/202004/20200404_01.md):python,python3,date,time,datetime,菜鸟教程
 
