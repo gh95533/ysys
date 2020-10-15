@@ -299,6 +299,8 @@
 
 [Kettle 判断程序执行](every/202006/20200626_01.md):kettle,job,jurge,skip
 
+[kettle  support greenplum gpload](every/202006/20200625_01.md):kettle,greenplum gpload
+
 [greenplum data load using kettle](every/202006/20200619_01.md):greenplum,data load,greenplum 6.x,greenplum 5.x,kettle,kettle 8.x,kafka,gpkafka
 
 [windows modify the drive](every/202006/20200616_01.md):windows,drive,win10
@@ -340,6 +342,8 @@
 [kettle json output one row not all](every/202004/20200408_01.md):kettle,json output,not all
 
 [linux ftpclient get windows ftp server chinese errorcode](every/202004/20200407_01.md):linux,windows,ftpclient,ftp server,chinese errorcode
+
+[Python:Python3 日期和时间](every/202004/20200404_01.md):python,python3,date,time,datetime,菜鸟教程
 
 [Python:random](every/202004/20200403_01.md):python,random
 
@@ -607,7 +611,7 @@
 
 [挑战自我 oracle 静默安装](every/201812/20181222_01.md):oracle silent install
 
-[Was:was install and update](every/201812/20181217_01.md):linux,was install
+[Was:was install](every/201812/20181217_01.md):linux,was install
 
 [linux udev tutorial](every/201812/20181215_01.md):linux,centos 5,centos 6,udev tutorial
 
