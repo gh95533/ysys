@@ -265,7 +265,19 @@
 
 [Postgresql:物化视图](every/202008/20200804_01.md):postgresql,materialize view
 
+[Postgresql:外部表](every/202008/20200803_01.md):postgresql,fdw
+
+[Postgresql:redis 外部表](every/202008/20200802_01.md):postgresql,redis,fdw
+
 [第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
+
+[Postgresql:postgresql 外部表](every/202007/20200731_01.md):postgresql,fdw
+
+[Postgresql:oracle 外部表](every/202007/20200730_01.md):postgresql,oracle,外部表,fdw
+
+[Postgresql:mysql 外部表](every/202007/20200729_01.md):postgresql,mysql,fdw
+
+[Postgresql:mongo 外部表](every/202007/20200728_01.md):postgresql,mongo,fdw
 
 [Postgresql:Fdw file](every/202007/20200727_01.md):postgresq,fdw
 
@@ -287,9 +299,15 @@
 
 [kettle errors](every/202007/20200709_01.md):kettle,error
 
+[Kettle Case:复制大量表](every/202007/20200708_01.md):kettle,for,loop
+
 [kettle cdc](every/202007/20200707_01.md):kettle
 
 [Kettle Case:Json文件过大如何解析入库](every/202007/20200706_01.md):kettle,json,large json,large
+
+[Kettle Case:kettle从ftp下载文件](every/202007/20200705_01.md):kettle,ftp,file,download
+
+[Kettle Case:kettle 获取远程文件并下载](every/202007/20200703_01.md):kettle,ftp,download
 
 [python function check gmsfhm idnum](every/202007/20200701_01.md):python,function,maxcompute,idnum,gmsfhm,身份证
 
@@ -301,11 +319,21 @@
 
 [kettle  support greenplum gpload](every/202006/20200625_01.md):kettle,greenplum gpload
 
+[Kettle:greenplum bulk loader](every/202006/20200624_01.md):kettle,error,greenplum bulk loader
+
+[KETTLE GPLOAD LOAD](every/202006/20200623_01.md):摘抄,kettle,gpload load
+
+[Windows:开启自带ftp](every/202006/20200622_01.md):windows,window,ftp
+
 [greenplum data load using kettle](every/202006/20200619_01.md):greenplum,data load,greenplum 6.x,greenplum 5.x,kettle,kettle 8.x,kafka,gpkafka
+
+[Linux:ftp 安装](every/202006/20200618_01.md):linux,ftp
 
 [windows modify the drive](every/202006/20200616_01.md):windows,drive,win10
 
 [Greenplum Case:Gpkafka 使用](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
+
+[Datastage:datastage 安装](every/202006/20200614_01.md):datastage,install,linux
 
 [redhat 7.4 install docker](every/202006/20200613_01.md):redhat 7.4,docker install
 
