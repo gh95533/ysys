@@ -199,11 +199,21 @@
 
 [kettle ftp rar zip excel database](every/202010/20201005_01.md):kettle,ftp,download,rar,zip,excel
 
+[oracle rac synchronization time](every/202010/20201004_01.md):oracle rac,synchronization time
+
 [多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 
 [documents learn review search first version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
+
+[greenplum synchronization time](every/202009/20200930_01.md):greenplum,sysnchronization time
+
+[oracle rac listener vs oracle single listener](every/202009/20200929_01.md):oracle rac listener,oracle single listener
+
+[Oracle select slow datatype](every/202009/20200928_01.md):oracle,select slow,datatype
+
+[virtualbox not open machine with vt-x](every/202009/20200927_01.md):virtualbox not open machine,vt-x,amd-v
 
 [Mongo:mongo learn](every/202009/20200926_01.md):mongo,learn\u200b\t
 
@@ -233,9 +243,19 @@
 
 [postgres gprof](every/202009/20200909_01.md):postgres,gprof
 
+[pg dba 6](every/202009/20200908_01.md):postgresql,
+
+[postgresql 全文搜索](every/202009/20200906_01.md):postgresql
+
+[postgresql  bufpage.h](every/202009/20200905_01.md):postgresql,
+
+[pg 在同一个页面对一条数据做update后，最早出现的数据lp_off变为0](every/202009/20200904_01.md):postgresql
+
 [数学分析 多元函数微分](every/202009/20200901_01.md):数学,数学分析,多元函数微分,数学分析下第36节视频
 
 [linux 无法使用root用户登录](every/202008/20200831_01.md):linux,root,centos7.2
+
+[pg dba 5](every/202008/20200828_01.md):postgresql,
 
 [linux remote manage](every/202008/20200827_01.md):linux,remote
 
@@ -244,6 +264,8 @@
 [Linux:同时关闭所有服务器](every/202008/20200825_01.md):centos,redhat,ssh,ssh-keygen
 
 [LINUX XMANAGER VNC](every/202008/20200823_01.md):linux,xmanager,vnc
+
+[postgresql dba 4](every/202008/20200822_01.md):postgresql
 
 [question:package ‘XML’ is not available (for R version 3.6.3)](every/202008/20200821_01.md):question,think,R,xml,package
 
@@ -254,6 +276,8 @@
 [LINUX 逻辑卷 CREATE EXTEND](every/202008/20200818_01.md):linux,vgs,pvs,lvs,extent
 
 [linux 分区 文件系统 挂载 逻辑卷](every/202008/20200816_01.md):linux
+
+[LINUX 磁盘分区 parted](every/202008/20200815_01.md):linux,
 
 [数学分析_函数](every/202008/20200814_01.md):数学,数学分析,函数
 
@@ -294,6 +318,8 @@
 [Linux:vi,vim](every/202007/20200715_01.md):linux,vi,vim
 
 [linux virtualbox copy](every/202007/20200714_01.md):linux,virtual,virtualbox machine,copy,modify
+
+[linux svn install](every/202007/20200712_01.md):linux,svn
 
 [LINUX:系统启动流程](every/202007/20200711_01.md):linux,startup,start,系统启动流程
 
@@ -367,6 +393,10 @@
 
 [elasticsearch  kibana multiple install](every/202004/20200414_01.md):elasticsearch,kibana,multiple install
 
+[Everything:Windows 搜索利器](every/202004/20200411_01.md):everything
+
+[Python Case:修改文件内容(二)](every/202004/20200410_01.md):python,copy,move,file,change
+
 [MaxCompute:一次优化SQL效率](every/202004/20200409_01.md):maxcompute,sql,fast
 
 [kettle json output one row not all](every/202004/20200408_01.md):kettle,json output,not all
@@ -374,6 +404,8 @@
 [linux ftpclient get windows ftp server chinese errorcode](every/202004/20200407_01.md):linux,windows,ftpclient,ftp server,chinese errorcode
 
 [Python Case:Pandas 解析 不规则 Excel](every/202004/20200406_01.md):python,pandas,not regular,excel
+
+[Python:将sql数据转化为json格式](every/202004/20200405_01.md):python,sql,json,convert,format
 
 [Python:Python3 日期和时间](every/202004/20200404_01.md):python,python3,date,time,datetime,菜鸟教程
 
@@ -473,9 +505,13 @@
 
 [第4章 R包](every/202002/20200213_01.md):R,《R语言核心技术手册》
 
+[第11章 数据的存取和编辑](every/202002/20200211_01.md):R,《R语言核心技术手册》
+
 [第13章 图形](every/202002/20200209_01.md):R,graphics,《R语言核心技术手册》
 
 [kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
+
+[第十二章 准备数据](every/202002/20200207_01.md):R,《R语言核心技术手册》
 
 [第3章  简短的示例](every/202002/20200206_01.md):R,《R语言核心技术手册》
 
@@ -497,7 +533,7 @@
 
 [Python:Word 写入](every/202001/20200126_01.md):python,word,docx,write
 
-[Python Case:修改文件内容](every/202001/20200125_01.md):python,copy,move,file
+[Python Case:修改文件内容](every/202001/20200125_01.md):python,copy,move,file,change
 
 [官网文档:编写你的第一个Django应用,第2部分](every/202001/20200124_01.md):python,django,官网文档,编写你的第一个Django应用
 
@@ -659,27 +695,71 @@
 
 [oracle 授权用户只能查询某表](every/201811/20181127_01.md):oracle,grant
 
+[kafka install](every/201811/20181124_01.md):kafka,install
+
+[oracle rac drop tablespace](every/201811/20181123_01.md):oracle rac,drop tablespace
+
+("[oracle partition lot's not check](every/201811/20181122_01.md):oracle,partition,lot's not check",)
+
+[Hadoop 入门手册 虚拟机 使用](every/201811/20181121_01.md):hadoop,virtualbox
+
 [dba的分工和工作内容](every/201811/20181120_01.md):oracle dba
 
 [Oracle Case:分析awr某个日志](every/201811/20181119_01.md):oracle,awr,awr analyze
 
+[oracle awr manager](every/201811/20181118_01.md):oracle,oracle awr,oracle awr manager
+
+[oracle wait event](every/201811/20181117_01.md):oracle,wait event
+
+[greenplum open source install with network](every/201811/20181115_01.md):greenplum,greenplum open source,greenplum open source install
+
 [Oracle Case:分析awr某个日志](every/201811/20181109_01.md):oracle rac,awr
 
+[ibm datastage not load library](every/201811/20181108_01.md):datastage,error,not load library
+
+[oracle 查询语句忽快忽慢](every/201811/20181107_01.md):oracle,sql slow or fast
+
+[linux ssh port](every/201811/20181106_01.md):linux,ssh,port
+
+[gpload delimiter character choose](every/201810/20181030_01.md):greenplum,gpload,delimiter character
+
+[oracle rac 软链接](every/201810/20181028_01.md):oracle rac,机器空间不够用，软链接
+
 [Ftp:linux ftp 中文乱码](every/201810/20181026_01.md):linux ftp,ssh,scp,kettle,not final
+
+[gpload configure](every/201810/20181024_01.md):gpload,gpfdist,gpload configure
+
+[linux redhat 7.4 install gpload 4.3](every/201810/20181023_01.md):redhat 7.4 install gpload 4.3
+
+[kettle 执行很多后不执行](every/201810/20181022_01.md):kettle,job not run
+
+[oracle mysql postgresql view 实现方式](every/201810/20181021_01.md):oracle view,mysql view,postgresql view
 
 [pg 修改级联视图](every/201810/20181016_01.md):pg,view,replace view
 
 [Redhat:redhat 7.4 install](every/201810/20181015_01.md):redhat,7.x install
 
+[linux redhat7.4 install vsftp](every/201810/20181014_01.md):linux,redhat,redhat7.4,vsftp,vsftp install
+
+[redis cluster install multiple not internet](every/201810/20181001_01.md):redis cluster install,multiple install, not internet
+
 [Virtualbox:linux install virtualbox](every/201809/20180930_01.md):linux,virtualbox,virtualbox install
+
+[redis cluster install multiple](every/201809/20180928_01.md):redis,redis cluster,multiple install\t
 
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 
 [Mongo Case:mongo集群正确安装](every/201809/20180919_01.md):mongo,cluster
 
+[mongo 了解](every/201809/20180918_01.md):mongo
+
+[redis cluster install](every/201809/20180917_01.md):redis,redis cluster,single install
+
 [Libra Case:Libra 常规使用](every/201809/20180914_01.md):libra
 
 [GZ mongo cluster install](every/201809/20180913_01.md):mongo,cluster
+
+[mongodb cluster install for linux](every/201809/20180910_01.md):linux,mongo
 
 [selinux 基础](every/201809/20180907_01.md):linux,selinux
 
@@ -687,9 +767,13 @@
 
 [gbase 8a single install](every/201808/20180825_01.md):gbase
 
+[pg 备份和恢复](every/201808/20180822_01.md):postgresql
+
 [pg 判断 字符 各种类型](every/201808/20180821_01.md):postgresql
 
 [VIRTUALBOX  not start virtual machine](every/201808/20180820_01.md):virutalbox,start
+
+[pg dba 7](every/201808/20180814_01.md):postgresql,
 
 [linux crontab every secord](every/201808/20180811_01.md):linux,crontab
 
@@ -697,11 +781,23 @@
 
 [pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
 
+[pg htup_details.h](every/201808/20180807_01.md):postgresql,
+
+[linux raid  destory](every/201808/20180803_01.md):linux,raid
+
 [Postgresql Case:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
+
+[PG TOAST](every/201807/20180725_01.md):postgresql,
 
 [postgresql dba 3](every/201807/20180723_01.md):postgresq,dba
 
 [PG PAGEINSPECT 探索数据页信息](every/201807/20180722_01.md):postgresq,pageinspect
+
+("[PG_TERMINATE_BACKENDpid')与子进程关系](every/201807/20180720_01.md):postgresql,",)
+
+[PG 培训 DBA 2](every/201807/20180719_01.md):postgresql
+
+[R语言:sin(x)图像](every/201807/20180707_01.md):R,sin(x)
 
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 
@@ -731,7 +827,11 @@
 
 [linux 管道 重定向 基础了解](every/201706/20170602_01.md):linux,|,grep,>
 
+[ftp command](every/201705/20170503_01.md):ftp,
+
 [install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
+
+[linux redhat 6.5 install gpload 4.3](every/201701/20170102_01.md):redhat 6.5 install gpload 4.3
 
 [Question:Process J003 is dead](every/201601/20160101_01.md):oracle,error,process,died,question
 
