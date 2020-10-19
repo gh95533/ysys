@@ -427,6 +427,8 @@
 
 [kettle plug-in file compare](every/202004/20200426_01.md):kettle,file compare
 
+[Python:Python IDE](every/202004/20200425_01.md):python,ide,菜鸟教程,python 3,摘抄
+
 [kettle for loop small data big data](every/202004/20200423_01.md):kettle,sql scripts
 
 [postgresql execute sql](every/202004/20200422_01.md):postgresql,execute sql
@@ -439,7 +441,11 @@
 
 [Linux wget jdk](every/202004/20200416_01.md):linux,
 
+[Python:正则表达式](every/202004/20200415_01.md):python,python 3,菜鸟教程
+
 [elasticsearch  kibana multiple install](every/202004/20200414_01.md):elasticsearch,kibana,multiple install
+
+[Python:JSON 数据解析](every/202004/20200413_01.md):python,python 3,json,菜鸟教程,Python 3 教程
 
 [Everything:Windows 搜索利器](every/202004/20200411_01.md):everything
 
@@ -549,7 +555,7 @@
 
 [Python:Word 读取](every/202002/20200216_01.md):python,word,read
 
-[第一章\t获取和安装R](every/202002/20200215_01.md):R,
+[第一章 获取和安装R](every/202002/20200215_01.md):R,
 
 [R05 R语言概览](every/202002/20200214_01.md):R,learn
 
