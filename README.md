@@ -429,6 +429,8 @@
 
 [Python:Python IDE](every/202004/20200425_01.md):python,ide,菜鸟教程,python 3,摘抄
 
+[Maxcompute:ODPS-0130071:[1,66061] Semantic  analysis excetpion - Illegal union operation - Number of set operators(UNION/INTERSECT/MINUS) exceeded limit of 255](every/202004/20200424_01.md):maxcompute,error,exception,union,intersect,minus
+
 [kettle for loop small data big data](every/202004/20200423_01.md):kettle,sql scripts
 
 [postgresql execute sql](every/202004/20200422_01.md):postgresql,execute sql
@@ -543,6 +545,8 @@
 
 [官网文档:编写你的第一个Django应用,第3部分(not final)](every/202002/20200223_01.md):python,django,官网文档,编写你的第一个Django应用
 
+("[Question:SyntaxError: Non-UTF-8 code starting with '\\xc4' in file](every/202002/20200222_01.md):eclipse,python",)
+
 [Question:No matching distribution found for urllib2](every/202002/20200221_01.md):python,version 3,version 3.7
 
 [Python Case:照片链接换行如何下载下来(not final)](every/202002/20200220_01.md):python,image,path,network,download,line feed
@@ -641,7 +645,7 @@
 
 [Oracle 单机 误删某个redo日志 修复数据库](every/202001/20200103_01.md):oracle,redo.log,single
 
-[Eclipse Python Pydev Configuration(not final)](every/202001/20200102_01.md):eclipse,python,pydev,configuration
+[Question:The selected wizard could not be started.Plug-in org.python.pydev was unable to load class org.python.pydev.ui.wizards.project.PythonProjectWizard.An error occurred while automatically activating bundle org.python.pydev (506).](every/202001/20200102_01.md):eclipse,python,pydev,configuration
 
 [Python Maxcompute:function check date](every/202001/20200101_01.md):python,maxcomputer,function,date,function,check,日期格式校验
 
