@@ -333,7 +333,7 @@
 
 [Kettle:数据库资源库](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
-[Kettle Case:Postgresql 数据库资源库](every/202007/20200724_01.md):kettle,database repository,postgresql
+[Kettle:Postgresql 数据库资源库](every/202007/20200724_01.md):kettle,database repository,postgresql
 
 [Studio 3T for Mongodb](every/202007/20200723_01.md):studio
 
@@ -433,11 +433,13 @@
 ### 202005
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
+[第2章 Django 配置信息](every/202005/20200504_01.md):python,django,《Django Web 应用开发实战》
+
 [Kafka:kafka install](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
 
-[Eclipse:Django 初始化(not final)](every/202005/20200502_01.md):eclipse,django
+[Eclipse:Django 初始化](every/202005/20200502_01.md):eclipse,django
 
-[Redhat/Centos  install Greenplum database with rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
+[Greenplum:Greenplum install through rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
 
 
 ### 202004
@@ -451,7 +453,7 @@
 
 [kettle plug-in file compare](every/202004/20200426_01.md):kettle,file compare
 
-[Python:Python IDE](every/202004/20200425_01.md):python,ide,菜鸟教程,python 3,摘抄
+[Python:Python IDE](every/202004/20200425_01.md):python,ide,菜鸟教程,python 3,excerpt
 
 [Maxcompute:ODPS-0130071:[1,66061] Semantic  analysis excetpion - Illegal union operation - Number of set operators(UNION/INTERSECT/MINUS) exceeded limit of 255](every/202004/20200424_01.md):maxcompute,error,exception,union,intersect,minus
 
@@ -463,7 +465,7 @@
 
 [greenplum function split factor](every/202004/20200420_01.md):greenplum,function,split,factor
 
-[Python:Maxcompute DataFrame](every/202004/20200419_01.md):python,maxcompute,dataframe
+[Python:Maxcompute DataFrame](every/202004/20200419_01.md):python,maxcompute,dataframe,EXCERPT
 
 [Python:Xml 解析](every/202004/20200418_01.md):python,xml,analysis,excerpt
 
@@ -919,7 +921,7 @@
 
 [gbase 8a single install](every/201808/20180825_01.md):gbase
 
-[pg 去除字段特殊字符](every/201808/20180824_01.md):postgresq,
+[Postgresql:去除字段特殊字符](every/201808/20180824_01.md):postgresq,regexp_replace,punct
 
 [pg 备份和恢复](every/201808/20180822_01.md):postgresql
 
