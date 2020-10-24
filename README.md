@@ -16,7 +16,7 @@
 
  苦难迈过去就是资本，跨不出去变成屈辱.
 
-
+人最宝贵的东西是生命,生命每个人只有一次.人的一生应当这样度过：当他回忆往事的时候，他不会因为虚度年华而悔恨，也不会因为碌碌无为而羞愧.
 
 ## class
 
@@ -29,6 +29,8 @@
 
 
 ## every
+
+### 202012
 [Kettle Case:kettle 单机和集群对于同步kafka效率之比](every/202012/20201231_01.md):kettle,kafka,etl,cluster,
 
 [Greenplum Case:数据库一段时间后存储空间待耗尽](every/202012/20201230_01.md):greenplum,full,size,expend,gp 4.x,gp 6.x,disk not free
@@ -57,7 +59,7 @@
 
 [Linux:Clamav 安装](every/202012/20201218_01.md):linux,centos 7.2,clamav,install
 
-("[ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded",)
+[ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded
 
 [postgresql automatic startup](every/202012/20201216_01.md):postgresql,centos7.3,auto,startup
 
@@ -91,6 +93,8 @@
 
 [多元函数微分学](every/202012/20201201_01.md):数学,数学分析,多元函数微分学,数学分析下第38节视频
 
+
+### 202011
 [Python Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label,python,postgresql,postgres
 
 [Python Case:Maxcompute 读取表结构信息](every/202011/20201128_01.md):python,odps,pyodps,maxcompute,table,partition
@@ -147,6 +151,8 @@
 
 [Python:pip迁移依赖包](every/202011/20201101_01.md):python,pip,install,local package,windows
 
+
+### 202010
 [第8章 函数](every/202010/20201031_01.md):python,《Python编程：从入门到实践》
 
 [第7章 用户输入和while循环](every/202010/20201030_01.md):python,《Python编程：从入门到实践》
@@ -207,6 +213,8 @@
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
+
+### 202009
 [greenplum synchronization time](every/202009/20200930_01.md):greenplum,sysnchronization time
 
 [oracle rac listener vs oracle single listener](every/202009/20200929_01.md):oracle rac listener,oracle single listener
@@ -215,7 +223,7 @@
 
 [virtualbox not open machine with vt-x](every/202009/20200927_01.md):virtualbox not open machine,vt-x,amd-v
 
-[Mongo:mongo learn](every/202009/20200926_01.md):mongo,learn\u200b\t
+[Mongo:mongo learn](every/202009/20200926_01.md):mongo,learn​	
 
 [postgresql function check idnum gmsfhm](every/202009/20200925_01.md):postgresql,function,idnum,gmsfhm
 
@@ -259,6 +267,8 @@
 
 [数学分析 多元函数微分](every/202009/20200901_01.md):数学,数学分析,多元函数微分,数学分析下第36节视频
 
+
+### 202008
 [linux 无法使用root用户登录](every/202008/20200831_01.md):linux,root,centos7.2
 
 [postgresql with query update delete 递归](every/202008/20200830_01.md):postgresql,
@@ -293,7 +303,7 @@
 
 [Postgresql:技术内幕](every/202008/20200813_01.md):postgres
 
-[pg_列式存储\\_2](every/202008/20200809_01.md):postgresql
+[pg_列式存储\_2](every/202008/20200809_01.md):postgresql
 
 [pg_列式存储](every/202008/20200808_01.md):postgresql,
 
@@ -309,6 +319,8 @@
 
 [第1章 起步](every/202008/20200801_01.md):python,《Python编程：从入门到实践》
 
+
+### 202007
 [Postgresql:postgresql 外部表](every/202007/20200731_01.md):postgresql,fdw
 
 [Postgresql:oracle 外部表](every/202007/20200730_01.md):postgresql,oracle,外部表,fdw
@@ -369,6 +381,8 @@
 
 [python function check gmsfhm idnum](every/202007/20200701_01.md):python,function,maxcompute,idnum,gmsfhm,身份证
 
+
+### 202006
 [Kettle Case:Kettle 环境从Windows迁移到Linux](every/202006/20200630_01.md):kettle,windows,linux
 
 [kettle oracle update then insert](every/202006/20200629_01.md):kettle
@@ -415,6 +429,8 @@
 
 [greenplum uuid function create](every/202006/20200601_01.md):greenplum,uuid,6.4.0
 
+
+### 202005
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
 [Kafka:kafka install](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
@@ -423,6 +439,8 @@
 
 [Redhat/Centos  install Greenplum database with rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
 
+
+### 202004
 [kettle kafka greenplum](every/202004/20200430_01.md):kettle,kafka,greenplum
 
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
@@ -483,13 +501,15 @@
 
 [windows plan invoke bat script not pop](every/202004/20200401_01.md):question,windows,plan,invoke bat script,pop
 
+
+### 202003
 [Python Case:同级目录生成文档标签链接](every/202003/20200331_01.md):python,python 3.x,keyword,file,label
 
 [linux centos 7  network not configure](every/202003/20200330_01.md):linux,centos,centos 7.x,install,min,network configure
 
 [linux graphics install failed and then text command install why](every/202003/20200329_01.md):linux,centos,centos 7.x,install,graphics install,text command,install,why
 
-("[Python error UnicodeEncodeError: 'gbk' codec can't encode character 'u200b' in position 28: illegal multibyte sequence](every/202003/20200328_01.md):python,error,UnicodeEncodeError,'gbk' codec can't encode character",)
+[Python error UnicodeEncodeError: 'gbk' codec can't encode character 'u200b' in position 28: illegal multibyte sequence](every/202003/20200328_01.md):python,error,UnicodeEncodeError,'gbk' codec can't encode character
 
 [Python:Dog() takes no arguments](every/202003/20200327_01.md):question,python,python 3.x,init
 
@@ -501,7 +521,7 @@
 
 [Python mkdir dirctory  file](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
 
-("[Question:Geany:SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xb1 in position 0: invalid start byte](every/202003/20200322_01.md):python,geany,utf-8",)
+[Question:Geany:SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xb1 in position 0: invalid start byte](every/202003/20200322_01.md):python,geany,utf-8
 
 [pip not found in window](every/202003/20200321_01.md):python,python 3.x,pip,not found,windows,win10
 
@@ -543,6 +563,8 @@
 
 [360 browser plug-in visit google](every/202003/20200301_01.md):google
 
+
+### 202002
 [Python:下载网上文件](every/202002/20200229_01.md):python,download,file,network,requests
 
 [Python:下载网上文件](every/202002/20200228_01.md):python,download,file,network,urllib
@@ -553,11 +575,11 @@
 
 [postgresql monitor table change](every/202002/20200225_01.md):postgres,monitor,table,change
 
-("[Question:AttributeError: 'DataFrame' object has no attribute 'ix'](every/202002/20200224_01.md):question,dataframe,python,ix,iloc,pandas,numpy",)
+[Question:AttributeError: 'DataFrame' object has no attribute 'ix'](every/202002/20200224_01.md):question,dataframe,python,ix,iloc,pandas,numpy
 
 [官网文档:编写你的第一个Django应用,第3部分(not final)](every/202002/20200223_01.md):python,django,官网文档,编写你的第一个Django应用
 
-("[Question:SyntaxError: Non-UTF-8 code starting with '\\xc4' in file](every/202002/20200222_01.md):eclipse,python",)
+[Question:SyntaxError: Non-UTF-8 code starting with '\xc4' in file](every/202002/20200222_01.md):eclipse,python
 
 [Question:No matching distribution found for urllib2](every/202002/20200221_01.md):python,version 3,version 3.7
 
@@ -601,9 +623,11 @@
 
 [符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
 
+
+### 202001
 [二重积分计算方法](every/202001/20200131_01.md):数学,数学分析,二重积分
 
-("[Question:ModuleNotFoundError: No module named 'pygal.i18n'](every/202001/20200130_01.md):python,question,pygal.i18n,pygal_maps_world.i18n",)
+[Question:ModuleNotFoundError: No module named 'pygal.i18n'](every/202001/20200130_01.md):python,question,pygal.i18n,pygal_maps_world.i18n
 
 [Python Case:将数据库表结构写入excel](every/202001/20200129_01.md):python,database,export,excel,sheet
 
@@ -629,11 +653,11 @@
 
 [21 PostgreSQL 监控2 趋势监控数据收集和分析, nagios实时监控部署和自定义监控(not final)](every/202001/20200118_01.md):postgresql,dba
 
-("[Question:TypeError: __init__() missing 1 required positional argument: 'on_delete'](every/202001/20200117_01.md):python,question,models,on_delete",)
+[Question:TypeError: __init__() missing 1 required positional argument: 'on_delete'](every/202001/20200117_01.md):python,question,models,on_delete
 
 [Question:django-admin.py startproject learning_log . not response](every/202001/20200116_01.md):question,python,diango-admin.py,windows,pip
 
-("[Error:AttributeError: 'NoneType' object has no attribute 'decode'](every/202001/20200115_01.md):python",)
+[Error:AttributeError: 'NoneType' object has no attribute 'decode'](every/202001/20200115_01.md):python
 
 [第18章 Django 入门](every/202001/20200114_01.md):python,《Python编程：从入门到实践》
 
@@ -661,6 +685,8 @@
 
 [Maxcompute: Python 校验日期函数](every/202001/20200101_01.md):python,maxcompute,function,date,function,check,日期格式校验
 
+
+### 201912
 [Postgresql:超级管理员被删除如何恢复](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
@@ -675,6 +701,8 @@
 
 [ADS ODPS ORACLE ETL](every/201912/20191202_01.md):工作笔记,ADS,ODPS,ORACLE,ETL
 
+
+### 201911
 [kettle run without the GUI](every/201911/20191121_01.md):kettle,run,without the gui
 
 [linux centos6 install desktop](every/201911/20191120_01.md):linux,centos,centos6,centos6.5,desktop,yum,install
@@ -689,14 +717,20 @@
 
 [基于数据组成,数据长度分析数据的可能性](every/201911/20191110_01.md):data,data govern
 
+
+### 201909
 [Question: linux oracle 11g not installed: {pwd}/install/.oui: cannot execute binary file](every/201909/20190924_01.md):oracle not installed
 
+
+### 201908
 [kettle connect ODPS(maxcomputer)](every/201908/20190826_01.md):kettle,odps,maxcomputer,connection
 
 [R 语言初级课程 三](every/201908/20190807_01.md):data govern,R
 
 [数据对标:数据对标 v1_20190815](every/201908/20190805_01.md):data govern
 
+
+### 201905
 [数据对标:数据对标 v1_20190513](every/201905/20190513_01.md):data govern
 
 [文件删除，空间未释放](every/201905/20190512_01.md):question,df -Th,du -sh
@@ -717,10 +751,16 @@
 
 [Scws:scws install](every/201905/20190501_01.md):scws,install,centos,6,6.5
 
+
+### 201904
 [关于GA系统中文匹配的一些想法](every/201904/20190414_01.md):中文准确,中文模糊
 
+
+### 201903
 [数据调研](every/201903/20190303_01.md):数据调研
 
+
+### 201902
 [数据质量:思考](every/201902/20190228_01.md):think,not final
 
 [Postgresql zhparser Chinese Word Segmentation](every/201902/20190223_01.md):postgresql,zhparser,chinese word segmentation,not final
@@ -737,6 +777,8 @@
 
 [Regular Expression](every/201902/20190212_01.md):knowledge,cainiao,Regular Expression,course
 
+
+### 201901
 [Linux:Shell 教程](every/201901/20190130_01.md):knowledge,linux,shell,菜鸟教程,not final
 
 [Kettle:kettle 多种优化方式](every/201901/20190125_01.md):kettle,not final
@@ -749,6 +791,8 @@
 
 [java 教程](every/201901/20190101_01.md):knowledge,newbie,java
 
+
+### 201812
 [linux dns](every/201812/20181230_01.md):linux,centos7,dns,knowledge
 
 [postgresql asynchronization standby database](every/201812/20181229_01.md):postgresql,asynchronization standby database
@@ -777,7 +821,9 @@
 
 [yum 下载 rpm](every/201812/20181202_01.md):yum,download,centos7
 
-("[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design",)
+
+### 201811
+[greenplum table lot's record](every/201811/20181128_01.md):greenplum,table design
 
 [oracle 授权用户只能查询某表](every/201811/20181127_01.md):oracle,grant
 
@@ -787,7 +833,7 @@
 
 [oracle rac drop tablespace](every/201811/20181123_01.md):oracle rac,drop tablespace
 
-("[oracle partition lot's not check](every/201811/20181122_01.md):oracle,partition,lot's not check",)
+[oracle partition lot's not check](every/201811/20181122_01.md):oracle,partition,lot's not check
 
 [Hadoop 入门手册 虚拟机 使用](every/201811/20181121_01.md):hadoop,virtualbox
 
@@ -809,6 +855,8 @@
 
 [linux ssh port](every/201811/20181106_01.md):linux,ssh,port
 
+
+### 201810
 [gpload delimiter character choose](every/201810/20181030_01.md):greenplum,gpload,delimiter character
 
 [oracle rac 软链接](every/201810/20181028_01.md):oracle rac,机器空间不够用，软链接
@@ -831,9 +879,11 @@
 
 [redis cluster install multiple not internet](every/201810/20181001_01.md):redis cluster install,multiple install, not internet
 
+
+### 201809
 [Virtualbox:linux install virtualbox](every/201809/20180930_01.md):linux,virtualbox,virtualbox install
 
-[redis cluster install multiple](every/201809/20180928_01.md):redis,redis cluster,multiple install\t
+[redis cluster install multiple](every/201809/20180928_01.md):redis,redis cluster,multiple install	
 
 [我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 
@@ -855,6 +905,8 @@
 
 [selinux 基础](every/201809/20180907_01.md):linux,selinux
 
+
+### 201808
 [pg uuid](every/201808/20180831_01.md):postgresql,
 
 [Network:linux network boding subinterface](every/201808/20180830_01.md):linux,network
@@ -903,6 +955,8 @@
 
 [linux shell 入门](every/201808/20180801_01.md):linux,
 
+
+### 201807
 [rpm noarch.rpm src.rpm](every/201807/20180729_01.md):rpm,
 
 [Postgresql Case:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
@@ -917,7 +971,7 @@
 
 [PG pageinspect](every/201807/20180721_01.md):postgresql,
 
-("[PG_TERMINATE_BACKENDpid')与子进程关系](every/201807/20180720_01.md):postgresql,",)
+[PG_TERMINATE_BACKENDpid')与子进程关系](every/201807/20180720_01.md):postgresql,
 
 [PG 培训 DBA 2](every/201807/20180719_01.md):postgresql
 
@@ -931,6 +985,8 @@
 
 [pg_dblink_fdw_比较](every/201807/20180701_01.md):postgresql,
 
+
+### 201806
 [列式存储行式存储](every/201806/20180629_01.md):列式存储,行式存储
 
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
@@ -949,10 +1005,16 @@
 
 [mongo postgresql 替代 是否可行](every/201806/20180602_01.md):mongo
 
+
+### 201802
 [postgres truncate course](every/201802/20180204_01.md):postgres,truncate
 
+
+### 201801
 [postgres really grant select any table to user](every/201801/20180118_01.md):postgres,postgresql,grant,select
 
+
+### 201706
 [Raid:raid](every/201706/20170627_01.md):linux,raid
 
 [linux文件系统结构](every/201706/20170623_01.md):linux,
@@ -973,6 +1035,8 @@
 
 [LINUX 源代码 RPM  区别联系](every/201706/20170601_01.md):linux
 
+
+### 201705
 [install greenplum loader in linux](every/201705/20170505_01.md):linux,greenplum
 
 [kettle file analysis](every/201705/20170504_01.md):kettle
@@ -983,14 +1047,24 @@
 
 [windows 安装 datastage 客户端](every/201705/20170501_01.md):windows,
 
+
+### 201704
 [install oracle 12c single in linux](every/201704/20170401_01.md):oracle,oracle 12c,install
 
+
+### 201701
 [linux redhat 6.5 install gpload 4.3](every/201701/20170102_01.md):redhat 6.5 install gpload 4.3
 
+
+### 201601
 [Question:Process J003 is dead](every/201601/20160101_01.md):oracle,error,process,died,question
 
+
+### 201502
 [postgresql 修炼之道 第一章 总体概况](every/201502/20150201_01.md):postgresql
 
+
+### 201501
 [Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
 
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
