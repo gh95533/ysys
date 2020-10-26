@@ -51,7 +51,7 @@
 
 [Yum:No package epel-release available](every/202012/20201222_01.md):yum,epel
 
-[kettle linux crontab every minute](every/202012/20201221_01.md):linux,kettle,crontab,skip
+[Kettle Case:跳过条件执行](every/202012/20201221_01.md):linux,kettle,crontab,skip
 
 [Greenplum Case:关于某地GP数据倾斜严重的后续处理](every/202012/20201220_01.md):greenplum,data skew
 
@@ -61,23 +61,23 @@
 
 [ERROR: Kitchen can't continue because the job couldn't be loaded.](every/202012/20201217_01.md):kettle,error,kitchen,windows,the job couldn't be loaded
 
-[postgresql automatic startup](every/202012/20201216_01.md):postgresql,centos7.3,auto,startup
+[Postgresql Case:Postgres 自启动](every/202012/20201216_01.md):postgresql,centos7.3,auto,startup
 
-[Virtualbox自启动一台虚拟机](every/202012/20201215_01.md):virutalbox,automatic start
+[Virtualbox:自启动一台虚拟机](every/202012/20201215_01.md):virutalbox,automatic start
 
-[greenplum table segment table relation](every/202012/20201214_01.md):greenplum
+[Greenplum:各个节点表ID](every/202012/20201214_01.md):greenplum
 
 [Greenplum:Greenplum distibution and skew(not final)](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients
 
 [Greenplum Case:执行恢复gprecoverseg命令发现数据库节点没有剩余空间](every/202012/20201212_01.md):greenplum,gprecoverseg,not free disk space
 
-[centos error:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
+[Linux:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
 
-[greenplum gprecoverseg exercise](every/202012/20201210_01.md):greenplumgprecvoerseg
+[Greenplum Case:gprecoverseg 练习](every/202012/20201210_01.md):greenplumgprecvoerseg
 
 [Greenplum Case:数据倾斜处理步骤](every/202012/20201209_01.md):greenplum,data skew
 
-[greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
+[Greenplum:Greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
 
 [Greenplum Case: 中间表更新后,Truncate是否释放空间](every/202012/20201207_01.md):greenplum,update,truncate,vacuum,vacuum full
 
@@ -303,6 +303,8 @@
 
 [Postgresql:技术内幕](every/202008/20200813_01.md):postgres
 
+[Postgresql:Postgres instr 函数](every/202008/20200810_01.md):postgresql,postgres,instr,position
+
 [pg_列式存储\_2](every/202008/20200809_01.md):postgresql
 
 [pg_列式存储](every/202008/20200808_01.md):postgresql,
@@ -310,6 +312,8 @@
 [Linux:卸载Openjdk安装jdk](every/202008/20200807_01.md):linux,uninstall,openjdk
 
 [Kettle:集群vs单机](every/202008/20200806_01.md):kettle,single,cluster
+
+[Django:Eclipse Django Postgresql 配置连接串](every/202008/20200805_01.md):django,eclipse,postgresql,postgres,connection
 
 [Postgresql:物化视图](every/202008/20200804_01.md):postgresql,materialize view
 
@@ -693,7 +697,11 @@
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
 
+[Django:Django 安装](every/201912/20191208_01.md):python,django,菜鸟教程
+
 [postgres synchronous standby database](every/201912/20191207_01.md):postgres,synchronous standby database
+
+[Django:Django 简介](every/201912/20191206_01.md):python,django,菜鸟教程
 
 [postgres asynchronous standby database](every/201912/20191205_01.md):postgres,asynchronous standby database,create
 
@@ -702,6 +710,8 @@
 [postgresql dba 8](every/201912/20191203_01.md):postgres,dba
 
 [ADS ODPS ORACLE ETL](every/201912/20191202_01.md):工作笔记,ADS,ODPS,ORACLE,ETL
+
+[Django:Django 教程](every/201912/20191201_01.md):python,django,菜鸟教程
 
 
 ### 201911
