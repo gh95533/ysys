@@ -437,6 +437,8 @@
 ### 202005
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
+[第3章 初探路由](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》
+
 [第2章 Django 配置信息](every/202005/20200504_01.md):python,django,《Django Web 应用开发实战》
 
 [Kafka:kafka install](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
