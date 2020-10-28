@@ -435,6 +435,8 @@
 
 
 ### 202005
+[第3章 创建数据库和表](every/202005/20200523_01.md):postgresql,《深入浅出PostgreSql》
+
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
 [第3章 初探路由](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》
