@@ -18,13 +18,17 @@
 
 人最宝贵的东西是生命,生命每个人只有一次.人的一生应当这样度过：当他回忆往事的时候，他不会因为虚度年华而悔恨，也不会因为碌碌无为而羞愧.
 
+万丈高楼平地起，空中楼阁必定塌
+
+也许过去是痛苦的，现在是痛苦的，明天是痛苦的，以后也是痛苦的，也许连一瞬间快乐都不会拥有，那又怎样？
+
 
 
 ## name
 
-​	
+文档起名原则建议首先指出当前使用什么技术解决什么问题为主旨，如**Pyhon Case:Python 移动不同文件解决某目录文件不足** 
 
-
+文档起名其次如果是抄录别人的文档,建议保留原样，并且按照人家的目录结构来进行
 
 
 
@@ -34,9 +38,12 @@
 
 | [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](class/R.md) |
 | ------------------------- | --------------------------------- | --------------- |
-|                           |                                   |                 |
-|                           |                                   |                 |
-|                           |                                   |                 |
+| SAS                       |                                   |                 |
+| Greenplum                 | Go                                | Java            |
+| Math                      | Redhat/Centos                     | SPSS            |
+| SAS                       | Oracle                            | Mysql           |
+| Mongo                     | Redis                             | Kettle          |
+| Datastage                 | Maxcompute                        | Others          |
 
 ## every
 
@@ -89,8 +96,6 @@
 
 [Greenplum:Greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
 
-[Greenplum Case: 中间表更新后,Truncate是否释放空间](every/202012/20201207_01.md):greenplum,update,truncate,vacuum,vacuum full
-
 [二元函数极值](every/202012/20201206_01.md):数学,数学分析,二元函数,极值,数学分析下第42节视频
 
 [二元函数泰勒展开式](every/202012/20201205_01.md):数学,数学分析,二元函数,泰勒展开式,数学分析下第41节视频
@@ -105,7 +110,9 @@
 
 
 ### 202011
-[Python Every Markdown Word Title Link Label](every/202011/20201130_01.md):md,title,link,label,python,postgresql,postgres
+[Python Case:Python 利用关键字label遍历文件标签内容生成Readme.md文档内容](every/202011/20201130_01.md):md,title,link,label,python,postgresql,postgres
+
+[Python:xlwt 学习样例](every/202011/20201129_01.md):python,xlwt,xls
 
 [Python Case:Maxcompute 读取表结构信息](every/202011/20201128_01.md):python,odps,pyodps,maxcompute,table,partition
 
@@ -133,7 +140,7 @@
 
 [数学分析 多元函数微积分](every/202011/20201116_01.md):数学,数学分析,多元函数微分,数学分析下第35节视频
 
-[数据描述](every/202011/20201115_01.md):think
+[数据描述](every/202011/20201115_01.md):think,数据
 
 [数学分析 和函数分析性质 和函数可积](every/202011/20201114_01.md):数学分析,和函数可积
 
@@ -143,6 +150,8 @@
 
 [数学分析 和函数 例题](every/202011/20201111_01.md):数学分析,和函数
 
+[Question:ValueError: A string literal cannot contain NUL (0x00) characters.](every/202011/20201110_01.md):question,python,postgresql,0x00,maxcompute
+
 [第13章 外星人](every/202011/20201109_01.md):python,《Python编程：从入门到实践》
 
 [第12章 武装飞船](every/202011/20201108_01.md):python,《Python编程：从入门到实践》
@@ -151,9 +160,9 @@
 
 [第10章 文件和异常](every/202011/20201106_01.md):python,《Python编程：从入门到实践》
 
-[MD Docment move file](every/202011/20201105_01.md):md,move,rename
+[Pyhon Case:Python 移动不同文件解决某目录文件不足](every/202011/20201105_01.md):md,move,rename,python,postgres
 
-[MaxCompute  Case:上传Python函数](every/202011/20201104_01.md):maxcompute,upload,python,function
+[MaxCompute:上传Python函数](every/202011/20201104_01.md):maxcompute,upload,python,function
 
 [第9章 类](every/202011/20201103_01.md):python,《Python编程：从入门到实践》
 
@@ -217,7 +226,7 @@
 
 [oracle rac synchronization time](every/202010/20201004_01.md):oracle rac,synchronization time
 
-[多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
+[单个字段出现多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 
 [documents learn review search first version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
@@ -243,7 +252,7 @@
 
 [数学分析 多元函数可微](every/202009/20200921_01.md):数学,数学分析,多元函数可微,数据分析下第37视频
 
-[wps excel 超多行数据导入](every/202009/20200920_01.md):wps,excel,kettle,more data
+[Excel:wps excel 超多行数据导入](every/202009/20200920_01.md):wps,excel,kettle,more data
 
 [中文分词](every/202009/20200918_01.md):中文分词,chinese,participle,excerpt
 
@@ -255,6 +264,8 @@
 
 [linux boot then fsck](every/202009/20200914_01.md):linux,boot,fsck
 
+[Question:AttributeError: module 'xlwt.ExcelMagic' has no attribute 'std_func_by_name'](every/202009/20200913_01.md):python,xlwt,ExcelMagic,std_func_by_name
+
 [pgbouncer local install without postgresql](every/202009/20200912_01.md):postgres,pgbouncer,local,without postgresql 
 
 [pgbouncer install with postgresql](every/202009/20200911_01.md):pgbouncer,postgresql
@@ -264,6 +275,8 @@
 [postgres gprof](every/202009/20200909_01.md):postgres,gprof
 
 [pg dba 6](every/202009/20200908_01.md):postgresql,
+
+[Python Case:开发一个输入动态参数的小网站](every/202009/20200907_01.md):python
 
 [postgresql 全文搜索](every/202009/20200906_01.md):postgresql
 
@@ -347,8 +360,6 @@
 
 [Kettle:数据库资源库](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
-[Kettle:Postgresql 数据库资源库](every/202007/20200724_01.md):kettle,database repository,postgresql
-
 [Studio 3T for Mongodb](every/202007/20200723_01.md):studio
 
 [linux 文件基本操作管理](every/202007/20200722_01.md):linux,
@@ -375,7 +386,7 @@
 
 [LINUX:系统启动流程](every/202007/20200711_01.md):linux,startup,start,系统启动流程
 
-[linux rpm](every/202007/20200710_01.md):linux,
+[Linux:rpm](every/202007/20200710_01.md):linux,
 
 [kettle errors](every/202007/20200709_01.md):kettle,error
 
@@ -451,7 +462,7 @@
 
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
-[第3章 初探路由](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》
+[第3章 初探路由(not final)](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》
 
 [第2章 Django 配置信息](every/202005/20200504_01.md):python,django,《Django Web 应用开发实战》
 
@@ -611,7 +622,7 @@
 
 [Python Case:下载网页照片替换文档内容](every/202002/20200218_01.md):python,download,network,link,copy,replace,document
 
-[Postgresql:pgadmin 4 使用](every/202002/20200217_01.md):postgresql,pgadmin,4,usage,全抄
+[Postgresql:pgadmin 4 使用](every/202002/20200217_01.md):postgresql,pgadmin,4,usage,
 
 [Python:Word 读取](every/202002/20200216_01.md):python,word,read
 
@@ -807,7 +818,7 @@
 
 
 ### 201901
-[Linux:Shell 教程](every/201901/20190130_01.md):knowledge,linux,shell,菜鸟教程,not final
+[Linux:Shell 教程(not final)](every/201901/20190130_01.md):knowledge,linux,shell,菜鸟教程,not final
 
 [Kettle:kettle 多种优化方式](every/201901/20190125_01.md):kettle,not final
 
@@ -1081,9 +1092,15 @@
 ### 201701
 [linux redhat 6.5 install gpload 4.3](every/201701/20170102_01.md):redhat 6.5 install gpload 4.3
 
+[数据定义,数据探查+数据简单分析,数据对标,数据反证](every/201701/20170101_01.md):数据定义,数据探查,数据分析,简单分析,数据对标,数据反证
+
 
 ### 201601
 [Question:Process J003 is dead](every/201601/20160101_01.md):oracle,error,process,died,question
+
+
+### 201512
+[第5章 HTTP服务器与客户端编程](every/201512/20151201_01.md):python,《Python 网络编程从入门到精通》
 
 
 ### 201502
