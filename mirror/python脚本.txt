@@ -1,0 +1,67 @@
+
+
+from django.http import HttpResponse,StreamingHttpResponse
+# 下载资源
+def download_resource(request):
+    # do something
+    the_file_name = request.GET['file_name']
+    # 显示在弹出对话框中的默认的下载文件名
+    print('the_file_name--------->' + the_file_name)
+    filename = 'media/resource/' + the_file_name  # 要下载的文件路径
+    print('filename--------------->' + filename)
+ 
+    response = StreamingHttpResponse(readFile(filename))
+    response['Content-Type'] = 'application/octet-stream'
+    response['Content-Disposition'] = 'attachment;filename="{0}"'.format(the_file_name)
+    return response
+ 
+ 
+def readFile(filename, chunk_size=512):
+    with open(filename, 'rb') as f:
+        while True:
+            c = f.read(chunk_size)
+            if c:
+                yield c
+            else:
+                break
+  <table class="layui-table" lay-even="" lay-skin="nob">
+                            <colgroup>
+                                <col width="260">
+                                <col width="200">
+                                <col width="200">
+                                <col width="200">
+                                <col width="200">
+                                <col>
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th>文件名</th>
+                                <th>文件类型</th>
+                                <th>状态</th>
+                                <th>上传时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                        <!-- 得到用户所有的资源列表 -->
+                            {% for resource in other_resource %}
+                                <tr>
+                                    <td>
+<!-- 通过超链接下载资源 -->
+                                        <a href="download_resource?file_name={{ resource.resource_name }}">{{ resource.resource_name }}</a>
+                                    </td>
+                                    <td>{{ resource.resource_type }}</td>
+                                    <td>{{ resource.resource_status }}</td>
+                                    <td>{{ resource.submit_time|date:"Y/n/j" }}
+                                        &nbsp;&nbsp;&nbsp;{{ resource.submit_time|time|cut:"." }}</td>
+                                    <td>
+                                        <button class="layui-btn layui-btn-danger layui-btn-xs"
+                                                resource_id="{{ resource.id }}"
+                                                name="delete_resource">删除
+                                        </button>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+ 
+                            </tbody>
+                        </table>

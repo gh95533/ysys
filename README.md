@@ -276,7 +276,7 @@
 
 [pg dba 6](every/202009/20200908_01.md):postgresql,
 
-[Python Case:开发一个输入动态参数的小网站](every/202009/20200907_01.md):python
+[Python Case:开发一个输入动态参数的小网站](every/202009/20200907_01.md):python,django
 
 [postgresql 全文搜索](every/202009/20200906_01.md):postgresql
 
@@ -430,8 +430,6 @@
 
 [linux sh get ftp  filename](every/202006/20200620_01.md):linux,
 
-[greenplum data load using kettle](every/202006/20200619_01.md):greenplum,data load,greenplum 6.x,greenplum 5.x,kettle,kettle 8.x,kafka,gpkafka
-
 [Linux:ftp 安装](every/202006/20200618_01.md):linux,ftp
 
 [LINUX 常用命令](every/202006/20200617_01.md):linux,
@@ -474,8 +472,6 @@
 
 
 ### 202004
-[kettle kafka greenplum](every/202004/20200430_01.md):kettle,kafka,greenplum
-
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
 
 [Postgresql Case:将sql数据转换json格式](every/202004/20200428_01.md):postgresql,sql,json,row_to_json
@@ -723,6 +719,8 @@
 [Postgresql:超级管理员被删除如何恢复](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
+
+[Django:Django Project 访问](every/201912/20191210_01.md):django,python,visit
 
 [Django:Django 安装](every/201912/20191208_01.md):python,django,菜鸟教程
 

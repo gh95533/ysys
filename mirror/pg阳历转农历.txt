@@ -1,0 +1,441 @@
+-- FUNCTION: public.bitand(numeric, numeric)
+
+-- DROP FUNCTION public.bitand(numeric, numeric);
+
+CREATE OR REPLACE FUNCTION public.bitand(
+	numeric,
+	numeric)
+    RETURNS numeric
+    LANGUAGE 'sql'
+    COST 100.0
+    VOLATILE STRICT 
+AS $function$
+
+select ($1::int8 & $2::int8)::numeric;
+
+$function$;
+
+ALTER FUNCTION public.bitand(numeric, numeric)
+    OWNER TO postgresql;
+
+-- FUNCTION: public.f_get_data(integer)
+
+-- DROP FUNCTION public.f_get_data(integer);
+
+CREATE OR REPLACE FUNCTION public.f_get_data(
+	year1 integer)
+    RETURNS text
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    VOLATILE 
+AS $function$
+
+declare
+v_year text;
+v_data text;
+v_text text;
+v_instr int4;
+begin
+v_year :=year1::text;
+v_text :='[{"dataint":19416,"yearid":1900,"data":"0x04bd8"},{"dataint":19168,"yearid":1901,"data":"0x04ae0"},{"dataint":42352,"yearid":1902,"data":"0x0a570"},{"dataint":21717,"yearid":1903,"data":"0x054d5"},{"dataint":53856,"yearid":1904,"data":"0x0d260"},{"dataint":55632,"yearid":1905,"data":"0x0d950"},{"dataint":91476,"yearid":1906,"data":"0x16554"},{"dataint":22176,"yearid":1907,"data":"0x056a0"},{"dataint":39632,"yearid":1908,"data":"0x09ad0"},{"dataint":21970,"yearid":1909,"data":"0x055d2"},{"dataint":19168,"yearid":1910,"data":"0x04ae0"},{"dataint":42422,"yearid":1911,"data":"0x0a5b6"},{"dataint":42192,"yearid":1912,"data":"0x0a4d0"},{"dataint":53840,"yearid":1913,"data":"0x0d250"},{"dataint":119381,"yearid":1914,"data":"0x1d255"},{"dataint":46400,"yearid":1915,"data":"0x0b540"},{"dataint":54944,"yearid":1916,"data":"0x0d6a0"},{"dataint":44450,"yearid":1917,"data":"0x0ada2"},{"dataint":38320,"yearid":1918,"data":"0x095b0"},{"dataint":84343,"yearid":1919,"data":"0x14977"},{"dataint":18800,"yearid":1920,"data":"0x04970"},{"dataint":42160,"yearid":1921,"data":"0x0a4b0"},{"dataint":46261,"yearid":1922,"data":"0x0b4b5"},{"dataint":27216,"yearid":1923,"data":"0x06a50"},{"dataint":27968,"yearid":1924,"data":"0x06d40"},{"dataint":109396,"yearid":1925,"data":"0x1ab54"},{"dataint":11104,"yearid":1926,"data":"0x02b60"},{"dataint":38256,"yearid":1927,"data":"0x09570"},{"dataint":21234,"yearid":1928,"data":"0x052f2"},{"dataint":18800,"yearid":1929,"data":"0x04970"},{"dataint":25958,"yearid":1930,"data":"0x06566"},{"dataint":54432,"yearid":1931,"data":"0x0d4a0"},{"dataint":59984,"yearid":1932,"data":"0x0ea50"},{"dataint":28309,"yearid":1933,"data":"0x06e95"},{"dataint":23248,"yearid":1934,"data":"0x05ad0"},{"dataint":11104,"yearid":1935,"data":"0x02b60"},{"dataint":100067,"yearid":1936,"data":"0x186e3"},{"dataint":37600,"yearid":1937,"data":"0x092e0"},{"dataint":116951,"yearid":1938,"data":"0x1c8d7"},{"dataint":51536,"yearid":1939,"data":"0x0c950"},{"dataint":54432,"yearid":1940,"data":"0x0d4a0"},{"dataint":120998,"yearid":1941,"data":"0x1d8a6"},{"dataint":46416,"yearid":1942,"data":"0x0b550"},{"dataint":22176,"yearid":1943,"data":"0x056a0"},{"dataint":107956,"yearid":1944,"data":"0x1a5b4"},{"dataint":9680,"yearid":1945,"data":"0x025d0"},{"dataint":37584,"yearid":1946,"data":"0x092d0"},{"dataint":53938,"yearid":1947,"data":"0x0d2b2"},{"dataint":43344,"yearid":1948,"data":"0x0a950"},{"dataint":46423,"yearid":1949,"data":"0x0b557"},{"dataint":27808,"yearid":1950,"data":"0x06ca0"},{"dataint":46416,"yearid":1951,"data":"0x0b550"},{"dataint":86869,"yearid":1952,"data":"0x15355"},{"dataint":19872,"yearid":1953,"data":"0x04da0"},{"dataint":42448,"yearid":1954,"data":"0x0a5d0"},{"dataint":83315,"yearid":1955,"data":"0x14573"},{"dataint":21200,"yearid":1956,"data":"0x052d0"},{"dataint":43432,"yearid":1957,"data":"0x0a9a8"},{"dataint":59728,"yearid":1958,"data":"0x0e950"},{"dataint":27296,"yearid":1959,"data":"0x06aa0"},{"dataint":44710,"yearid":1960,"data":"0x0aea6"},{"dataint":43856,"yearid":1961,"data":"0x0ab50"},{"dataint":19296,"yearid":1962,"data":"0x04b60"},{"dataint":43748,"yearid":1963,"data":"0x0aae4"},{"dataint":42352,"yearid":1964,"data":"0x0a570"},{"dataint":21088,"yearid":1965,"data":"0x05260"},{"dataint":62051,"yearid":1966,"data":"0x0f263"},{"dataint":55632,"yearid":1967,"data":"0x0d950"},{"dataint":23383,"yearid":1968,"data":"0x05b57"},{"dataint":22176,"yearid":1969,"data":"0x056a0"},{"dataint":38608,"yearid":1970,"data":"0x096d0"},{"dataint":19925,"yearid":1971,"data":"0x04dd5"},{"dataint":19152,"yearid":1972,"data":"0x04ad0"},{"dataint":42192,"yearid":1973,"data":"0x0a4d0"},{"dataint":54484,"yearid":1974,"data":"0x0d4d4"},{"dataint":53840,"yearid":1975,"data":"0x0d250"},{"dataint":54616,"yearid":1976,"data":"0x0d558"},{"dataint":46400,"yearid":1977,"data":"0x0b540"},{"dataint":46496,"yearid":1978,"data":"0x0b5a0"},{"dataint":103846,"yearid":1979,"data":"0x195a6"},{"dataint":38320,"yearid":1980,"data":"0x095b0"},{"dataint":18864,"yearid":1981,"data":"0x049b0"},{"dataint":43380,"yearid":1982,"data":"0x0a974"},{"dataint":42160,"yearid":1983,"data":"0x0a4b0"},{"dataint":45690,"yearid":1984,"data":"0x0b27a"},{"dataint":27216,"yearid":1985,"data":"0x06a50"},{"dataint":27968,"yearid":1986,"data":"0x06d40"},{"dataint":44870,"yearid":1987,"data":"0x0af46"},{"dataint":43872,"yearid":1988,"data":"0x0ab60"},{"dataint":38256,"yearid":1989,"data":"0x09570"},{"dataint":19189,"yearid":1990,"data":"0x04af5"},{"dataint":18800,"yearid":1991,"data":"0x04970"},{"dataint":25776,"yearid":1992,"data":"0x064b0"},{"dataint":29859,"yearid":1993,"data":"0x074a3"},{"dataint":59984,"yearid":1994,"data":"0x0ea50"},{"dataint":27480,"yearid":1995,"data":"0x06b58"},{"dataint":21952,"yearid":1996,"data":"0x055c0"},{"dataint":43872,"yearid":1997,"data":"0x0ab60"},{"dataint":38613,"yearid":1998,"data":"0x096d5"},{"dataint":37600,"yearid":1999,"data":"0x092e0"},{"dataint":51552,"yearid":2000,"data":"0x0c960"},{"dataint":55636,"yearid":2001,"data":"0x0d954"},{"dataint":54432,"yearid":2002,"data":"0x0d4a0"},{"dataint":55888,"yearid":2003,"data":"0x0da50"},{"dataint":30034,"yearid":2004,"data":"0x07552"},{"dataint":22176,"yearid":2005,"data":"0x056a0"},{"dataint":43959,"yearid":2006,"data":"0x0abb7"},{"dataint":9680,"yearid":2007,"data":"0x025d0"},{"dataint":37584,"yearid":2008,"data":"0x092d0"},{"dataint":51893,"yearid":2009,"data":"0x0cab5"},{"dataint":43344,"yearid":2010,"data":"0x0a950"},{"dataint":46240,"yearid":2011,"data":"0x0b4a0"},{"dataint":47780,"yearid":2012,"data":"0x0baa4"},{"dataint":44368,"yearid":2013,"data":"0x0ad50"},{"dataint":21977,"yearid":2014,"data":"0x055d9"},{"dataint":19360,"yearid":2015,"data":"0x04ba0"},{"dataint":42416,"yearid":2016,"data":"0x0a5b0"},{"dataint":86390,"yearid":2017,"data":"0x15176"},{"dataint":21168,"yearid":2018,"data":"0x052b0"},{"dataint":43312,"yearid":2019,"data":"0x0a930"},{"dataint":31060,"yearid":2020,"data":"0x07954"},{"dataint":27296,"yearid":2021,"data":"0x06aa0"},{"dataint":44368,"yearid":2022,"data":"0x0ad50"},{"dataint":23378,"yearid":2023,"data":"0x05b52"},{"dataint":19296,"yearid":2024,"data":"0x04b60"},{"dataint":42726,"yearid":2025,"data":"0x0a6e6"},{"dataint":42208,"yearid":2026,"data":"0x0a4e0"},{"dataint":53856,"yearid":2027,"data":"0x0d260"},{"dataint":60005,"yearid":2028,"data":"0x0ea65"},{"dataint":54576,"yearid":2029,"data":"0x0d530"},{"dataint":23200,"yearid":2030,"data":"0x05aa0"},{"dataint":30371,"yearid":2031,"data":"0x076a3"},{"dataint":38608,"yearid":2032,"data":"0x096d0"},{"dataint":19415,"yearid":2033,"data":"0x04bd7"},{"dataint":19152,"yearid":2034,"data":"0x04ad0"},{"dataint":42192,"yearid":2035,"data":"0x0a4d0"},{"dataint":118966,"yearid":2036,"data":"0x1d0b6"},{"dataint":53840,"yearid":2037,"data":"0x0d250"},{"dataint":54560,"yearid":2038,"data":"0x0d520"},{"dataint":56645,"yearid":2039,"data":"0x0dd45"},{"dataint":46496,"yearid":2040,"data":"0x0b5a0"},{"dataint":22224,"yearid":2041,"data":"0x056d0"},{"dataint":21938,"yearid":2042,"data":"0x055b2"},{"dataint":18864,"yearid":2043,"data":"0x049b0"},{"dataint":42359,"yearid":2044,"data":"0x0a577"},{"dataint":42160,"yearid":2045,"data":"0x0a4b0"},{"dataint":43600,"yearid":2046,"data":"0x0aa50"},{"dataint":111189,"yearid":2047,"data":"0x1b255"},{"dataint":27936,"yearid":2048,"data":"0x06d20"},{"dataint":44448,"yearid":2049,"data":"0x0ada0"}]';
+v_instr :=instr(v_text,'"yearid":'||v_year);
+
+v_data :=substr(v_text,v_instr+22,7);
+return v_data;
+                
+                
+end;
+
+$function$;
+
+ALTER FUNCTION public.f_get_data(integer)
+    OWNER TO postgresql;
+
+
+
+-- FUNCTION: public.f_get_dataint(integer)
+
+-- DROP FUNCTION public.f_get_dataint(integer);
+
+CREATE OR REPLACE FUNCTION public.f_get_dataint(
+	year1 integer)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    VOLATILE 
+AS $function$
+
+declare
+v_year text;
+v_data text;
+v_data_int int4;
+v_text text;
+v_instr int4;
+v_instr2 int4;
+begin
+v_year :=year1::text;
+v_text :='[{"dataint":19416,"yearid":1900,"data":"0x04bd8"},{"dataint":19168,"yearid":1901,"data":"0x04ae0"},{"dataint":42352,"yearid":1902,"data":"0x0a570"},{"dataint":21717,"yearid":1903,"data":"0x054d5"},{"dataint":53856,"yearid":1904,"data":"0x0d260"},{"dataint":55632,"yearid":1905,"data":"0x0d950"},{"dataint":91476,"yearid":1906,"data":"0x16554"},{"dataint":22176,"yearid":1907,"data":"0x056a0"},{"dataint":39632,"yearid":1908,"data":"0x09ad0"},{"dataint":21970,"yearid":1909,"data":"0x055d2"},{"dataint":19168,"yearid":1910,"data":"0x04ae0"},{"dataint":42422,"yearid":1911,"data":"0x0a5b6"},{"dataint":42192,"yearid":1912,"data":"0x0a4d0"},{"dataint":53840,"yearid":1913,"data":"0x0d250"},{"dataint":119381,"yearid":1914,"data":"0x1d255"},{"dataint":46400,"yearid":1915,"data":"0x0b540"},{"dataint":54944,"yearid":1916,"data":"0x0d6a0"},{"dataint":44450,"yearid":1917,"data":"0x0ada2"},{"dataint":38320,"yearid":1918,"data":"0x095b0"},{"dataint":84343,"yearid":1919,"data":"0x14977"},{"dataint":18800,"yearid":1920,"data":"0x04970"},{"dataint":42160,"yearid":1921,"data":"0x0a4b0"},{"dataint":46261,"yearid":1922,"data":"0x0b4b5"},{"dataint":27216,"yearid":1923,"data":"0x06a50"},{"dataint":27968,"yearid":1924,"data":"0x06d40"},{"dataint":109396,"yearid":1925,"data":"0x1ab54"},{"dataint":11104,"yearid":1926,"data":"0x02b60"},{"dataint":38256,"yearid":1927,"data":"0x09570"},{"dataint":21234,"yearid":1928,"data":"0x052f2"},{"dataint":18800,"yearid":1929,"data":"0x04970"},{"dataint":25958,"yearid":1930,"data":"0x06566"},{"dataint":54432,"yearid":1931,"data":"0x0d4a0"},{"dataint":59984,"yearid":1932,"data":"0x0ea50"},{"dataint":28309,"yearid":1933,"data":"0x06e95"},{"dataint":23248,"yearid":1934,"data":"0x05ad0"},{"dataint":11104,"yearid":1935,"data":"0x02b60"},{"dataint":100067,"yearid":1936,"data":"0x186e3"},{"dataint":37600,"yearid":1937,"data":"0x092e0"},{"dataint":116951,"yearid":1938,"data":"0x1c8d7"},{"dataint":51536,"yearid":1939,"data":"0x0c950"},{"dataint":54432,"yearid":1940,"data":"0x0d4a0"},{"dataint":120998,"yearid":1941,"data":"0x1d8a6"},{"dataint":46416,"yearid":1942,"data":"0x0b550"},{"dataint":22176,"yearid":1943,"data":"0x056a0"},{"dataint":107956,"yearid":1944,"data":"0x1a5b4"},{"dataint":9680,"yearid":1945,"data":"0x025d0"},{"dataint":37584,"yearid":1946,"data":"0x092d0"},{"dataint":53938,"yearid":1947,"data":"0x0d2b2"},{"dataint":43344,"yearid":1948,"data":"0x0a950"},{"dataint":46423,"yearid":1949,"data":"0x0b557"},{"dataint":27808,"yearid":1950,"data":"0x06ca0"},{"dataint":46416,"yearid":1951,"data":"0x0b550"},{"dataint":86869,"yearid":1952,"data":"0x15355"},{"dataint":19872,"yearid":1953,"data":"0x04da0"},{"dataint":42448,"yearid":1954,"data":"0x0a5d0"},{"dataint":83315,"yearid":1955,"data":"0x14573"},{"dataint":21200,"yearid":1956,"data":"0x052d0"},{"dataint":43432,"yearid":1957,"data":"0x0a9a8"},{"dataint":59728,"yearid":1958,"data":"0x0e950"},{"dataint":27296,"yearid":1959,"data":"0x06aa0"},{"dataint":44710,"yearid":1960,"data":"0x0aea6"},{"dataint":43856,"yearid":1961,"data":"0x0ab50"},{"dataint":19296,"yearid":1962,"data":"0x04b60"},{"dataint":43748,"yearid":1963,"data":"0x0aae4"},{"dataint":42352,"yearid":1964,"data":"0x0a570"},{"dataint":21088,"yearid":1965,"data":"0x05260"},{"dataint":62051,"yearid":1966,"data":"0x0f263"},{"dataint":55632,"yearid":1967,"data":"0x0d950"},{"dataint":23383,"yearid":1968,"data":"0x05b57"},{"dataint":22176,"yearid":1969,"data":"0x056a0"},{"dataint":38608,"yearid":1970,"data":"0x096d0"},{"dataint":19925,"yearid":1971,"data":"0x04dd5"},{"dataint":19152,"yearid":1972,"data":"0x04ad0"},{"dataint":42192,"yearid":1973,"data":"0x0a4d0"},{"dataint":54484,"yearid":1974,"data":"0x0d4d4"},{"dataint":53840,"yearid":1975,"data":"0x0d250"},{"dataint":54616,"yearid":1976,"data":"0x0d558"},{"dataint":46400,"yearid":1977,"data":"0x0b540"},{"dataint":46496,"yearid":1978,"data":"0x0b5a0"},{"dataint":103846,"yearid":1979,"data":"0x195a6"},{"dataint":38320,"yearid":1980,"data":"0x095b0"},{"dataint":18864,"yearid":1981,"data":"0x049b0"},{"dataint":43380,"yearid":1982,"data":"0x0a974"},{"dataint":42160,"yearid":1983,"data":"0x0a4b0"},{"dataint":45690,"yearid":1984,"data":"0x0b27a"},{"dataint":27216,"yearid":1985,"data":"0x06a50"},{"dataint":27968,"yearid":1986,"data":"0x06d40"},{"dataint":44870,"yearid":1987,"data":"0x0af46"},{"dataint":43872,"yearid":1988,"data":"0x0ab60"},{"dataint":38256,"yearid":1989,"data":"0x09570"},{"dataint":19189,"yearid":1990,"data":"0x04af5"},{"dataint":18800,"yearid":1991,"data":"0x04970"},{"dataint":25776,"yearid":1992,"data":"0x064b0"},{"dataint":29859,"yearid":1993,"data":"0x074a3"},{"dataint":59984,"yearid":1994,"data":"0x0ea50"},{"dataint":27480,"yearid":1995,"data":"0x06b58"},{"dataint":21952,"yearid":1996,"data":"0x055c0"},{"dataint":43872,"yearid":1997,"data":"0x0ab60"},{"dataint":38613,"yearid":1998,"data":"0x096d5"},{"dataint":37600,"yearid":1999,"data":"0x092e0"},{"dataint":51552,"yearid":2000,"data":"0x0c960"},{"dataint":55636,"yearid":2001,"data":"0x0d954"},{"dataint":54432,"yearid":2002,"data":"0x0d4a0"},{"dataint":55888,"yearid":2003,"data":"0x0da50"},{"dataint":30034,"yearid":2004,"data":"0x07552"},{"dataint":22176,"yearid":2005,"data":"0x056a0"},{"dataint":43959,"yearid":2006,"data":"0x0abb7"},{"dataint":9680,"yearid":2007,"data":"0x025d0"},{"dataint":37584,"yearid":2008,"data":"0x092d0"},{"dataint":51893,"yearid":2009,"data":"0x0cab5"},{"dataint":43344,"yearid":2010,"data":"0x0a950"},{"dataint":46240,"yearid":2011,"data":"0x0b4a0"},{"dataint":47780,"yearid":2012,"data":"0x0baa4"},{"dataint":44368,"yearid":2013,"data":"0x0ad50"},{"dataint":21977,"yearid":2014,"data":"0x055d9"},{"dataint":19360,"yearid":2015,"data":"0x04ba0"},{"dataint":42416,"yearid":2016,"data":"0x0a5b0"},{"dataint":86390,"yearid":2017,"data":"0x15176"},{"dataint":21168,"yearid":2018,"data":"0x052b0"},{"dataint":43312,"yearid":2019,"data":"0x0a930"},{"dataint":31060,"yearid":2020,"data":"0x07954"},{"dataint":27296,"yearid":2021,"data":"0x06aa0"},{"dataint":44368,"yearid":2022,"data":"0x0ad50"},{"dataint":23378,"yearid":2023,"data":"0x05b52"},{"dataint":19296,"yearid":2024,"data":"0x04b60"},{"dataint":42726,"yearid":2025,"data":"0x0a6e6"},{"dataint":42208,"yearid":2026,"data":"0x0a4e0"},{"dataint":53856,"yearid":2027,"data":"0x0d260"},{"dataint":60005,"yearid":2028,"data":"0x0ea65"},{"dataint":54576,"yearid":2029,"data":"0x0d530"},{"dataint":23200,"yearid":2030,"data":"0x05aa0"},{"dataint":30371,"yearid":2031,"data":"0x076a3"},{"dataint":38608,"yearid":2032,"data":"0x096d0"},{"dataint":19415,"yearid":2033,"data":"0x04bd7"},{"dataint":19152,"yearid":2034,"data":"0x04ad0"},{"dataint":42192,"yearid":2035,"data":"0x0a4d0"},{"dataint":118966,"yearid":2036,"data":"0x1d0b6"},{"dataint":53840,"yearid":2037,"data":"0x0d250"},{"dataint":54560,"yearid":2038,"data":"0x0d520"},{"dataint":56645,"yearid":2039,"data":"0x0dd45"},{"dataint":46496,"yearid":2040,"data":"0x0b5a0"},{"dataint":22224,"yearid":2041,"data":"0x056d0"},{"dataint":21938,"yearid":2042,"data":"0x055b2"},{"dataint":18864,"yearid":2043,"data":"0x049b0"},{"dataint":42359,"yearid":2044,"data":"0x0a577"},{"dataint":42160,"yearid":2045,"data":"0x0a4b0"},{"dataint":43600,"yearid":2046,"data":"0x0aa50"},{"dataint":111189,"yearid":2047,"data":"0x1b255"},{"dataint":27936,"yearid":2048,"data":"0x06d20"},{"dataint":44448,"yearid":2049,"data":"0x0ada0"}]';
+v_instr :=instr(v_text,'"yearid":'||v_year);
+v_instr2 :=instr(substr(v_text,1,v_instr),'"dataint"',-1);
+
+v_data :=replace(substr(v_text,v_instr2,v_instr-v_instr2-1),'"dataint":','');
+v_data_int :=v_data::int4;
+return v_data_int;
+                
+                
+end;
+
+$function$;
+
+ALTER FUNCTION public.f_get_dataint(integer)
+    OWNER TO postgresql;
+
+
+
+-- FUNCTION: public.f_getlunar(date)
+
+-- DROP FUNCTION public.f_getlunar(date);
+
+CREATE OR REPLACE FUNCTION public.f_getlunar(
+	i_solarday date)
+    RETURNS text
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    VOLATILE 
+AS $function$
+
+ 
+  -- 功能：计算阳历1900/01/31 - 2050/01/22间某一天对应的阴历是多少  
+  -- 算法：在一张表中用10进制格式保存某个农历年每月大小,有无闰月,闰月大小信息  
+  --           1.用12个2进制位来表示某个农历年每月的大小，大月记为1，否则为0  
+  --           2.用低4位来表示闰月的月份，没有闰月记为0  
+  --           3.用一个高位表示闰月的大小，闰月大记为0，闰月小或无闰月记为0  
+  --           4.再将该2进制数转化为10进制，存入表中  
+  --       农历2000年: 0 110010010110 0000 -> 0x0c960 -> 51552  
+  --       农历2001年: 0 110110010101 0100 -> 0x0d954 -> 55636  
+  --       采用查表的方式计算出农历日期  
+  -- 作者：Angel_XJW     
+  -- 修改：1.  
+  --       2.  
+  
+
+DECLARE 
+  v_OffSet         INT4;  
+  v_Lunar          INT4;          -- 农历年是否含闰月,几月是闰月,闰月天数,其它月天数  
+  v_YearDays       INT4;          -- 农历年所含天数  
+  v_MonthDays      INT4;          -- 农历月所含天数  
+  v_LeapMonthDays  INT4;          -- 农历闰月所含天数  
+  v_LeapMonth      INT4;          -- 农历年闰哪个月 1-12 , 没闰传回 0  
+  v_LeapFlag       INT4;          -- 某农历月是否为闰月  1:是  0:不是  
+  v_MonthNo        INT4;          -- 某农历月所对应的2进制数 如农历3月: 001000000000   
+  i                INT4;  
+  j                INT4;   
+  k                INT4;  
+  
+  
+  v_Year           INT4;          -- i_SolarDay 对应的农历年  
+  v_Month          INT4;          -- i_SolarDay 对应的农历月  
+  v_Day            INT4;          -- i_SolarDay 对应的农历日  
+    
+  o_OutputDate     VARCHAR(125); -- 返回值  格式：农历 ****年 **(闰)月 **日  
+    
+  e_ErrMsg         VARCHAR(200);  
+
+BEGIN  
+  
+  
+   
+  
+  
+  -- i_SolarDay 到 1900-01-30(即农历1900-01-01的前一天) 的天数  
+  v_OffSet := i_SolarDay- TO_DATE('1900-01-30', 'YYYY-MM-DD');  
+  
+  
+  -- 确定农历年开始  
+  i := 1900;  
+  WHILE i < 2050 AND v_OffSet > 0 LOOP  
+    v_YearDays := 348;    --  29*12 以每年12个农历月,每个农历月含29个农历日为基数  
+    v_LeapMonthDays := 0;  
+      
+    -- 取出农历年是否含闰月,几月是闰月,闰月天数,其它月天数  
+    -- 如农历2001年: 0x0d954(16进制) -> 55636(10进制) -> 0 110110010101 0100(2进制)  
+    -- 1,2,4,5,8,10,12月大, 3,6,7,9,11月小, 4月为闰月，闰月小  
+    SELECT f_get_dataint(i) INTO v_Lunar ;  
+  
+  
+    -- 传回农历年的总天数  
+    j := 32768;            --   100000000000 0000 -> 32768  
+                           -- 0 110110010101 0100 -> 55636(农历2001年)  
+    -- 依次判断v_Lunar年个月是否为大月，是则加一天   
+    WHILE j > 8 LOOP       -- 闰月另行判断 8 -> 0 000000000000 1000      
+      IF BITAND(v_Lunar, j) + 0 > 0 then  
+        v_YearDays := v_YearDays + 1;  
+      END IF;  
+      j := j/2;            -- 判断下一个月是否为大  
+    END LOOP;  
+  
+  
+    -- 传回农历年闰哪个月 1-12 , 没闰传回 0   15 -> 1 0000  
+    v_LeapMonth := BITAND(v_Lunar, 15) + 0;  
+  
+  
+    -- 传回农历年闰月的天数 ,加在年的总天数上  
+    IF v_LeapMonth > 0 THEN  
+      -- 判断闰月大小 65536 -> 1 000000000000 0000   
+      IF BITAND(v_Lunar, 65536)+0 > 0 THEN  
+        v_LeapMonthDays := 30;  
+      ELSE  
+        v_LeapMonthDays := 29;  
+      END IF;  
+      v_YearDays := v_YearDays + v_LeapMonthDays;  
+    END IF;  
+  
+  
+    v_OffSet := v_OffSet - v_YearDays;  
+    i := i + 1;  
+  END LOOP;  
+  
+  
+  IF v_OffSet <= 0 THEN  
+    -- i_SolarDay 在所属农历年(即i年)中的第 v_OffSet 天   
+    v_OffSet := v_OffSet + v_YearDays;    
+    i := i - 1;  
+  END IF;  
+  -- 确定农历年结束  
+  v_Year := i;  
+  
+  
+  -- 确定农历月开始  
+  i := 1;  
+  SELECT f_get_dataint(i) into  v_Lunar ;   
+  
+  
+  -- 判断那个月是润月  
+  -- 如农历2001年 (55636,15 -> 0 1101100101010100, 1111 -> 4) 即润4月,且闰月小  
+  v_LeapMonth := BITAND(v_Lunar, 15) + 0;   
+  v_LeapFlag := 0;  
+  
+  
+  WHILE i < 13 AND v_OffSet > 0 LOOP  
+    -- 判断是否为闰月  
+    v_MonthDays := 0;  
+    IF (v_LeapMonth > 0 AND i = (v_LeapMonth + 1) AND v_LeapFlag = 0) THEN  
+      -- 是闰月  
+      i := i - 1;  
+      k := i;                -- 保存是闰月的时i的值  
+      v_LeapFlag := 1;  
+      -- 传回农历年闰月的天数  
+      IF BITAND(v_Lunar, 65536)+0 > 0 THEN  
+        v_MonthDays := 30;  
+      ELSE  
+        v_MonthDays := 29;  
+      END IF;  
+        
+    ELSE  
+      -- 不是闰月  
+      j := 1;  
+      v_MonthNo := 65536;  
+      -- 计算 i 月对应的2进制数 如农历3月: 001000000000  
+      WHILE j<= i LOOP  
+        v_MonthNo := v_MonthNo/2;  
+        j := j + 1;  
+      END LOOP;  
+      -- 计算农历 v_Year 年 i 月的天数  
+      IF BITAND(v_Lunar, v_MonthNo)+0 > 0 THEN  
+        v_MonthDays := 30;  
+      ELSE  
+        v_MonthDays := 29;  
+      END IF;  
+    END IF;  
+  
+  
+    -- 解除闰月  
+    IF v_LeapFlag = 1 AND i = v_LeapMonth +1 THEN  
+      v_LeapFlag := 0;  
+    END IF;  
+    v_OffSet := v_OffSet - v_MonthDays;  
+    i := i + 1;  
+  END LOOP;  
+  
+  
+  IF v_OffSet <= 0 THEN  
+    -- i_SolarDay 在所属农历月(即i月)中的第 v_OffSet 天   
+    v_OffSet := v_OffSet + v_MonthDays;  
+    i := i - 1;  
+  END IF;  
+  
+  
+  -- 确定农历月结束  
+  v_Month := i;  
+  
+  
+  -- 确定农历日结束  
+  v_Day := v_OffSet;  
+  
+  
+  -- 格式化返回值  
+  o_OutputDate := '农历 '||v_Year::TEXT||'年 ';  
+  IF k = i THEN  
+     o_OutputDate := o_OutputDate || LPAD(v_Month::TEXT, 2, '0')||'(润)月 ';  
+  ELSE  
+     o_OutputDate := o_OutputDate || LPAD(v_Month::TEXT, 2, '0')||'月 ';  
+  END IF;  
+  
+  
+  
+  o_OutputDate := o_OutputDate || LPAD(v_Day::TEXT, 2, '0')||'日';  
+  
+  
+  RETURN o_OutputDate;  
+
+END;  
+
+$function$;
+
+ALTER FUNCTION public.f_getlunar(date)
+    OWNER TO postgresql;
+
+
+
+-- FUNCTION: public.instr(character varying, character varying)
+
+-- DROP FUNCTION public.instr(character varying, character varying);
+
+CREATE OR REPLACE FUNCTION public.instr(
+	character varying,
+	character varying)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    IMMUTABLE STRICT 
+AS $function$
+ DECLARE pos integer;
+  BEGIN
+    pos := instr($1, $2, 1);
+    RETURN pos;
+  END;
+  
+$function$;
+
+ALTER FUNCTION public.instr(character varying, character varying)
+    OWNER TO postgresql;
+
+
+
+-- FUNCTION: public.instr(character varying, character varying, integer)
+
+-- DROP FUNCTION public.instr(character varying, character varying, integer);
+
+CREATE OR REPLACE FUNCTION public.instr(
+	string character varying,
+	string_to_search character varying,
+	beg_index integer)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    IMMUTABLE STRICT 
+AS $function$
+        DECLARE pos integer NOT NULL DEFAULT 0;
+    temp_str  varchar;
+    beg       integer;
+    length    integer;
+    ss_length integer;
+  BEGIN
+    IF beg_index > 0 THEN
+      temp_str := substring(string FROM beg_index);
+      pos      := position(string_to_search IN temp_str);
+    
+      IF pos = 0 THEN
+        RETURN 0;
+      ELSE
+        RETURN pos + beg_index - 1;
+      END IF;
+    ELSIF beg_index < 0 THEN
+      ss_length := char_length(string_to_search);
+      length    := char_length(string);
+      beg       := length + beg_index - ss_length + 2;
+      WHILE beg > 0 LOOP
+        temp_str := substring(string FROM beg FOR ss_length);
+        pos      := position(string_to_search IN temp_str);
+        IF pos > 0 THEN
+          RETURN beg;
+        END IF;
+        beg := beg - 1;
+      END LOOP;
+      RETURN 0;
+    ELSE
+      RETURN 0;
+    END IF;
+  END;
+  
+$function$;
+
+ALTER FUNCTION public.instr(character varying, character varying, integer)
+    OWNER TO postgresql;
+
+-- FUNCTION: public.instr(character varying, character varying, integer, integer)
+
+-- DROP FUNCTION public.instr(character varying, character varying, integer, integer);
+
+CREATE OR REPLACE FUNCTION public.instr(
+	string character varying,
+	string_to_search character varying,
+	beg_index integer,
+	occur_index integer)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+    COST 100.0
+    IMMUTABLE STRICT 
+AS $function$
+           DECLARE pos integer NOT NULL DEFAULT 0;
+    occur_number integer NOT NULL DEFAULT 0;
+    temp_str     varchar;
+    beg          integer;
+    i            integer;
+    length       integer;
+    ss_length    integer;
+  BEGIN
+    IF beg_index > 0 THEN
+      beg      := beg_index;
+      temp_str := substring(string FROM beg_index);
+      FOR i IN 1 .. occur_index LOOP
+        pos := position(string_to_search IN temp_str);
+        IF i = 1 THEN
+          beg := beg + pos - 1;
+        ELSE
+          beg := beg + pos;
+        END IF;
+        temp_str := substring(string FROM beg + 1);
+      END LOOP;
+    
+      IF pos = 0 THEN
+        RETURN 0;
+      ELSE
+        RETURN beg;
+      END IF;
+    ELSIF beg_index < 0 THEN
+      ss_length := char_length(string_to_search);
+      length    := char_length(string);
+      beg       := length + beg_index - ss_length + 2;
+      WHILE beg > 0 LOOP
+        temp_str := substring(string FROM beg FOR ss_length);
+        pos      := position(string_to_search IN temp_str);
+        IF pos > 0 THEN
+          occur_number := occur_number + 1;
+          IF occur_number = occur_index THEN
+            RETURN beg;
+          END IF;
+        END IF;
+        beg := beg - 1;
+      END LOOP;
+      RETURN 0;
+    ELSE
+      RETURN 0;
+    END IF;
+  END;
+  
+$function$;
+
+ALTER FUNCTION public.instr(character varying, character varying, integer, integer)
+    OWNER TO postgresql;
+
