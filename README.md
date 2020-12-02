@@ -96,6 +96,8 @@
 
 [Greenplum:Greenplum sqlcode](every/202012/20201208_01.md):greenplum,code
 
+[Postgresql:postgresql 阳历转阴历](every/202012/20201207_01.md):postgresql,阳历,阴历
+
 [二元函数极值](every/202012/20201206_01.md):数学,数学分析,二元函数,极值,数学分析下第42节视频
 
 [二元函数泰勒展开式](every/202012/20201205_01.md):数学,数学分析,二元函数,泰勒展开式,数学分析下第41节视频
@@ -1112,6 +1114,8 @@
 
 
 ### 201501
+[Kettle:kafka consumer 配置](every/201501/20150103_01.md):kettle,8.x,kafka consumer,configuration
+
 [Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
 
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
