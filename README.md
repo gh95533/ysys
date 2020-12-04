@@ -476,7 +476,7 @@
 
 
 ### 202004
-[Greenplum:Greenplum gprecoverseg 恢复](every/202004/20200430_01.md):greenplum,4.3,gprecoverseg,failed
+[Greenplum:gprecoverseg 案例](every/202004/20200430_01.md):greenplum,4.3,gprecoverseg,failed
 
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
 
@@ -726,7 +726,7 @@
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
 
-[Greenplum:greenplum not start up 一次不彻底恢复](every/201912/20191211_01.md):greenplum,4.3,not start up,gprecoverseg,failed
+[Greenplum:GP 无法启动案例解决](every/201912/20191211_01.md):greenplum,4.3,not start up,gprecoverseg,failed
 
 [Django:Django Project 访问](every/201912/20191210_01.md):django,python,visit
 
@@ -833,6 +833,8 @@
 [greenplum source  install in linux without network](every/201901/20190106_01.md):greenplum source,5.7.0,linux install,centos 7.3 ,without network
 
 [linux xfs xfsdump xfsrestore](every/201901/20190103_01.md):knowledge,linux,centos7,xfs,xfsdump,xfsrestore
+
+[Greenplum:greenplum 重新初始化数据库](every/201901/20190102_01.md):greenplum,install,gp
 
 [java 教程](every/201901/20190101_01.md):knowledge,newbie,java
 
@@ -1125,10 +1127,4 @@
 [Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
 
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
-
-
-### 200901
-[Oracle 字段 转换 JSON](every/200901/20090104_01.md):oracle,11.2.0.4,json
-
-[Greenplum:Greenplum gprecoverseg 恢复](every/200901/20090102_01.md):greenplum,4.3,gprecoverseg,failed
 
