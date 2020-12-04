@@ -252,6 +252,8 @@
 
 [studio 3T 重装](every/202009/20200923_01.md):studio
 
+[Postgresql:json_populate_recordset 使用](every/202009/20200922_01.md):postgresql,json_populate_recordset
+
 [数学分析 多元函数可微](every/202009/20200921_01.md):数学,数学分析,多元函数可微,数据分析下第37视频
 
 [Excel:wps excel 超多行数据导入](every/202009/20200920_01.md):wps,excel,kettle,more data
@@ -474,6 +476,8 @@
 
 
 ### 202004
+[Greenplum:Greenplum gprecoverseg 恢复](every/202004/20200430_01.md):greenplum,4.3,gprecoverseg,failed
+
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
 
 [Postgresql Case:将sql数据转换json格式](every/202004/20200428_01.md):postgresql,sql,json,row_to_json
@@ -721,6 +725,8 @@
 [Postgresql:超级管理员被删除如何恢复](every/201912/20191231_01.md):postgres,grant,revoke,superuser,nosuperuser,question
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
+
+[Greenplum:greenplum not start up 一次不彻底恢复](every/201912/20191211_01.md):greenplum,4.3,not start up,gprecoverseg,failed
 
 [Django:Django Project 访问](every/201912/20191210_01.md):django,python,visit
 
@@ -1119,4 +1125,10 @@
 [Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
 
 [菜鸟教程_Docker教程学习1](every/201501/20150101_01.md):菜鸟教程,Docker
+
+
+### 200901
+[Oracle 字段 转换 JSON](every/200901/20090104_01.md):oracle,11.2.0.4,json
+
+[Greenplum:Greenplum gprecoverseg 恢复](every/200901/20090102_01.md):greenplum,4.3,gprecoverseg,failed
 
