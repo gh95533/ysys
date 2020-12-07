@@ -832,6 +832,8 @@
 
 [greenplum source  install in linux without network](every/201901/20190106_01.md):greenplum source,5.7.0,linux install,centos 7.3 ,without network
 
+[Question:cx_Oracle.DatabaseError:DPI-1047](every/201901/20190104_01.md):python,3.7,oracle,11.2,cx_Oracle,DPI-1047,oci.dll
+
 [linux xfs xfsdump xfsrestore](every/201901/20190103_01.md):knowledge,linux,centos7,xfs,xfsdump,xfsrestore
 
 [Greenplum:greenplum 重新初始化数据库](every/201901/20190102_01.md):greenplum,install,gp
