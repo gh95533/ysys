@@ -478,7 +478,7 @@
 
 
 ### 202004
-[Greenplum:gprecoverseg 案例](every/202004/20200430_01.md):greenplum,4.3,gprecoverseg,failed
+[Greenplum:gprecoverseg 恢复成功案例](every/202004/20200430_01.md):greenplum,4.3,gprecoverseg,failed
 
 [oracle rman backup restore](every/202004/20200429_01.md):oracle,rman,backup,restore
 
@@ -728,7 +728,7 @@
 
 [oracle asm spfile pfile error](every/201912/20191224_01.md):oracle,asm,spfile,pfile,error
 
-[Greenplum:GP 无法启动案例解决](every/201912/20191211_01.md):greenplum,4.3,not start up,gprecoverseg,failed
+[Greenplum:Greenplum 生产库无法启动恢复失败](every/201912/20191211_01.md):greenplum,4.3,not start up,gprecoverseg,failed
 
 [Django:Django Project 访问](every/201912/20191210_01.md):django,python,visit
 
@@ -988,7 +988,7 @@
 
 [postgresql source install](every/201808/20180810_01.md):postgresq,source,install,version,9.4.x
 
-[pg pageinspect 测试](every/201808/20180809_01.md):postgresql,pageinspect
+[Postgresql:pageinspect](every/201808/20180809_01.md):postgresql,pageinspect
 
 [gp 部署 yum 坏了](every/201808/20180808_01.md):greenplum,
 
@@ -1126,6 +1126,8 @@
 
 
 ### 201501
+[第13章 Greenplum的监控和管理](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
+
 [Kettle:kafka consumer 配置](every/201501/20150103_01.md):kettle,8.x,kafka consumer,configuration
 
 [Docker:容器连接](every/201501/20150102_01.md):菜鸟教程,Docker
