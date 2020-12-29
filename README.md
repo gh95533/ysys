@@ -458,6 +458,8 @@
 
 
 ### 202005
+[第5章 函数](every/202005/20200525_01.md):postgresql,《深入浅出PostgreSql》
+
 [第4章 数据类型及其运算符](every/202005/20200524_01.md):postgresql,《深入浅出PostgreSql》
 
 [第3章 创建数据库和表](every/202005/20200523_01.md):postgresql,《深入浅出PostgreSql》
@@ -942,7 +944,7 @@
 
 [redis cluster install](every/201809/20180917_01.md):redis,redis cluster,single install
 
-[Libra Case:Libra 常规使用](every/201809/20180914_01.md):libra
+[Libra:Libra 常规使用](every/201809/20180914_01.md):libra
 
 [pg 模拟 闪回](every/201809/20180911_01.md):postgresql,
 
