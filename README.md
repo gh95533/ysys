@@ -90,7 +90,7 @@
 
 [Linux:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
 
-[Greenplum Case:gprecoverseg 练习](every/202012/20201210_01.md):greenplumgprecvoerseg
+[Greenplum:segment的故障恢复和再平衡](every/202012/20201210_01.md):greenplum,gprecvoerseg,quote
 
 [Greenplum Case:数据倾斜处理步骤](every/202012/20201209_01.md):greenplum,data skew
 
@@ -474,7 +474,7 @@
 
 [Eclipse:Django 初始化](every/202005/20200502_01.md):eclipse,django
 
-[Greenplum:Greenplum install through rpm](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
+[Greenplum:greenplum 安装](every/202005/20200501_01.md):Redhat,install,greenplum,database,Redhat 7.3,greenplum 6.4,virtualbox,rpm,centos 7.3
 
 
 ### 202004
@@ -1094,7 +1094,7 @@
 
 [LINUX YUM](every/201705/20170502_01.md):linux,yum
 
-[windows 安装 datastage 客户端](every/201705/20170501_01.md):windows,
+[Datastage:windows 安装 datastage 客户端](every/201705/20170501_01.md):windows,datastage,datastage client
 
 
 ### 201704
