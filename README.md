@@ -36,8 +36,9 @@
 
 ## class
 
-| [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](class/R.md) |
+| link                      | link                              | link            |
 | ------------------------- | --------------------------------- | --------------- |
+| [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](class/R.md) |
 | SAS                       |                                   |                 |
 | Greenplum                 | Go                                | Java            |
 | Math                      | Redhat/Centos                     | SPSS            |
@@ -328,7 +329,7 @@
 
 [数学分析_函数](every/202008/20200814_01.md):数学,数学分析,函数
 
-[Postgresql:技术内幕](every/202008/20200813_01.md):postgres
+[第10章 PostgreSQL中的技术内幕](every/202008/20200813_01.md):postgresql,《PostgreSQL修炼之道》
 
 [Postgresql:Postgres instr 函数](every/202008/20200810_01.md):postgresql,postgres,instr,position
 
@@ -1126,6 +1127,8 @@
 
 
 ### 201501
+[第8章 服务管理 8.5 常用的管理命令](every/201501/20150105_01.md):postgresql,《PostgreSQL修炼之道》
+
 [第13章 Greenplum的监控和管理](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
 
 [Kettle:kafka consumer 配置](every/201501/20150103_01.md):kettle,8.x,kafka consumer,configuration
