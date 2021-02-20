@@ -48,6 +48,14 @@
 
 ## every
 
+### 202102
+[Linux:timezone beijing](every/202102/20210220_01.md):linux,centos,timezone,beijing,modify
+
+[日常:计划/安排/实践等综合场景](every/202102/20210219_01.md):日常
+
+[Postgresql:timezone Asia/Shanghai](every/202102/20210218_01.md):postgresql,timezone,modify
+
+
 ### 202012
 [Kettle:Kettle 单机和集群对于同步Kafka效率之比](every/202012/20201231_01.md):kettle,kafka,etl,cluster
 
@@ -557,7 +565,7 @@
 
 [python read file text  keywords](every/202003/20200324_01.md):python,read,file,text,keywords,python 3.x
 
-[Python mkdir dirctory  file](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
+[Python:python 在同一个目录下生成很多文件](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
 
 [Question:Geany:SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xb1 in position 0: invalid start byte](every/202003/20200322_01.md):python,geany,utf-8
 
