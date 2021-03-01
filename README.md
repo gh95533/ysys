@@ -473,11 +473,13 @@
 
 [第3章 创建数据库和表](every/202005/20200523_01.md):postgresql,《深入浅出PostgreSql》
 
-[第4章 探究FBV视图](every/202005/20200507_01.md):python,django,《Django Web 应用开发实战》
+[第5章 探究CBV视图](every/202005/20200508_01.md):python,django,《Django Web 应用开发实战》,not final
+
+[第4章 探究FBV视图](every/202005/20200507_01.md):python,django,《Django Web 应用开发实战》,not final
 
 [linux file permission read write other](every/202005/20200506_01.md):linux,file permission,read,write,execute,suid
 
-[第3章 初探路由(not final)](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》
+[第3章 初探路由](every/202005/20200505_01.md):python,django,《Django Web 应用开发实战》,not final
 
 [第2章 Django 配置信息](every/202005/20200504_01.md):python,django,《Django Web 应用开发实战》
 
