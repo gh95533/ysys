@@ -65,7 +65,7 @@
 
 [Kettle:kettle 8.2  图形化界面](every/202012/20201228_01.md):kettle,graphical,centos
 
-[Kettle:Kettle Cluster 8.2 安装](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
+[Kettle:集群 安装](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
 
 [Kettle:Kettle Cluster 9.0 安装](every/202012/20201226_01.md):kettle,cluster,9.0,centos,7.3,install
 
@@ -73,7 +73,7 @@
 
 [Question:Could not resolve host: github.com](every/202012/20201224_01.md):resolve,github.com
 
-[linux nano](every/202012/20201223_01.md):linux,nano
+[Nano:介绍](every/202012/20201223_01.md):linux,nano
 
 [Yum:No package epel-release available](every/202012/20201222_01.md):yum,epel
 
@@ -93,11 +93,11 @@
 
 [Greenplum:各个节点表ID](every/202012/20201214_01.md):greenplum
 
-[Greenplum:Greenplum distibution and skew(not final)](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients
+[Greenplum:分布/倾斜](every/202012/20201213_01.md):greenplum,distribution,skew,gp_segment_id,gp_skew_coefficients,not final
 
 [Greenplum Case:执行恢复gprecoverseg命令发现数据库节点没有剩余空间](every/202012/20201212_01.md):greenplum,gprecoverseg,not free disk space
 
-[Linux:ping hostname udp(not final)](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf
+[Linux:ping hostname udp](every/202012/20201211_01.md):linux,centos,centos 7.3,ping,udf,not final
 
 [Greenplum:segment的故障恢复和再平衡](every/202012/20201210_01.md):greenplum,gprecvoerseg,quote
 
@@ -129,7 +129,7 @@
 
 [linux ssh remote case](every/202011/20201127_01.md):ssh
 
-[某人多点行程 时间链表](every/202011/20201126_01.md):point,time
+[日常:某人多点行程 时间链表](every/202011/20201126_01.md):point,time
 
 [人员关系 简单联系](every/202011/20201125_01.md):relation,recursion,postgresql
 
@@ -221,7 +221,7 @@
 
 [linux centos 7.3 install greenplum 4.3 not ssh port 22](every/202010/20201013_01.md):linux,centos7.3,greenplum 4.3 install
 
-[linux nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
+[Linux:nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
 
 [greenplum install ssh port 22 then modify other](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
 
@@ -239,7 +239,7 @@
 
 [单个字段出现多个值数据如何更加准确](every/202010/20201003_01.md):数据,准确
 
-[documents learn review search first version](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
+[日常:学习复习任务安排](every/202010/20201002_01.md):复习,学习,文档整理,文档检索,learn,review,search
 
 [R语言 数据接口](every/202010/20201001_01.md):r,csv,excel,binaray file,xml,json,web,database
 
@@ -249,7 +249,7 @@
 
 [oracle rac listener vs oracle single listener](every/202009/20200929_01.md):oracle rac listener,oracle single listener
 
-[Oracle select slow datatype](every/202009/20200928_01.md):oracle,select slow,datatype
+[Oracle:查询过慢居然是因为字段类型不对](every/202009/20200928_01.md):oracle,select slow,datatype
 
 [virtualbox not open machine with vt-x](every/202009/20200927_01.md):virtualbox not open machine,vt-x,amd-v
 
@@ -267,7 +267,7 @@
 
 [Excel:wps excel 超多行数据导入](every/202009/20200920_01.md):wps,excel,kettle,more data
 
-[中文分词](every/202009/20200918_01.md):中文分词,chinese,participle,excerpt
+[日常:中文分词](every/202009/20200918_01.md):中文分词,chinese,participle,excerpt
 
 [机器算法 Apriori算法](every/202009/20200917_01.md):apriori,摘抄
 
@@ -279,9 +279,9 @@
 
 [Question:AttributeError: module 'xlwt.ExcelMagic' has no attribute 'std_func_by_name'](every/202009/20200913_01.md):python,xlwt,ExcelMagic,std_func_by_name
 
-[pgbouncer local install without postgresql](every/202009/20200912_01.md):postgres,pgbouncer,local,without postgresql 
+[Pgboucer:安装](every/202009/20200912_01.md):postgres,pgbouncer,local,without postgresql 
 
-[pgbouncer install with postgresql](every/202009/20200911_01.md):pgbouncer,postgresql
+[Pgbouncer:安装](every/202009/20200911_01.md):pgbouncer,postgresql
 
 [postgresql pgbench](every/202009/20200910_01.md):postgresql,pgbench
 
@@ -297,7 +297,7 @@
 
 [pg 在同一个页面对一条数据做update后，最早出现的数据lp_off变为0](every/202009/20200904_01.md):postgresql
 
-[pg itemid.h](every/202009/20200903_01.md):postgresql,
+[Postgresql:itemid.h](every/202009/20200903_01.md):postgresql,
 
 [postgresql savepoint](every/202009/20200902_01.md):postgresql,
 
@@ -307,7 +307,7 @@
 ### 202008
 [linux 无法使用root用户登录](every/202008/20200831_01.md):linux,root,centos7.2
 
-[postgresql with query update delete 递归](every/202008/20200830_01.md):postgresql,
+[Postgresql:递归](every/202008/20200830_01.md):postgresql,with
 
 [pg dba 5](every/202008/20200828_01.md):postgresql,
 
@@ -341,9 +341,9 @@
 
 [Postgresql:Postgres instr 函数](every/202008/20200810_01.md):postgresql,postgres,instr,position
 
-[pg_列式存储\_2](every/202008/20200809_01.md):postgresql
+[Yum:yum只下载不安装](every/202008/20200809_01.md):yum,yum downonly,epel
 
-[pg_列式存储](every/202008/20200808_01.md):postgresql,
+[Postgresql:列式存储](every/202008/20200808_01.md):postgresql,
 
 [Linux:卸载Openjdk安装jdk](every/202008/20200807_01.md):linux,uninstall,openjdk
 
@@ -373,7 +373,7 @@
 
 [Kettle:数据库资源库](every/202007/20200725_01.md):kettle,database,database repository,kettle 5.4
 
-[Studio 3T for Mongodb](every/202007/20200723_01.md):studio
+[日常:Studio 3T for Mongodb](every/202007/20200723_01.md):studio
 
 [linux 文件基本操作管理](every/202007/20200722_01.md):linux,
 
@@ -385,7 +385,7 @@
 
 [linux 磁盘基本概念](every/202007/20200718_01.md):linux,磁盘
 
-[linux  yum  配置](every/202007/20200717_01.md):linux
+[Yum:配置](every/202007/20200717_01.md):yum,configuration
 
 [Vnc:vnc install](every/202007/20200716_01.md):vnc,install
 
@@ -431,11 +431,11 @@
 
 [Kettle 判断程序执行](every/202006/20200626_01.md):kettle,job,jurge,skip
 
-[kettle  support greenplum gpload](every/202006/20200625_01.md):kettle,greenplum gpload
+[Gpload:安装和配置](every/202006/20200625_01.md):kettle,greenplum gpload
 
 [Kettle:greenplum bulk loader](every/202006/20200624_01.md):kettle,error,greenplum bulk loader
 
-[KETTLE GPLOAD LOAD](every/202006/20200623_01.md):kettle,gpload load
+[Kettle:gpload](every/202006/20200623_01.md):kettle,gpload load
 
 [Windows:开启自带ftp](every/202006/20200622_01.md):windows,window,ftp
 
@@ -449,7 +449,7 @@
 
 [Windows:固定盘符](every/202006/20200616_01.md):windows,drive,win10
 
-[Greenplum Case:Gpkafka 使用](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
+[Gpkafka:Gpkafka 配置](every/202006/20200615_01.md):greenplum,gpkafka,greenplum-5.x,greenplum-6.x,later
 
 [Datastage:datastage 安装](every/202006/20200614_01.md):datastage,install,linux
 
@@ -563,11 +563,11 @@
 
 [Python:Dog() takes no arguments](every/202003/20200327_01.md):question,python,python 3.x,init
 
-[Python test:Ran 0 tests in 0.000s OK](every/202003/20200326_01.md):2020-3-31python,test,ran 0 tests,ok
+[Python:test Ran 0 tests in 0.000s OK](every/202003/20200326_01.md):2020-3-31python,test,ran 0 tests,ok
 
 [Python:文件copy场景](every/202003/20200325_01.md):python,copy,file,path,python 3.x,not final
 
-[python read file text  keywords](every/202003/20200324_01.md):python,read,file,text,keywords,python 3.x
+[Python:文本文件获取关键字](every/202003/20200324_01.md):python,read,file,text,keywords,python 3.x
 
 [Python:python 在同一个目录下生成很多文件](every/202003/20200323_01.md):python,mkdir,diretory,file,python 3,not final
 
@@ -587,13 +587,13 @@
 
 [Maxcompute:CLUSTER_SAMPLE 分组抽样](every/202003/20200314_01.md):maxcompute,cluster_sample,分组抽样
 
-[Python pip pygame not support](every/202003/20200313_01.md):python,pip,pygame,not support
+[Python:pip pygame not support](every/202003/20200313_01.md):python,pip,pygame,not support
 
 [Maxcompute:CUME_DIST](every/202003/20200312_01.md):maxcompute,cume_dist,累次分布
 
 [Maxcompute:窗口函数](every/202003/20200311_01.md):maxcompute,窗口函数
 
-[oracle rac expdp impdp](every/202003/20200310_01.md):oracle,oracle rac,expdp,impdp
+[Oracle:expdp impdp](every/202003/20200310_01.md):oracle,oracle rac,expdp,impdp
 
 [Oracle Case:Oracle 单机 重建控制文件 无法启动(not final)](every/202003/20200309_01.md):oracle,single,crontal file,not start
 
@@ -605,7 +605,7 @@
 
 [MathType latex text](every/202003/20200305_01.md):mathType,latex,typora
 
-[typora latex math](every/202003/20200304_01.md):typora,latex,math
+[Typora:latex math](every/202003/20200304_01.md):typora,latex,math
 
 [linux text command install](every/202003/20200303_01.md):linux,text command,install,centos 7.3
 
@@ -657,7 +657,7 @@
 
 [第13章 图形](every/202002/20200209_01.md):R,graphics,《R语言核心技术手册》
 
-[kettle postgresql analyze json file](every/202002/20200208_01.md):kettle,postgres,json file
+[Postgresql:解析json文件](every/202002/20200208_01.md):kettle,postgres,json file
 
 [第十二章 准备数据](every/202002/20200207_01.md):R,《R语言核心技术手册》
 
@@ -671,7 +671,7 @@
 
 [第2章 R的用户界面](every/202002/20200202_01.md):R,
 
-[符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
+[第1章 符号和环境](every/202002/20200201_01.md):R,《R语言核心技术手册》
 
 
 ### 202001
@@ -757,19 +757,19 @@
 
 [postgresql dba 8](every/201912/20191203_01.md):postgres,dba
 
-[ADS ODPS ORACLE ETL](every/201912/20191202_01.md):工作笔记,ADS,ODPS,ORACLE,ETL
+[Oracle:叠加数据求和](every/201912/20191202_01.md):oracle,number,sum
 
 [Django:Django 教程](every/201912/20191201_01.md):python,django,菜鸟教程
 
 
 ### 201911
-[kettle run without the GUI](every/201911/20191121_01.md):kettle,run,without the gui
+[Kettle:非图形化执行数据库资源库](every/201911/20191121_01.md):kettle,run,without the gui
 
 [linux centos6 install desktop](every/201911/20191120_01.md):linux,centos,centos6,centos6.5,desktop,yum,install
 
 [linux find command from rpm](every/201911/20191119_01.md):linux,centos,redhat,yum,rpm,whereis,rpm -qf
 
-[A province oracle awr learn](every/201911/20191118_01.md):oracle,awr
+[Oracle:分析awr报告](every/201911/20191118_01.md):oracle,awr
 
 [oracle rac not open crs-1714:unable to discover any voting files](every/201911/20191112_01.md):oracle,oracle rac,oracle 11g rac,error,not open,crs-1714:unable to discover any voting files
 
@@ -796,10 +796,6 @@
 [文件删除，空间未释放](every/201905/20190512_01.md):question,df -Th,du -sh
 
 [mysql 入门 了解](every/201905/20190508_01.md):mysql
-
-[数据分析之数据注释映射标准数据元](every/201905/20190507_01.md):数据分析,注释,标准数据元
-
-[chinese character note using postgresql with chinese particle](every/201905/20190506_01.md):db,chinese particle,postgresql,zhparser
 
 [postgresql chinese participle](every/201905/20190505_01.md):postgresql,chinese participle
 
@@ -833,7 +829,7 @@
 
 [R language learn](every/201902/20190216_01.md):knowledge,r,base,download,vector,data frame,array,list
 
-[Common Regular Expression](every/201902/20190215_01.md):knowledge,cainiao,regular expression
+[Regular Expression:常用正则表达式](every/201902/20190215_01.md):knowledge,regular expression,《菜鸟教程》
 
 [Regular Expression](every/201902/20190212_01.md):knowledge,cainiao,Regular Expression,course
 
@@ -849,7 +845,7 @@
 
 [Question:cx_Oracle.DatabaseError:DPI-1047](every/201901/20190104_01.md):python,3.7,oracle,11.2,cx_Oracle,DPI-1047,oci.dll
 
-[linux xfs xfsdump xfsrestore](every/201901/20190103_01.md):knowledge,linux,centos7,xfs,xfsdump,xfsrestore
+[linux xfs xfsdump xfsrestore](every/201901/20190103_01.md):knowledge,linux,centos7,xfs,xfsdump,xfsrestore,《LINUX私房菜基础学习篇》
 
 [Greenplum:greenplum 重新初始化数据库](every/201901/20190102_01.md):greenplum,install,gp
 
@@ -869,7 +865,7 @@
 
 [odps 数据校验](every/201812/20181224_01.md):odps,数据校验
 
-[挑战自我 oracle 静默安装](every/201812/20181222_01.md):oracle silent install
+[Oracle:单机静默安装](every/201812/20181222_01.md):oracle silent install
 
 [Was:was install](every/201812/20181217_01.md):linux,was install
 
@@ -878,8 +874,6 @@
 [linux nmap port](every/201812/20181211_01.md):linux,nmap,port
 
 [redhat 7.4 install single oracle 11.2.0.4](every/201812/20181210_01.md):redhat 7.4,single oracle,install
-
-[oracle learn](every/201812/20181209_01.md):oracle
 
 [oracle asm copy datafile to local path](every/201812/20181204_01.md):oracle asm,copy datafile to local path
 
@@ -909,7 +903,7 @@
 
 [oracle wait event](every/201811/20181117_01.md):oracle,wait event
 
-[greenplum open source install with network](every/201811/20181115_01.md):greenplum,greenplum open source,greenplum open source install
+[Greenplum:源码安装](every/201811/20181115_01.md):greenplum,greenplum open source,greenplum open source install
 
 [Oracle Case:分析awr某个日志](every/201811/20181109_01.md):oracle rac,awr
 
@@ -927,7 +921,7 @@
 
 [Ftp:linux ftp 中文乱码](every/201810/20181026_01.md):linux ftp,ssh,scp,kettle,not final
 
-[gpload configure](every/201810/20181024_01.md):gpload,gpfdist,gpload configure
+[Greenplum:gpload configure](every/201810/20181024_01.md):gpload,gpfdist,gpload configure,greenplum-4.x
 
 [linux redhat 7.4 install gpload 4.3](every/201810/20181023_01.md):redhat 7.4 install gpload 4.3
 
@@ -935,13 +929,13 @@
 
 [oracle mysql postgresql view 实现方式](every/201810/20181021_01.md):oracle view,mysql view,postgresql view
 
-[pg 修改级联视图](every/201810/20181016_01.md):pg,view,replace view
+[Postgresql:修改级联视图](every/201810/20181016_01.md):pg,view,replace view
 
 [Redhat:redhat 7.4 install](every/201810/20181015_01.md):redhat,7.x install
 
-[linux redhat7.4 install vsftp](every/201810/20181014_01.md):linux,redhat,redhat7.4,vsftp,vsftp install
+[Linux:vsftp 安装](every/201810/20181014_01.md):linux,redhat,redhat7.4,vsftp,vsftp install
 
-[redis cluster install multiple not internet](every/201810/20181001_01.md):redis cluster install,multiple install, not internet
+[Redis Cluster:内网集群安装](every/201810/20181001_01.md):redis cluster install,multiple install, not internet
 
 
 ### 201809
@@ -949,7 +943,7 @@
 
 [redis cluster install multiple](every/201809/20180928_01.md):redis,redis cluster,multiple install	
 
-[我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
+[日常:我和virtualbox死磕上网问题引发的深思](every/201809/20180923_01.md):virtualbox,network
 
 [Mongo Case:mongo集群正确安装](every/201809/20180919_01.md):mongo,cluster
 
@@ -969,7 +963,7 @@
 
 
 ### 201808
-[pg uuid](every/201808/20180831_01.md):postgresql,
+[Postgresql:uuid](every/201808/20180831_01.md):postgresql,uuid
 
 [Network:linux network boding subinterface](every/201808/20180830_01.md):linux,network
 
@@ -1021,7 +1015,7 @@
 ### 201807
 [rpm noarch.rpm src.rpm](every/201807/20180729_01.md):rpm,
 
-[Postgresql Case:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
+[Postgresql:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
 
 [PG TOAST](every/201807/20180725_01.md):postgresql,
 
@@ -1043,7 +1037,7 @@
 
 [R语言:sin(x)图像](every/201807/20180707_01.md):R,sin(x)
 
-[pg_模糊匹配和正则表达式](every/201807/20180704_01.md):postgresql,
+[Postgresql:模糊匹配和正则表达式](every/201807/20180704_01.md):postgresql,
 
 [pg_dblink_fdw_比较](every/201807/20180701_01.md):postgresql,
 
@@ -1053,9 +1047,9 @@
 
 [EPEL learn](every/201806/20180628_01.md):EPEL,yum
 
-[pg_rule](every/201806/20180627_01.md):postgresq
+[Postgresql:视图](every/201806/20180627_01.md):postgresq
 
-[Kettle Cluster:Kettle Cluster 5.4 安装](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
+[Kettle Cluster:集群 安装](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
 
 [Kettle:全量迁移](every/201806/20180622_01.md):kettle,oracle
 
@@ -1069,7 +1063,7 @@
 
 
 ### 201802
-[postgres truncate course](every/201802/20180204_01.md):postgres,truncate
+[Postgresql:truncate原理](every/201802/20180204_01.md):postgres,truncate
 
 
 ### 201801
@@ -1085,7 +1079,7 @@
 
 [Linux:crontab](every/201706/20170607_01.md):linux,crontab
 
-[linux authorization](every/201706/20170606_01.md):linux,authorization
+[Linux:authorization](every/201706/20170606_01.md):linux,authorization
 
 [Centos 7.x:centos 7.2 install](every/201706/20170605_01.md):centos,7,7.2,install
 
@@ -1099,7 +1093,7 @@
 
 
 ### 201705
-[install greenplum loader in linux](every/201705/20170505_01.md):linux,greenplum
+[Gpload:安装](every/201705/20170505_01.md):linux,greenplum
 
 [kettle file analysis](every/201705/20170504_01.md):kettle
 
@@ -1115,7 +1109,7 @@
 
 
 ### 201701
-[linux redhat 6.5 install gpload 4.3](every/201701/20170102_01.md):redhat 6.5 install gpload 4.3
+[Gpload:安装](every/201701/20170102_01.md):redhat 6.5 install gpload 4.3
 
 
 ### 201601
@@ -1139,6 +1133,8 @@
 
 
 ### 201501
+[第8章 文件与文件系统的压缩](every/201501/20150106_01.md):《LINUX私房菜基础学习篇》,gzip,zip,tar,xfsdump,xfsrestore
+
 [第8章 服务管理 8.5 常用的管理命令](every/201501/20150105_01.md):postgresql,《PostgreSQL修炼之道》
 
 [第13章 Greenplum的监控和管理](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
