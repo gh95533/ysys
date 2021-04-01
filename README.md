@@ -81,7 +81,7 @@
 
 [Greenplum Case:关于某地GP数据倾斜严重的后续处理](every/202012/20201220_01.md):greenplum,data skew
 
-[Kafka Cluster:Kafka Cluster install](every/202012/20201219_01.md):centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk
+[Kafka:集群 安装](every/202012/20201219_01.md):centos,centos7.3,kafka,cluster,kafka,zookeeper,jdk
 
 [Linux:Clamav 安装](every/202012/20201218_01.md):linux,centos 7.2,clamav,install
 
@@ -219,11 +219,11 @@
 
 [Regular Expression:正则表达式](every/202010/20201014_01.md):knowledge,cainiao,Regular Expression,synopsis
 
-[linux centos 7.3 install greenplum 4.3 not ssh port 22](every/202010/20201013_01.md):linux,centos7.3,greenplum 4.3 install
+[Greenplum:数据库SSH非默认端口22安装](every/202010/20201013_01.md):linux,centos7.3,greenplum,4.x,ssh,22,other port
 
 [Linux:nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
 
-[greenplum install ssh port 22 then modify other](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
+[Greenplum:ssh 端口](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
 
 [centos min install (not final)](every/202010/20201010_01.md):centos min install,centos 7.3
 
@@ -283,7 +283,7 @@
 
 [Pgbouncer:安装](every/202009/20200911_01.md):pgbouncer,postgresql
 
-[postgresql pgbench](every/202009/20200910_01.md):postgresql,pgbench
+[Postgresql:pgbench](every/202009/20200910_01.md):postgresql,pgbench
 
 [postgres gprof](every/202009/20200909_01.md):postgres,gprof
 
@@ -339,7 +339,7 @@
 
 [第10章 PostgreSQL中的技术内幕](every/202008/20200813_01.md):postgresql,《PostgreSQL修炼之道》
 
-[Postgresql:Postgres instr 函数](every/202008/20200810_01.md):postgresql,postgres,instr,position
+[Postgresql:instr 函数](every/202008/20200810_01.md):postgresql,postgres,instr,position
 
 [Yum:yum只下载不安装](every/202008/20200809_01.md):yum,yum downonly,epel
 
@@ -401,7 +401,7 @@
 
 [Linux:rpm](every/202007/20200710_01.md):linux,
 
-[kettle errors](every/202007/20200709_01.md):kettle,error
+[Kettle:错误收集](every/202007/20200709_01.md):kettle,error
 
 [Kettle Case:复制大量表](every/202007/20200708_01.md):kettle,for,loop
 
@@ -483,7 +483,7 @@
 
 [第2章 Django 配置信息](every/202005/20200504_01.md):python,django,《Django Web 应用开发实战》
 
-[Kafka:kafka install](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
+[Kafka:单机 安装](every/202005/20200503_01.md):redhat,redhat 7.3,kafka,kafka 2.11-0.8.2.2,virtualbox
 
 [Eclipse:Django 初始化](every/202005/20200502_01.md):eclipse,django
 
@@ -1045,7 +1045,7 @@
 ### 201806
 [列式存储行式存储](every/201806/20180629_01.md):列式存储,行式存储
 
-[EPEL learn](every/201806/20180628_01.md):EPEL,yum
+[EPEL:EPEL 介绍](every/201806/20180628_01.md):EPEL,yum
 
 [Postgresql:视图](every/201806/20180627_01.md):postgresq
 
