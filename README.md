@@ -48,6 +48,10 @@
 
 ## every
 
+### 202104
+[Greenplum:ssh not 22 install (gp6.x)](every/202104/20210408_01.md):linux,centos7.3,greenplum,6.x,ssh,22,other port
+
+
 ### 202102
 [Linux:timezone beijing](every/202102/20210220_01.md):linux,centos,timezone,beijing,modify
 
@@ -219,7 +223,7 @@
 
 [Regular Expression:正则表达式](every/202010/20201014_01.md):knowledge,cainiao,Regular Expression,synopsis
 
-[Greenplum:数据库SSH非默认端口22安装](every/202010/20201013_01.md):linux,centos7.3,greenplum,4.x,ssh,22,other port
+[Greenplum:ssh not 22 install(gp4.x)](every/202010/20201013_01.md):linux,centos7.3,greenplum,4.x,ssh,22,other port
 
 [Linux:nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
 
