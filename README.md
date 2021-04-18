@@ -49,6 +49,8 @@
 ## every
 
 ### 202104
+[Greenplum:数据库恢复状态下,重启数据库抢救操作](every/202104/20210417_01.md):greenplum,gp5.x,gp_segment_configure,gp_segment_configuration
+
 [Greenplum:ssh not 22 install (gp6.x)](every/202104/20210408_01.md):linux,centos7.3,greenplum,6.x,ssh,22,other port
 
 
