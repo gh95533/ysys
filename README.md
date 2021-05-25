@@ -49,11 +49,13 @@
 ## every
 
 ### 202105
+[Greenplum:扩容数据服务器](every/202105/20210523_01.md):greenplum,5.20.1
+
 [Greenplum:could not fork new process for connection: Resource temporarily unavailable](every/202105/20210512_01.md):greenplum,5.20.1,centos,centos7.x,sync,link
 
 [Shell:远程遍历拷贝文件](every/202105/20210511_01.md):shell,ssh,scp,for,cut,cat,>
 
-[Access:获取Access表 字段类型](every/202105/20210510_01.md):access,database
+[Greenplum:psql: FATAL:  the database system is in recovery mode](every/202105/20210510_01.md):greenplum,5.20.1,the database system is in recovery mode,link
 
 
 ### 202104
