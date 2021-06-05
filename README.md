@@ -24,41 +24,63 @@
 
 
 
-## name
-
-文档起名原则建议首先指出当前使用什么技术解决什么问题为主旨，如**Pyhon Case:Python 移动不同文件解决某目录文件不足** 
-
-文档起名其次如果是抄录别人的文档,建议保留原样，并且按照人家的目录结构来进行
-
-
-
-
-
 ## class
 
-| link                      | link                              | link            |
-| ------------------------- | --------------------------------- | --------------- |
-| [Python](class/Python.md) | [PostgreSQL](class/PostgreSQL.md) | [R](class/R.md) |
-| SAS                       |                                   |                 |
-| Greenplum                 | Go                                | Java            |
-| Math                      | Redhat/Centos                     | SPSS            |
-| SAS                       | Oracle                            | Mysql           |
-| Mongo                     | Redis                             | Kettle          |
-| Datastage                 | Maxcompute                        | Others          |
+| link      | link          | link   |
+| --------- | ------------- | ------ |
+| Python    | PostgreSQL    | R      |
+| SAS       |               |        |
+| Greenplum | Go            | Java   |
+| Math      | Redhat/Centos | SPSS   |
+| SAS       | Oracle        | Mysql  |
+| Mongo     | Redis         | Kettle |
+| Datastage | Maxcompute    | Others |
 
 ## every
 
 ### 202105
-[Greenplum:扩容数据服务器](every/202105/20210523_01.md):greenplum,5.20.1
+[第11章 管理用户权限和模式](every/202105/20210531_01.md):postgresql,《深入浅出PostgreSQL》
+
+
+[Greenplum:分离sql文件拆成N个10000条文件](every/202105/20210530_01.md):greenplum,postgresql,psql,split,cat,grep,sed
+
+[Ping:Redirect Host](every/202105/20210529_01.md):linux,virtual machine,ping,redirect host
+
+[RPM:xxx is already installe](every/202105/20210527_01.md):rpm,ivh,package,installed
+
+
+[Greenplum:gpbackup 安装(not final)](every/202105/20210526_01.md):greenplum,gpbackup,6.x
+
+
+[Greenplum:GP 安装(gp5.x)](every/202105/20210525_01.md):linux,centos7.3,greenplum,5,x,ssh,22
+
+
+[Cat:合并文件](every/202105/20210524_01.md):linux,shell,cat
+
+[Greenplum:扩容数据服务器(not final)](every/202105/20210523_01.md):greenplum,6.x
+
+
+[Greenplum:psql 检查部分表大小](every/202105/20210522_01.md):greenplum,psql
+
+
+[Greenplum:pg_dump 备份可以被访问的表](every/202105/20210521_01.md):greenplum,pg_dump,copy
+
+[Greenplum:一次不成功恢复数据库](every/202105/20210520_01.md):greenplum,gprecoverseg,pg_clog,pg_resetxlog,fsck
+
+[方案:数据质量校验函数](every/202105/20210519_01.md):python,odps,function
+
+[第1章 数据库集簇、数据库和数据表(not final)](every/202105/20210518_01.md):postgresql,《PostgreSQL指南内幕探索》
+
+[第5章 Greenplum的架构和核心引擎(not final)](every/202105/20210517_01.md):greenplum,《Greenplum从大数据战略到实现》
 
 
 [Greenplum:could not fork new process for connection: Resource temporarily unavailable](every/202105/20210512_01.md):greenplum,5.20.1,centos,centos7.x,sync,link
 
-
 [Shell:远程遍历拷贝文件](every/202105/20210511_01.md):shell,ssh,scp,for,cut,cat,>
 
-
 [Greenplum:psql: FATAL:  the database system is in recovery mode](every/202105/20210510_01.md):greenplum,5.20.1,the database system is in recovery mode,link
+
+[Greenplum:数据库安装(gp6.x)](every/202105/20210501_01.md):linux,centos7.3,greenplum,6.x,ssh,22,
 
 
 
@@ -329,7 +351,7 @@
 [Linux:nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
 
 
-[Greenplum:ssh 端口](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
+[Greenplum:数据库部署完成后,修改ssh端口不影响使用](every/202010/20201011_01.md):greenplum install,ssh port 22,other port
 
 
 [centos min install (not final)](every/202010/20201010_01.md):centos min install,centos 7.3
@@ -1657,13 +1679,16 @@
 
 
 ### 201501
+[第14章 Greenplum 数据库的备份，恢复和迁移(not final)](every/201501/20150107_01.md):greenplum,《Greenplum从大数据战略到实现》
+
+
 [第8章 文件与文件系统的压缩](every/201501/20150106_01.md):《LINUX私房菜基础学习篇》,gzip,zip,tar,xfsdump,xfsrestore
 
 
 [第8章 服务管理 8.5 常用的管理命令](every/201501/20150105_01.md):postgresql,《PostgreSQL修炼之道》
 
 
-[第13章 Greenplum的监控和管理](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
+[第13章 Greenplum的监控和管理(not final)](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
 
 
 [Kettle:kafka consumer 配置](every/201501/20150103_01.md):kettle,8.x,kafka consumer,configuration
