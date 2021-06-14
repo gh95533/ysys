@@ -39,7 +39,29 @@
 ## every
 
 ### 202106
-[Linux:kernel:NMI watchdog: BUG: soft lockup - CPU0 stuck for 23s!](every/202106/20210605_01.md):linux,centos,redhat,kernel,NMI watchdog
+[第1章 回滚TCP/IP协议簇和Python](every/202106/20210613_01.md):python,《Python网络编程》
+
+[第11章 地理空间数据分析和处理(not final)](every/202106/20210612_01.md):greenplum,《Greenplum从大数据战略到实现》
+
+[第9章 MADlib机器学习库(not final)](every/202106/20210611_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第12章 Greenplum数据库与图计算(not final)](every/202106/20210610_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第16章 从Teradata迁移到Greenplum(not final)](every/202106/20210609_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第15章 从Oracle迁移到Greenplum(not final)](every/202106/20210608_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第9章 触发器](every/202106/20210607_01.md):PostgreSQL,《深入浅出PostgreSQL》
+
+[第4章 Greenplum数据库快速入门](every/202106/20210605_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第10章 Greenplum半结构文本数据分析(not final)](every/202106/20210604_01.md):Greenplum,《Greenplum从大数据战略到实现》
+
+[第1章 ABC:人工智能、大数据和云计算](every/202106/20210603_01.md):greenplum,《Greenplum从大数据战略到实现》
+
+[第2章 建立基于大数据的高阶数字化战略](every/202106/20210602_01.md):greenplum,《Greenplum从大数据到战略》
+
+[第3章 数据处理平台的演进](every/202106/20210601_01.md):Greenplum,《Greenplum从大数据战略到实现》
 
 
 ### 202105
@@ -69,7 +91,7 @@
 
 [第1章 数据库集簇、数据库和数据表(not final)](every/202105/20210518_01.md):postgresql,《PostgreSQL指南内幕探索》
 
-[第5章 Greenplum的架构和核心引擎(not final)](every/202105/20210517_01.md):greenplum,《Greenplum从大数据战略到实现》
+[第5章 Greenplum的架构和核心引擎](every/202105/20210517_01.md):greenplum,《Greenplum从大数据战略到实现》
 
 [Greenplum:could not fork new process for connection: Resource temporarily unavailable](every/202105/20210512_01.md):greenplum,5.20.1,centos,centos7.x,sync,link
 
