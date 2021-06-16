@@ -351,7 +351,7 @@
 
 [Python Case:开发一个输入动态参数的小网站](every/202009/20200907_01.md):python,django
 
-[postgresql 全文搜索](every/202009/20200906_01.md):postgresql
+[PostgreSQL:全文搜索](every/202009/20200906_01.md):postgresql
 
 [postgresql  bufpage.h](every/202009/20200905_01.md):postgresql,
 
@@ -835,8 +835,6 @@
 
 [oracle 11g rac revise ip address](every/201911/20191111_01.md):oracle,oracle 11g rac,revise,ip address,redhat 6.5
 
-[基于数据组成,数据长度分析数据的可能性](every/201911/20191110_01.md):data,data govern
-
 
 ### 201909
 [Question: linux oracle 11g not installed: {pwd}/install/.oui: cannot execute binary file](every/201909/20190924_01.md):oracle not installed
@@ -868,10 +866,6 @@
 
 ### 201904
 [关于GA系统中文匹配的一些想法](every/201904/20190414_01.md):中文准确,中文模糊
-
-
-### 201903
-[数据调研](every/201903/20190303_01.md):数据调研
 
 
 ### 201902
@@ -1041,7 +1035,7 @@
 
 [pg json jsonb 插入 查询](every/201808/20180815_01.md):postgresql,json,jsonb
 
-[pg dba 7](every/201808/20180814_01.md):postgresql,
+[pg dba 7](every/201808/20180814_01.md):postgresql​	
 
 [linux fsck](every/201808/20180812_01.md):linux,
 
@@ -1193,7 +1187,7 @@
 
 [第8章 服务管理 8.5 常用的管理命令](every/201501/20150105_01.md):postgresql,《PostgreSQL修炼之道》
 
-[第13章 Greenplum的监控和管理(not final)](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
+[第13章 Greenplum的监控和管理](every/201501/20150104_01.md):greenplum,《Greenplum从大数据战略到实现》
 
 [Kettle:kafka consumer 配置](every/201501/20150103_01.md):kettle,8.x,kafka consumer,configuration
 
