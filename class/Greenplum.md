@@ -4,6 +4,25 @@
 
 
 
+## 常用命令
+
+```
+gpstart -a  #注释 启动数据库
+gpstop -af #注释 关闭数据库
+gpstop -u #注释 修改pg_hba.conf或者部分postgresql.conf参数立即生效
+gpstate -e #注释 查看数据库节点是否异常
+```
+
+
+
+
+
+
+
+
+
+
+
 ## 系统学习
 
 ### Greenplum从大数据战略到实现(书)

@@ -39,6 +39,10 @@
 ## every
 
 ### 202106
+[Python:实现本地文件检索并在网页上打开(not final)](every/202106/20210627_01.md):python,everything
+
+[第5章 Linux的文件权限与目录配置](every/202106/20210626_01.md):《鸟哥的LINUX私房菜基础学习篇》
+
 [第1章 回滚TCP/IP协议簇和Python](every/202106/20210613_01.md):python,《Python网络编程》
 
 [第11章 地理空间数据分析和处理(not final)](every/202106/20210612_01.md):greenplum,《Greenplum从大数据战略到实现》
@@ -75,7 +79,7 @@
 
 [Greenplum:gpbackup 安装(not final)](every/202105/20210526_01.md):greenplum,gpbackup,6.x
 
-[Greenplum:GP 安装(gp5.x)](every/202105/20210525_01.md):linux,centos7.3,greenplum,5,x,ssh,22
+[Greenplum:GP 安装](every/202105/20210525_01.md):linux,centos7.3,greenplum,5,x,ssh,22
 
 [Cat:合并文件](every/202105/20210524_01.md):linux,shell,cat
 
@@ -99,13 +103,13 @@
 
 [Greenplum:psql: FATAL:  the database system is in recovery mode](every/202105/20210510_01.md):greenplum,5.20.1,the database system is in recovery mode,link
 
-[Greenplum:数据库安装(gp6.x)](every/202105/20210501_01.md):linux,centos7.3,greenplum,6.x,ssh,22,
+[Greenplum:数据库安装(gp6.x)](every/202105/20210501_01.md):linux,centos7.3,greenplum,6.x
 
 
 ### 202104
 [Greenplum:数据库恢复状态下,重启数据库抢救操作](every/202104/20210417_01.md):greenplum,gp5.x,gp_segment_configure,gp_segment_configuration
 
-[Greenplum:ssh not 22 install (gp6.x)](every/202104/20210408_01.md):linux,centos7.3,greenplum,6.x,ssh,22,other port
+[Greenplum:Gp非默认端口22安装](every/202104/20210408_01.md):linux,centos7.3,greenplum,6.x,ssh,22,other port
 
 
 ### 202102
@@ -123,7 +127,7 @@
 
 [Greenplum:gp_toolkit](every/202012/20201229_01.md):greenplum,gp_toolkit,greenplum数据库文档
 
-[Kettle:kettle 8.2  图形化界面](every/202012/20201228_01.md):kettle,graphical,centos
+[Kettle:图形化界面](every/202012/20201228_01.md):kettle,graphical,centos,kettle 8.2
 
 [Kettle:集群 安装](every/202012/20201227_01.md):kettle,cluster,8.2,centos,7.3,install
 
@@ -279,7 +283,7 @@
 
 [Regular Expression:正则表达式](every/202010/20201014_01.md):knowledge,cainiao,Regular Expression,synopsis
 
-[Greenplum:ssh not 22 install(gp4.x)](every/202010/20201013_01.md):linux,centos7.3,greenplum,4.x,ssh,22,other port
+[Greenplum:非默认端口22,GP数据库安装](every/202010/20201013_01.md):linux,centos7.3,greenplum,4.x,ssh,22,other port
 
 [Linux:nfs](every/202010/20201012_01.md):linux,centos6,nfs,knowledge
 
@@ -393,7 +397,7 @@
 
 [linux 分区 文件系统 挂载 逻辑卷](every/202008/20200816_01.md):linux
 
-[Linux:磁盘分区 parted](every/202008/20200815_01.md):linux,
+[Linux:磁盘parted分区](every/202008/20200815_01.md):linux,parted,fdisk
 
 [数学分析_函数](every/202008/20200814_01.md):数学,数学分析,函数
 
@@ -459,7 +463,7 @@
 
 [LINUX:系统启动流程](every/202007/20200711_01.md):linux,startup,start,系统启动流程
 
-[Linux:rpm](every/202007/20200710_01.md):linux,
+[Linux:rpm](every/202007/20200710_01.md):linux,rpm
 
 [Kettle:错误收集](every/202007/20200709_01.md):kettle,error
 
@@ -527,6 +531,10 @@
 
 
 ### 202005
+[第10章 表继承和表分区](every/202005/20200530_01.md):PostgreSQL,《深入浅出PostgreSQL》
+
+[第8章 视图](every/202005/20200528_01.md):PostgreSQL,《深入浅出PostgreSQL》
+
 [第5章 函数](every/202005/20200525_01.md):postgresql,《深入浅出PostgreSql》
 
 [第4章 数据类型及其运算符](every/202005/20200524_01.md):postgresql,《深入浅出PostgreSql》
@@ -845,8 +853,6 @@
 
 [R 语言初级课程 三](every/201908/20190807_01.md):data govern,R
 
-[数据对标:数据对标 v1_20190815](every/201908/20190805_01.md):data govern
-
 
 ### 201905
 [文件删除，空间未释放](every/201905/20190512_01.md):question,df -Th,du -sh
@@ -893,7 +899,7 @@
 
 [greenplum common usage](every/201901/20190116_01.md):greenplum,common usage
 
-[greenplum source  install in linux without network](every/201901/20190106_01.md):greenplum source,5.7.0,linux install,centos 7.3 ,without network
+[Greenplum:内网安装GP源码](every/201901/20190106_01.md):greenplum source,5.7.0,linux install,centos 7.3 ,without network
 
 [Question:cx_Oracle.DatabaseError:DPI-1047](every/201901/20190104_01.md):python,3.7,oracle,11.2,cx_Oracle,DPI-1047,oci.dll
 
@@ -1035,7 +1041,7 @@
 
 [pg json jsonb 插入 查询](every/201808/20180815_01.md):postgresql,json,jsonb
 
-[pg dba 7](every/201808/20180814_01.md):postgresql​	
+[PostgreSQL:pg dba 7](every/201808/20180814_01.md):postgresql​	
 
 [linux fsck](every/201808/20180812_01.md):linux,
 
@@ -1061,7 +1067,7 @@
 
 
 ### 201807
-[rpm noarch.rpm src.rpm](every/201807/20180729_01.md):rpm,
+[Linux:rpm 命名规范](every/201807/20180729_01.md):rpm,arch.rpm,arch.src.rpm
 
 [Postgresql:删除clog日志后数据库无法启动](every/201807/20180726_01.md):postgresql,clog,remove
 
@@ -1097,7 +1103,7 @@
 
 [Postgresql:视图](every/201806/20180627_01.md):postgresq
 
-[Kettle Cluster:集群 安装](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
+[Kettle:集群 安装](every/201806/20180626_01.md):kettle,cluster,5.4,centos,6
 
 [Kettle:Oracle某用户全表全量迁移](every/201806/20180622_01.md):kettle,oracle
 
